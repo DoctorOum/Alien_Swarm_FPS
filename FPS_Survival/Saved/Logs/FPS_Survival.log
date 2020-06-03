@@ -1,0 +1,1049 @@
+﻿Log file open, 06/02/20 19:58:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FPS_Survival
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.071830
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.23-CL-9631420
+LogInit: Engine Version: 4.23.1-9631420+++UE4+Release-4.23
+LogInit: Compatible Engine Version: 4.23.0-8386587+++UE4+Release-4.23
+LogInit: Net CL: 8386587
+LogInit: OS: Windows 10 (Release 1903) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: Radeon RX 580 Series
+LogInit: Compiled (64-bit): Oct 18 2019 02:07:44
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.23
+LogInit: Command Line:  -EpicPortal -epicusername=Dr.Oum -epicuserid=7614e87c48a846b289a1825706eaffd3 -epiclocale=en
+LogInit: Base Directory: G:/Unreal Engine 4/UE_4.23/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 34
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 31
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 27
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.02-23.58.00:868][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.02-23.58.00:868][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.02-23.58.00:868][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:868][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.02-23.58.00:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:869][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:880][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.02-23.58.00:880][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.02-23.58.00:881][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.02-23.58.00:881][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.02-23.58.00:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.02-23.58.00:884][  0]LogHAL: Display: Platform has ~ 40 GB [42877718528 / 68719476736 / 40], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.02-23.58.00:884][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.02-23.58.00:884][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.02-23.58.00:884][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.02-23.58.00:885][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.02-23.58.00:886][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.02-23.58.00:886][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.02-23.58.00:886][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2020.06.02-23.58.00:886][  0]LogInit: Computer: DESKTOP-7F0CAQI
+[2020.06.02-23.58.00:886][  0]LogInit: User: SeanSarmiento
+[2020.06.02-23.58.00:886][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.06.02-23.58.00:886][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.02-23.58.00:886][  0]LogMemory: Memory total: Physical=39.9GB (40GB approx)
+[2020.06.02-23.58.00:886][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.02-23.58.00:886][  0]LogMemory: Process Physical Memory: 104.20 MB used, 104.20 MB peak
+[2020.06.02-23.58.00:886][  0]LogMemory: Process Virtual Memory: 93.60 MB used, 93.60 MB peak
+[2020.06.02-23.58.00:886][  0]LogMemory: Physical Memory: 10134.17 MB used,  30757.21 MB free, 40891.38 MB total
+[2020.06.02-23.58.00:886][  0]LogMemory: Virtual Memory: 4696.22 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2020.06.02-23.58.00:888][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.02-23.58.00:906][  0]LogInit: Using OS detected language (en-US).
+[2020.06.02-23.58.00:906][  0]LogInit: Using OS detected locale (en-US).
+[2020.06.02-23.58.00:907][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.02-23.58.01:064][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.02-23.58.01:104][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.02-23.58.01:104][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.02-23.58.01:348][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.02-23.58.01:384][  0]LogD3D11RHI:    0. 'Radeon RX 580 Series' (Feature Level 11_0)
+[2020.06.02-23.58.01:384][  0]LogD3D11RHI:       8172/0/20445 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2020.06.02-23.58.01:387][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.02-23.58.01:387][  0]LogD3D11RHI:       0/0/20445 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.02-23.58.01:387][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.02-23.58.01:397][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.02-23.58.01:398][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.06.02-23.58.01:398][  0]LogWindows: EnumDisplayDevices:
+[2020.06.02-23.58.01:398][  0]LogWindows:    0. 'Radeon RX 580 Series' (P:0 D:1)
+[2020.06.02-23.58.01:398][  0]LogWindows:    1. 'Radeon RX 580 Series' (P:1 D:1)
+[2020.06.02-23.58.01:398][  0]LogWindows:    2. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:399][  0]LogWindows:    3. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:399][  0]LogWindows:    4. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:399][  0]LogWindows:    5. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:400][  0]LogWindows:    6. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:400][  0]LogWindows:    7. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.02-23.58.01:400][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.06.02-23.58.01:400][  0]LogD3D11RHI:     Adapter Name: Radeon RX 580 Series
+[2020.06.02-23.58.01:400][  0]LogD3D11RHI:   Driver Version: Adrenalin 19.20 (internal:26.20.12028.2, unified:26.20.12028.2)
+[2020.06.02-23.58.01:400][  0]LogD3D11RHI:      Driver Date: 8-16-2019
+[2020.06.02-23.58.01:400][  0]LogRHI: Texture pool is 5720 MB (70% of 8172 MB)
+[2020.06.02-23.58.01:459][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.02-23.58.01:469][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.06.02-23.58.01:470][  0]LogD3D11RHI: HDR output is supported on display 1 (AMD Device: 0x0, Display: 0x1).
+[2020.06.02-23.58.01:734][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.06.02-23.58.01:742][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.06.02-23.58.01:750][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.06.02-23.58.01:758][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.06.02-23.58.01:767][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.06.02-23.58.01:775][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.06.02-23.58.01:783][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.02-23.58.01:791][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.06.02-23.58.01:795][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.06.02-23.58.01:825][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.06.02-23.58.01:827][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.06.02-23.58.01:844][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.06.02-23.58.01:844][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.06.02-23.58.01:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.06.02-23.58.01:858][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.06.02-23.58.01:865][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.06.02-23.58.01:872][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.02-23.58.01:878][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.06.02-23.58.01:886][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.06.02-23.58.01:910][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.06.02-23.58.01:910][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.06.02-23.58.01:910][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.02-23.58.01:918][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.02-23.58.01:960][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Intermediate/Shaders/WorkingDirectory/10548/).
+[2020.06.02-23.58.01:960][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sean Sarmiento/AppData/Local/Temp/UnrealShaderWorkingDir/1D7C52884A2AC34DA0D3E6832398630E/'.
+[2020.06.02-23.58.01:962][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.02-23.58.01:962][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.02-23.58.01:962][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.02-23.58.02:596][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/Sean Sarmiento/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sean Sarmiento/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.02-23.58.02:641][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.02-23.58.02:653][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.02-23.58.02:653][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.02-23.58.02:653][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.02-23.58.02:654][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sean Sarmiento/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.02-23.58.02:654][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.02-23.58.02:655][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.02-23.58.02:676][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.02-23.58.02:679][  0]LogSlate: Using FreeType 2.6.0
+[2020.06.02-23.58.02:680][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.02-23.58.02:741][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2020.06.02-23.58.03:003][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.02-23.58.03:138][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.02-23.58.03:138][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.02-23.58.03:138][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.02-23.58.03:138][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.02-23.58.03:138][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.02-23.58.03:146][  0]LogNetVersion: FPS_Survival 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3338225296)
+[2020.06.02-23.58.03:560][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.047947 seconds
+[2020.06.02-23.58.03:568][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2020.06.02-23.58.03:568][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2020.06.02-23.58.03:568][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.02-23.58.04:476][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.02-23.58.04:514][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.02-23.58.04:569][  0]SourceControl: Source control is disabled
+[2020.06.02-23.58.04:569][  0]SourceControl: Source control is disabled
+[2020.06.02-23.58.04:570][  0]SourceControl: Source control is disabled
+[2020.06.02-23.58.04:571][  0]SourceControl: Source control is disabled
+[2020.06.02-23.58.04:661][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.02-23.58.04:986][  0]LogOcInput: OculusInput pre-init called
+[2020.06.02-23.58.05:713][  0]LogEngine: Initializing Engine...
+[2020.06.02-23.58.05:713][  0]LogHMD: Oculus plugin initialized. Version: 4.23.1-9631420+++UE4+Release-4.23, OVRPlugin: 1.37.0
+[2020.06.02-23.58.05:715][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.02-23.58.05:924][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.02-23.58.05:937][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.02-23.58.06:017][  0]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.06.02-23.58.06:036][  0]LogInit: FAudioDevice initialized.
+[2020.06.02-23.58.06:036][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.02-23.58.06:227][  0]LogDerivedDataCache: Saved boot cache 0.19s 76MB C:/Users/Sean Sarmiento/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.06.02-23.58.06:233][  0]LogInit: Texture streaming: Enabled
+[2020.06.02-23.58.06:250][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.02-23.58.06:250][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.02-23.58.06:251][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.02-23.58.06:276][  0]LogInit: Transaction tracking system initialized
+[2020.06.02-23.58.06:299][  0]BlueprintLog: New page: Editor Load
+[2020.06.02-23.58.06:399][  0]LocalizationService: Localization service is disabled
+[2020.06.02-23.58.06:480][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.06.02-23.58.06:480][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2020.06.02-23.58.06:480][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2020.06.02-23.58.06:670][  0]LogFileCache: Scanning file cache for directory 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/' took 0.00s
+[2020.06.02-23.58.06:670][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.02-23.58.06:670][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.02-23.58.06:857][  0]SourceControl: Source control is disabled
+[2020.06.02-23.58.06:876][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 G:/Unreal Engine 4/UE_4.23/FeaturePacks/StarterContent.upack)
+[2020.06.02-23.58.06:881][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2020.06.02-23.58.06:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2020.06.02-23.58.06:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2020.06.02-23.58.06:939][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2020.06.02-23.58.06:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2020.06.02-23.58.06:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2020.06.02-23.58.07:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2020.06.02-23.58.07:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2020.06.02-23.58.07:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2020.06.02-23.58.07:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2020.06.02-23.58.07:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2020.06.02-23.58.07:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2020.06.02-23.58.07:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Collapse01.uasset"
+[2020.06.02-23.58.07:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Collapse02.uasset"
+[2020.06.02-23.58.07:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2020.06.02-23.58.07:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Explosion01.uasset"
+[2020.06.02-23.58.07:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Explosion02.uasset"
+[2020.06.02-23.58.07:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2020.06.02-23.58.07:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Fire01.uasset"
+[2020.06.02-23.58.07:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2020.06.02-23.58.07:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2020.06.02-23.58.07:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2020.06.02-23.58.07:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Light01.uasset"
+[2020.06.02-23.58.07:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2020.06.02-23.58.07:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Light02.uasset"
+[2020.06.02-23.58.07:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2020.06.02-23.58.07:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Smoke01.uasset"
+[2020.06.02-23.58.07:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2020.06.02-23.58.07:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2020.06.02-23.58.07:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2020.06.02-23.58.07:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2020.06.02-23.58.07:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2020.06.02-23.58.07:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2020.06.02-23.58.07:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2020.06.02-23.58.07:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Steam01.uasset"
+[2020.06.02-23.58.07:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2020.06.02-23.58.07:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2020.06.02-23.58.07:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2020.06.02-23.58.07:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2020.06.02-23.58.07:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2020.06.02-23.58.07:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2020.06.02-23.58.07:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2020.06.02-23.58.07:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2020.06.02-23.58.07:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2020.06.02-23.58.07:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2020.06.02-23.58.07:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2020.06.02-23.58.07:887][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2020.06.02-23.58.07:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2020.06.02-23.58.07:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2020.06.02-23.58.07:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2020.06.02-23.58.08:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2020.06.02-23.58.08:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2020.06.02-23.58.08:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2020.06.02-23.58.08:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2020.06.02-23.58.08:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2020.06.02-23.58.08:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Minimal_Default.umap"
+[2020.06.02-23.58.08:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2020.06.02-23.58.08:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/StarterMap.umap"
+[2020.06.02-23.58.08:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2020.06.02-23.58.08:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2020.06.02-23.58.09:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2020.06.02-23.58.09:036][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2020.06.02-23.58.09:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2020.06.02-23.58.09:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2020.06.02-23.58.09:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2020.06.02-23.58.09:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2020.06.02-23.58.09:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2020.06.02-23.58.09:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2020.06.02-23.58.09:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2020.06.02-23.58.09:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2020.06.02-23.58.09:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2020.06.02-23.58.09:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2020.06.02-23.58.09:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2020.06.02-23.58.09:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2020.06.02-23.58.09:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2020.06.02-23.58.09:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2020.06.02-23.58.09:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Glass.uasset"
+[2020.06.02-23.58.09:365][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2020.06.02-23.58.09:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2020.06.02-23.58.09:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2020.06.02-23.58.09:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2020.06.02-23.58.09:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2020.06.02-23.58.09:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2020.06.02-23.58.09:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2020.06.02-23.58.09:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2020.06.02-23.58.09:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2020.06.02-23.58.09:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2020.06.02-23.58.09:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2020.06.02-23.58.09:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2020.06.02-23.58.09:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2020.06.02-23.58.09:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2020.06.02-23.58.09:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2020.06.02-23.58.09:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2020.06.02-23.58.09:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2020.06.02-23.58.09:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2020.06.02-23.58.09:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2020.06.02-23.58.09:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2020.06.02-23.58.09:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2020.06.02-23.58.09:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2020.06.02-23.58.09:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2020.06.02-23.58.09:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2020.06.02-23.58.09:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2020.06.02-23.58.09:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2020.06.02-23.58.09:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Explosion.uasset"
+[2020.06.02-23.58.09:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Fire.uasset"
+[2020.06.02-23.58.10:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Smoke.uasset"
+[2020.06.02-23.58.10:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Sparks.uasset"
+[2020.06.02-23.58.10:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2020.06.02-23.58.10:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2020.06.02-23.58.10:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2020.06.02-23.58.10:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2020.06.02-23.58.10:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2020.06.02-23.58.10:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2020.06.02-23.58.10:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2020.06.02-23.58.10:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2020.06.02-23.58.10:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2020.06.02-23.58.10:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2020.06.02-23.58.10:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2020.06.02-23.58.10:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/MaterialSphere.uasset"
+[2020.06.02-23.58.10:305][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Bush.uasset"
+[2020.06.02-23.58.10:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Chair.uasset"
+[2020.06.02-23.58.10:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2020.06.02-23.58.10:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Couch.uasset"
+[2020.06.02-23.58.10:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Door.uasset"
+[2020.06.02-23.58.10:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2020.06.02-23.58.10:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2020.06.02-23.58.10:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2020.06.02-23.58.10:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2020.06.02-23.58.10:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2020.06.02-23.58.10:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2020.06.02-23.58.10:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2020.06.02-23.58.10:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Rock.uasset"
+[2020.06.02-23.58.10:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Shelf.uasset"
+[2020.06.02-23.58.10:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Stairs.uasset"
+[2020.06.02-23.58.10:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_Statue.uasset"
+[2020.06.02-23.58.10:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_TableRound.uasset"
+[2020.06.02-23.58.10:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2020.06.02-23.58.10:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2020.06.02-23.58.10:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2020.06.02-23.58.10:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2020.06.02-23.58.10:820][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2020.06.02-23.58.10:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2020.06.02-23.58.10:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2020.06.02-23.58.10:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2020.06.02-23.58.10:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2020.06.02-23.58.10:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2020.06.02-23.58.10:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2020.06.02-23.58.10:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2020.06.02-23.58.10:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2020.06.02-23.58.10:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2020.06.02-23.58.11:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2020.06.02-23.58.11:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2020.06.02-23.58.11:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2020.06.02-23.58.11:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2020.06.02-23.58.11:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2020.06.02-23.58.11:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2020.06.02-23.58.11:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2020.06.02-23.58.11:149][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2020.06.02-23.58.11:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2020.06.02-23.58.11:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2020.06.02-23.58.11:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2020.06.02-23.58.11:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2020.06.02-23.58.11:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2020.06.02-23.58.11:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2020.06.02-23.58.11:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2020.06.02-23.58.11:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2020.06.02-23.58.11:360][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2020.06.02-23.58.11:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2020.06.02-23.58.11:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2020.06.02-23.58.11:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2020.06.02-23.58.11:582][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2020.06.02-23.58.11:637][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2020.06.02-23.58.11:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2020.06.02-23.58.11:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2020.06.02-23.58.12:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2020.06.02-23.58.12:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2020.06.02-23.58.12:418][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2020.06.02-23.58.12:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2020.06.02-23.58.12:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2020.06.02-23.58.12:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2020.06.02-23.58.12:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2020.06.02-23.58.12:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2020.06.02-23.58.12:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2020.06.02-23.58.12:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2020.06.02-23.58.12:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2020.06.02-23.58.12:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2020.06.02-23.58.12:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2020.06.02-23.58.12:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2020.06.02-23.58.12:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2020.06.02-23.58.12:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2020.06.02-23.58.12:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2020.06.02-23.58.13:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2020.06.02-23.58.13:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2020.06.02-23.58.13:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2020.06.02-23.58.13:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2020.06.02-23.58.13:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2020.06.02-23.58.13:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2020.06.02-23.58.13:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2020.06.02-23.58.13:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2020.06.02-23.58.14:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2020.06.02-23.58.14:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2020.06.02-23.58.14:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2020.06.02-23.58.14:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2020.06.02-23.58.14:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2020.06.02-23.58.14:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2020.06.02-23.58.14:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2020.06.02-23.58.14:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2020.06.02-23.58.14:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Door_M.uasset"
+[2020.06.02-23.58.14:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Door_N.uasset"
+[2020.06.02-23.58.14:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2020.06.02-23.58.14:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2020.06.02-23.58.14:642][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2020.06.02-23.58.14:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2020.06.02-23.58.14:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2020.06.02-23.58.14:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2020.06.02-23.58.14:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2020.06.02-23.58.14:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2020.06.02-23.58.15:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2020.06.02-23.58.15:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2020.06.02-23.58.15:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2020.06.02-23.58.15:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2020.06.02-23.58.15:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2020.06.02-23.58.15:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2020.06.02-23.58.15:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2020.06.02-23.58.15:526][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2020.06.02-23.58.15:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2020.06.02-23.58.15:667][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2020.06.02-23.58.15:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2020.06.02-23.58.15:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2020.06.02-23.58.15:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2020.06.02-23.58.15:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2020.06.02-23.58.16:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2020.06.02-23.58.16:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2020.06.02-23.58.16:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2020.06.02-23.58.16:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2020.06.02-23.58.16:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2020.06.02-23.58.16:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2020.06.02-23.58.17:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2020.06.02-23.58.17:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2020.06.02-23.58.17:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2020.06.02-23.58.17:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2020.06.02-23.58.17:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2020.06.02-23.58.17:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2020.06.02-23.58.17:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2020.06.02-23.58.18:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2020.06.02-23.58.18:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2020.06.02-23.58.18:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2020.06.02-23.58.18:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2020.06.02-23.58.18:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2020.06.02-23.58.18:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2020.06.02-23.58.18:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2020.06.02-23.58.18:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2020.06.02-23.58.18:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2020.06.02-23.58.18:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2020.06.02-23.58.18:503][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2020.06.02-23.58.18:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2020.06.02-23.58.18:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2020.06.02-23.58.18:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2020.06.02-23.58.18:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2020.06.02-23.58.19:114][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2020.06.02-23.58.19:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Water_M.uasset"
+[2020.06.02-23.58.19:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Water_N.uasset"
+[2020.06.02-23.58.19:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2020.06.02-23.58.19:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2020.06.02-23.58.19:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2020.06.02-23.58.19:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2020.06.02-23.58.19:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2020.06.02-23.58.19:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2020.06.02-23.58.19:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2020.06.02-23.58.19:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2020.06.02-23.58.19:709][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2020.06.02-23.58.19:723][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2020.06.02-23.58.19:730][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2020.06.02-23.58.19:821][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.06.02-23.58.19:968][  0]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Floor_400x400B06DE4724BF849563EBA608094CF0AF0.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2020.06.02-23.58.19:973][  0]LogFeaturePack: Warning: Inserted 2 feature packs
+[2020.06.02-23.58.19:978][  0]Cmd: MAP LOAD FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.02-23.58.19:979][  0]LightingResults: New page: Lighting Build
+[2020.06.02-23.58.19:981][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.02-23.58.19:981][  0]MapCheck: New page: Map Check
+[2020.06.02-23.58.19:981][  0]LightingResults: New page: Lighting Build
+[2020.06.02-23.58.20:016][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.06.02-23.58.20:268][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.06.02-23.58.20:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.02-23.58.20:307][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.06.02-23.58.20:307][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.02-23.58.20:308][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2020.06.02-23.58.20:308][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.329
+[2020.06.02-23.58.20:457][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.20:464][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.20:471][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.20:477][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.20:487][  0]LogCollectionManager: Loaded 0 collections in 0.001230 seconds
+[2020.06.02-23.58.20:494][  0]LogFileCache: Scanning file cache for directory 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Collections/' took 0.00s
+[2020.06.02-23.58.20:494][  0]LogFileCache: Scanning file cache for directory 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Developers/SeanSarmiento/Collections/' took 0.00s
+[2020.06.02-23.58.20:494][  0]LogFileCache: Scanning file cache for directory 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Collections/' took 0.00s
+[2020.06.02-23.58.20:494][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.06.02-23.58.20:503][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2863 classes and 680 folders.
+[2020.06.02-23.58.20:509][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.02-23.58.21:763][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.02-23.58.21:768][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.06.02-23.58.21:784][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.02-23.58.21:786][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.02-23.58.21:816][  0]LogSlate: Took 0.026023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.02-23.58.21:888][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.06.02-23.58.22:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.02-23.58.22:306][  0]LogLoad: (Engine Initialization) Total time: 22.99 seconds
+[2020.06.02-23.58.22:306][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.02-23.58.22:317][  0]LogOcInput: OculusInput is initialized
+[2020.06.02-23.58.22:433][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.02-23.58.26:248][425]LogAssetRegistry: Asset discovery search completed in 23.5084 seconds
+[2020.06.02-23.58.26:251][425]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2020.06.02-23.58.26:251][425]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2020.06.02-23.58.27:862][617]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.02-23.58.27:865][617]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2020.06.02-23.58.27:951][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.06.02-23.58.28:073][617]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Minimal_DefaultA61950CE4600E1E9B9E113B8D54EC633.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.06.02-23.58.28:203][617]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Minimal_Default_BuiltData41E08A1547680CAEFC8E06900E2912A6.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.06.02-23.58.32:829][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.02-23.58.32:904][130]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.02-23.58.32:908][130]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.06.02-23.58.32:908][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.02-23.58.32:908][130]LogHMD: Initializing OVRPlugin session
+[2020.06.02-23.58.41:919][130]LogHMD: Allocating Oculus 3008 x 1616 rendertarget swapchain
+[2020.06.02-23.58.41:931][130]PIE: New page: PIE session: Minimal_Default (Jun 2, 2020, 3:58:41 PM)
+[2020.06.02-23.58.41:932][130]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.02-23.58.41:933][130]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.06.02-23.58.41:937][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003722s)
+[2020.06.02-23.58.41:938][130]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.06.02-23.58.41:938][130]LogPlayLevel: PIE: World Init took: (0.001178s)
+[2020.06.02-23.58.41:938][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.005129s)
+[2020.06.02-23.58.41:973][130]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.06.02-23.58.42:056][130]LogInit: XAudio2 using 'Speakers (Yeti Stereo Microphone)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.06.02-23.58.42:067][130]LogInit: FAudioDevice initialized.
+[2020.06.02-23.58.42:074][130]LogLoad: Game class is 'GameModeBase'
+[2020.06.02-23.58.42:088][130]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 3) at 2020.06.02-19.58.42
+[2020.06.02-23.58.42:088][130]LogWorld: Bringing up level for play took: 0.000868
+[2020.06.02-23.58.42:089][130]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.06.02-23.58.42:095][130]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.06.02-23.58.42:096][130]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 9.872
+[2020.06.02-23.58.42:096][130]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.06.02-23.58.52:874][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.06.02-23.58.53:039][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.53:039][714]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2020.06.02-23.58.53:039][714]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=true
+[2020.06.02-23.58.53:045][714]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.02-23.58.53:045][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2020.06.02-23.58.53:081][714]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.02-23.58.53:083][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.06.02-23.58.53:107][715]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.06.02-23.59.20:901][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.03-00.00.06:241][602]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.00.22:041][139]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.00.49:724][113]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.01.20:735][730]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/FPS_GameConstaints.FPS_GameConstaints
+[2020.06.03-00.01.20:979][730]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.06.03-00.01.21:870][730]LogSlate: Took 0.015094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.03-00.01.23:691][943]LogSlate: Window 'FPS_GameConstaints' being destroyed
+[2020.06.03-00.01.23:726][943]LogSlate: Window 'FPS_GameConstaints' being destroyed
+[2020.06.03-00.01.23:747][943]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.06.03-00.01.39:920][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.06.03-00.01.39:921][865]LogMetaData: Removing '/Game/Blueprints/FPS_GameInstance.SKEL_FPS_GameInstance_C' ref from Metadata '/Game/Blueprints/FPS_GameConstaints.PackageMetaData'
+[2020.06.03-00.01.39:921][865]LogMetaData: Removing '/Game/Blueprints/FPS_GameInstance.FPS_GameInstance_C' ref from Metadata '/Game/Blueprints/FPS_GameConstaints.PackageMetaData'
+[2020.06.03-00.01.40:008][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_GameInstance" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameInstance.uasset" SILENT=true
+[2020.06.03-00.01.40:016][865]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_GameInstanceC8F1969A42DB35FFA83D26A6FE522348.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameInstance.uasset'
+[2020.06.03-00.01.40:344][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.03-00.01.40:410][865]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.06.03-00.01.40:445][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.06.03-00.08.22:314][987]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={6EFF958C-4936-60FA-A00E-84B0EC42F353}
+[2020.06.03-00.08.47:783][993]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2020.06.03-00.08.47:784][993]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.035
+[2020.06.03-00.08.47:786][993]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPS_Character] ([1] browsable assets)...
+[2020.06.03-00.08.47:786][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPS_Character]
+[2020.06.03-00.08.47:799][993]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_Character_Auto1A881966E438E3D3335D4BB80A99925DC.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Blueprints/FPS_Character_Auto1.uasset'
+[2020.06.03-00.08.47:800][993]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPS_PlayerController] ([1] browsable assets)...
+[2020.06.03-00.08.47:800][993]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPS_PlayerController]
+[2020.06.03-00.08.47:810][993]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_PlayerController_Auto140BB4B30439E54F6AEB42CA73B7495E3.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Blueprints/FPS_PlayerController_Auto1.uasset'
+[2020.06.03-00.08.47:811][993]LogFileHelpers: Auto-saving content packages took 0.026
+[2020.06.03-00.20.57:042][709]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.03-00.21.03:749][414]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.03-00.21.08:698][963]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.03-00.21.08:736][963]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.03-00.21.18:336][617]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.21.28:908][762]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.06.03-00.21.31:675][ 57]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.03-00.21.38:750][847]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.03-00.21.38:784][847]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.03-00.21.58:248][192]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.22.01:301][552]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetTileView [SAssetView.cpp(1749)].
+[2020.06.03-00.22.01:447][552]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.06.03-00.22.01:447][552]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.076
+[2020.06.03-00.22.01:449][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FPS_GameMode] ([1] browsable assets)...
+[2020.06.03-00.22.01:449][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FPS_GameMode]
+[2020.06.03-00.22.01:460][552]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_GameMode_Auto28276B0F94BFB005EB9D3AE8975886540.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Blueprints/FPS_GameMode_Auto2.uasset'
+[2020.06.03-00.22.01:461][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2020.06.03-00.22.01:461][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewBlueprint]
+[2020.06.03-00.22.01:471][552]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/NewBlueprint_Auto2F4C46B344C26DD55BFA08585068404CA.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto2.uasset'
+[2020.06.03-00.22.01:472][552]LogFileHelpers: Auto-saving content packages took 0.024
+[2020.06.03-00.22.13:408][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.06.03-00.22.13:409][961]LogMetaData: Removing '/Game/Blueprints/FPS_GameState.FPS_GameState:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2020.06.03-00.22.13:409][961]LogMetaData: Removing '/Game/Blueprints/FPS_GameState.SKEL_FPS_GameState_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2020.06.03-00.22.13:409][961]LogMetaData: Removing '/Game/Blueprints/FPS_GameState.FPS_GameState_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2020.06.03-00.22.13:409][961]LogMetaData: Removing '/Game/Blueprints/FPS_GameState.FPS_GameState:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2020.06.03-00.22.13:409][961]LogMetaData: Removing '/Game/Blueprints/FPS_GameState.FPS_GameState:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2020.06.03-00.22.13:500][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_GameState" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameState.uasset" SILENT=true
+[2020.06.03-00.22.13:512][961]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_GameStateB43FBB9E40B0C158FBE52BAA30711A04.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameState.uasset'
+[2020.06.03-00.22.13:833][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.06.03-00.22.13:914][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.06.03-00.22.13:943][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.06.03-00.22.39:450][149]LogSlate: Window 'Pick Parent Class' being destroyed
+[2020.06.03-00.22.48:466][215]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/FPS_Hud.FPS_Hud
+[2020.06.03-00.22.50:648][362]LogSlate: Window 'FPS_Hud' being destroyed
+[2020.06.03-00.22.50:689][362]LogSlate: Window 'FPS_Hud' being destroyed
+[2020.06.03-00.22.50:706][362]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.03-00.22.59:396][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_Hud" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_Hud.uasset" SILENT=true
+[2020.06.03-00.22.59:399][167]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.06.03-00.22.59:534][167]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.135 s
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: === Handled ensure: ===
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: 
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: Ensure condition failed: !SeenPaths.Contains(NewPath) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 222]
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: Found circular redirect from /Game/Blueprints/FPS_HUD.FPS_HUD to /Game/Blueprints/FPS_HUD.FPS_HUD! Returning None instead
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: Stack: 
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa413e6df0 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa410662e4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4131f416 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa413361c9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4109df77 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4102bb23 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4132d7c3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa411b557c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412dfcc9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412e0221 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa411b76ac UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa411b5652 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412dfcc9 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4127e35c UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412e0221 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa411b76ac UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4127ea03 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4127ce2b UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa4127cb14 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa06398d75 UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa0639881c UE4Editor-Engine.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412c1d62 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412e3b09 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa412ca771 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e49795f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e4982f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e4cf3b8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e4cbc3b UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3ec97cd0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e80bd52 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e80a860 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3e81f046 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fdb44f02 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fdafa8aa UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fdb5a280 UE4Editor-AssetTools.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fc833cc8 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fc89b0de UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fc8e1254 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fc811f7d UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ff9fc7f4609 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3fa9783b UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3fa85ef9 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3fa8be6d UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:534][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3fa8d1b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3f9becad UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3f803076 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3f873413 UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa3f8687fe UE4Editor-Slate.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa728b4a7c UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa728a26df UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa728b7340 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa7289edd0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa950f5c0d USER32.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa950f5602 USER32.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa728b88e9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ff68f9c6980 UE4Editor.exe!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ff68f9da91c UE4Editor.exe!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ff68f9da9fa UE4Editor.exe!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ff68f9eb92c UE4Editor.exe!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ff68f9ee60e UE4Editor.exe!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa95987bd4 KERNEL32.DLL!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: [Callstack] 0x00007ffa9708ce51 ntdll.dll!UnknownFunction []
+[2020.06.03-00.22.59:535][167]LogOutputDevice: Error: 
+[2020.06.03-00.22.59:542][167]LogStats:                SubmitErrorReport -  0.000 s
+[2020.06.03-00.23.00:361][167]LogStats:                    SendNewReport -  0.819 s
+[2020.06.03-00.23.00:361][167]LogStats:             FDebug::EnsureFailed -  0.963 s
+[2020.06.03-00.23.00:376][167]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_Hud79F61BBF45D0611A9A0F978BB88EE757.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_Hud.uasset'
+[2020.06.03-00.23.00:732][167]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.06.03-00.23.21:099][349]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.06.03-00.23.23:773][349]LogSlate: Window 'Save Content' being destroyed
+[2020.06.03-00.23.23:838][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_Character" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_Character.uasset" SILENT=true
+[2020.06.03-00.23.23:852][349]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_Character05EB5C41427344263A9A7D9676329309.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_Character.uasset'
+[2020.06.03-00.23.23:861][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_GameMode" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameMode.uasset" SILENT=true
+[2020.06.03-00.23.23:872][349]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_GameMode38588FCD40C0D13EBCC6A4A8E7C42B17.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameMode.uasset'
+[2020.06.03-00.23.23:882][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_PlayerController" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_PlayerController.uasset" SILENT=true
+[2020.06.03-00.23.23:894][349]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_PlayerController203E7AEA4B84C402706807AAA10D1D62.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_PlayerController.uasset'
+[2020.06.03-00.23.40:602][467]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/FPS_GameMode.FPS_GameMode
+[2020.06.03-00.23.46:386][935]LogRenderer: Reallocating scene render targets to support 1616x1000 Format 10 NumSamples 1 (Frame:472).
+[2020.06.03-00.23.46:741][971]LogSlate: Window 'FPS_GameMode' being destroyed
+[2020.06.03-00.23.52:189][360]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.06.03-00.24.10:624][209]BlueprintLog: New page: Compile FPS_GameMode
+[2020.06.03-00.24.10:822][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2020.06.03-00.24.11:769][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FPS_GameMode" FILE="../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameMode.uasset" SILENT=true
+[2020.06.03-00.24.11:787][315]LogSavePackage: Moving '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/FPS_GameModeD16987FB4AC2A9E021E9368BE500D842.tmp' to '../../../../../Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Blueprints/FPS_GameMode.uasset'
+[2020.06.03-00.24.13:458][505]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.06.03-00.35.01:527][ 75]LogDirectoryWatcher: A directory notification failed for 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2020.06.03-00.35.01:527][ 75]LogDirectoryWatcher: A directory notification failed for 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Content/Developers/SeanSarmiento/Collections/' because it could not be accessed. Aborting watch request...
+[2020.06.03-00.35.01:527][ 75]LogDirectoryWatcher: A directory notification failed for 'G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2020.06.03-00.39.22:130][254]LogTexture: Display: Building textures: Assault_Rifle_A_Norm (BC5, 2048X2048)
+[2020.06.03-00.39.22:130][254]LogTexture: Display: Building textures: Assault_Rifle_A_masks (AutoDXT, 2048X2048)
+[2020.06.03-00.39.22:130][254]LogTexture: Display: Building textures: Assault_Rifle_A_Diff (AutoDXT, 2048X2048)
+[2020.06.03-00.39.22:130][254]LogMaterial: Display: Missing cached shader map for material M_WeaponMaster_01, compiling. 
+[2020.06.03-00.39.22:233][254]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_A...
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 69
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 60
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 51
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 42
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 33
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 24
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 15
+[2020.06.03-00.39.22:240][254]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 6
+[2020.06.03-00.39.22:240][254]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2020.06.03-00.39.22:285][254]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapSilver/Weapons/Assault_Rifle_A.Assault_Rifle_A
+[2020.06.03-00.39.22:291][254]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.06.03-00.39.22:509][254]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.03-00.39.22:512][254]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2020.06.03-00.39.22:607][254]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.03-00.39.23:522][254]LogSlate: Took 0.027737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.03-00.39.54:703][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.06.03-00.39.54:768][556]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2020.06.03-00.39.54:822][556]LogSlate: Window 'Assault_Rifle_A' being destroyed
+[2020.06.03-00.39.54:823][556]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
