@@ -1,0 +1,249 @@
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AudiokineticTools\Definitions.AudiokineticTools.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/ActorFactoryAkAmbientSound.gen.cpp
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Factories/ActorFactoryAkAmbientSound.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Editor\UnrealEd\Classes\ActorFactories/ActorFactory.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ActorFactory.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\ActorFactoryAkAmbientSound.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkAndroidPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Android/AkAndroidPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools\Classes\Platforms/AkPlatformInfo.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/GameEngine.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Slate\Public\Widgets/SViewport.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\SlateCore\Public\Input/HittestGrid.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime/MovieSceneCapture/Public/MovieSceneCaptureHandle.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameEngine.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkPlatformInfo.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkAndroidPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkAssetFactories.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Private/Factories/AkAssetFactories.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkAssetFactories.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkIOSPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_iOS/AkIOSPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkIOSPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkJsonFactory.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Factories/AkJsonFactory.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkJsonFactory.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkLinuxPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Linux/AkLinuxPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkLinuxPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkLuminPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Lumin/AkLuminPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkLuminPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkMacPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Mac/AkMacPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkMacPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkPlatformInfo.gen.cpp
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkPluginActivatorCommandlet.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/AssetManagement/AkPluginActivatorCommandlet.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Classes\Commandlets/Commandlet.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Commandlet.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkPluginActivatorCommandlet.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkPS4PlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_PS4/AkPS4PlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkPS4PlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkSwitchPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Switch/AkSwitchPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkSwitchPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkTVOSPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_tvOS/AkTVOSPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkTVOSPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkWindowsPlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_Windows/AkWindowsPlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkWindowsPlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AkXboxOnePlatformInfo.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Platforms/AkPlatform_XboxOne/AkXboxOnePlatformInfo.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\AkXboxOnePlatformInfo.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/AudiokineticTools.init.gen.cpp
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/GenerateSoundBanksCommandlet.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/AssetManagement/GenerateSoundBanksCommandlet.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\GenerateSoundBanksCommandlet.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/InterpTrackAkAudioEventHelper.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Sequencer/InterpTrackAkAudioEventHelper.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkAudioEvent.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkAssetBase.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Public\AkAudioDevice.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Public\AkInclude.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\guiddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack8.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um\ime_cmodes.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformAtomics.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkUEFeatures.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/AkWwiseSDKVersion.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSoundEngine.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSoundEngineExport.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/AkPlatforms.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkTypes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkTypes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPlugin.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkCommonDefs.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSpeakerConfig.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSpeakerVolumes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Generic/AkSpeakerVolumes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkPlatformFuncs.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkAtomic.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkAtomic.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Win32/AkPlatformFuncs.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkAssert.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkRTPCSubscriber.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPluginMemAlloc.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkMemoryMgr.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkFPUtilities.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkLock.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Win32/AkLock.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkMonitorError.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkProcessorFeatures.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPlatformContext.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkMidiTypes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkCallback.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt\math.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkWinSoundEngine.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkPlatformContext.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SpatialAudio/Common/AkSpatialAudio.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SpatialAudio/Common/AkSpatialAudioTypes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkKeyArray.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkArray.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkObject.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkKeyDef.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkSet.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkString.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkFNVHash.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkHashList.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkReflectGameData.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/IBytes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkModule.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkStreamMgr.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkStreamMgrModule.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/MusicEngine/Common/AkMusicEngine.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/Comm/AkCommunication.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkQueryParameters.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformAtomics.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkBankManager.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkGameplayTypes.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\Platforms/AkUEPlatform.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows/AkWindowsPlatform.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\Platforms/AkPlatformBase.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\Platforms\AkPlatform_Windows\AkWindowsInitializationSettings.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\InitializationSettings/AkInitializationSettings.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkInitializationSettings.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkWindowsInitializationSettings.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGameplayTypes.generated.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AkAudio\Classes\AkAudioType.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioType.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAssetBase.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioEvent.generated.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Classes\Matinee/InterpTrack.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Public\Interpolation.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InterpTrack.generated.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Editor\Matinee\Public\IMatinee.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Editor\Matinee\Public\MatineeGroupData.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Runtime\Engine\Classes\Matinee/InterpGroup.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InterpGroup.generated.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Editor\Matinee\Public\MatineeTrackData.h
+G:\Unreal Engine 4\UE_4.23\Engine\Source\Editor\Matinee\Classes\InterpTrackHelper.h
+G:\Unreal Engine 4\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Matinee\InterpTrackHelper.generated.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\InterpTrackAkAudioEventHelper.generated.h
+G:/Sean's Stuff/Github/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/Intermediate/Build/Win64/UE4Editor/Inc/AudiokineticTools/InterpTrackAkAudioRTPCHelper.gen.cpp
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Source\AudiokineticTools/Classes/Sequencer/InterpTrackAkAudioRTPCHelper.h
+G:\Sean's Stuff\Github\Alien_Swarm_FPS\FPS_Survival\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AudiokineticTools\InterpTrackAkAudioRTPCHelper.generated.h
