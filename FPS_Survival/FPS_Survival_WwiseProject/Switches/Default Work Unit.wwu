@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F4644E0-8418-4E18-B628-26AC5056830D}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{5F4644E0-8418-4E18-B628-26AC5056830D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Guns" ID="{DB510D33-AD37-41CC-8BFE-C0B6B64001D1}">
+					<ChildrenList>
+						<Switch Name="Rifles" ID="{3DEEEE1E-C32D-401E-8E0C-DC1F4FF067FC}"/>
+						<Switch Name="Pistols" ID="{9E9BB8CE-1F25-4545-B3F2-B276580C9863}"/>
+						<Switch Name="Shotguns" ID="{7731A2EF-3B0D-44AE-910B-655F1C661F69}"/>
+						<Switch Name="Snipers" ID="{107AA4B5-B86C-426C-89D0-3B70B8AFFDDD}"/>
+						<Switch Name="Submachine_Guns" ID="{32CCFC7E-8429-4A75-8ECB-3B9B5EFF4855}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

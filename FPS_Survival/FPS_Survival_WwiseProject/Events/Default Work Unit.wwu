@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Footsteps" ID="{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}">
+					<ChildrenList>
+						<Action Name="" ID="{B55EE2A8-7CDA-4A25-9CCA-FDAEE58C1EC4}" ShortID="47604214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Shoot" ID="{DC1891FC-6F74-46C7-BB05-959C40605273}">
+					<ChildrenList>
+						<Action Name="" ID="{99B752C0-EE4F-4D3C-9CF6-456AB0D4C869}" ShortID="769995449">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Guns" ID="{2E63BFDF-64BD-4CB5-B024-B9909E64D204}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
