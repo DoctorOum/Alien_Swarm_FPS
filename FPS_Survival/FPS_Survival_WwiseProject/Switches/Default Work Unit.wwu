@@ -18,6 +18,32 @@
 						<Switch Name="Level_Music" ID="{B669005B-AC1C-44B5-9F2E-79B5A1D578BD}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Snipers" ID="{83283E8F-9576-4230-ADB4-5E673A78BD97}">
+					<ChildrenList>
+						<Switch Name="SemiAuto" ID="{01FC9B8F-B0E5-459F-B476-172D1612115E}"/>
+						<Switch Name="Bolt_Action" ID="{1B6ACECE-C3C5-4A9D-9CEF-E0836A38510D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Shotguns" ID="{0D6F0CF3-2C34-4655-B62E-CD556AC7416F}">
+					<ChildrenList>
+						<Switch Name="PumpAction" ID="{B80FEF62-B025-4921-BAE3-2402F754B492}"/>
+						<Switch Name="FullAuto" ID="{EA8C94B4-D6A6-4FDE-B7FE-28849C39A036}"/>
+						<Switch Name="SemiAuto" ID="{C57E8348-103B-4291-9F8A-3FE9DCD862DB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Rifles" ID="{B856E25A-8D61-4DFD-83E2-59EEC225FFD4}">
+					<ChildrenList>
+						<Switch Name="SemiAuto" ID="{81C0C826-D414-4CE8-A038-0A9FCAE19DBB}"/>
+						<Switch Name="FullAuto" ID="{38FC5E21-58EC-47DC-A3DE-DB87102AE006}"/>
+						<Switch Name="Burst" ID="{91799BD1-FE60-4A75-8748-BD47C79D310C}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Pistol" ID="{5E0D4EC9-6146-4296-BE73-F07EF54CD469}">
+					<ChildrenList>
+						<Switch Name="Weaker" ID="{58AEEDC6-CE2D-430B-A564-B4A4841320B5}"/>
+						<Switch Name="Powerful" ID="{2F7F80C5-0F3A-49D9-8DE0-C9AD6AD00277}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
