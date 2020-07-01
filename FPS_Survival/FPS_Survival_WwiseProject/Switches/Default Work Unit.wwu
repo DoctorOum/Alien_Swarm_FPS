@@ -12,6 +12,12 @@
 						<Switch Name="Submachine_Guns" ID="{32CCFC7E-8429-4A75-8ECB-3B9B5EFF4855}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Music_Groups" ID="{6A3E41FD-7581-49BF-B9F1-8E7096A128E1}">
+					<ChildrenList>
+						<Switch Name="Menu_Music" ID="{BE1B14EA-780D-407E-9A3A-EF9463BFB96B}"/>
+						<Switch Name="Level_Music" ID="{B669005B-AC1C-44B5-9F2E-79B5A1D578BD}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
