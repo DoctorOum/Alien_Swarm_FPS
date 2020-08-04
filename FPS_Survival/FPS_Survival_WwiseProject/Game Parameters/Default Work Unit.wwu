@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}" SchemaVersion="97">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

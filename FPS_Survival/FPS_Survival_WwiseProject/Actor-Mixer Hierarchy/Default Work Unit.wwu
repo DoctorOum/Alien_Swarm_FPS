@@ -491,6 +491,145 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<SwitchContainer Name="Aliens" ID="{9BC2AFD8-F24B-4D36-B3ED-69250EA18B2B}" ShortID="7897922">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Beefy_Bois" ID="{7C4EAD68-43B9-4405-81B6-12BCF39C5DE9}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Aliens" ID="{57DD21A8-4200-4D1E-B8DB-AE44E284A3B8}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_Beefy_Growl" ID="{249AC030-2441-4A0E-BD78-5A5E961B3261}" ShortID="344102308">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{C7DD9CED-41EE-499D-A441-1F79D541B352}" ShortID="642747696">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4C69453E-3A74-4564-B1C9-0377EBFDFA5E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{87ED18C4-78EC-49B1-B633-F038A99A970D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{20E2957C-3274-421A-865C-FEF8D6ECB3A9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Beefy_Growl" ID="{9E16A341-1A3C-4B01-B4D6-D94E3B69B5A3}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Beefy_Growl.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="87529136"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Beefy_Growl" ID="{9E16A341-1A3C-4B01-B4D6-D94E3B69B5A3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_Beefy_Roar" ID="{A3CECD1A-1BE2-4C80-A699-134696613CB9}" ShortID="255041740">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_Beefy_Roar" ID="{803C3F26-F612-4671-A240-4B672D6F0A65}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_Beefy_Roar.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="716406860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_Beefy_Roar" ID="{803C3F26-F612-4671-A240-4B672D6F0A65}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Beefy_Roar" ID="{A3CECD1A-1BE2-4C80-A699-134696613CB9}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="SFX_Beefy_Growl" ID="{249AC030-2441-4A0E-BD78-5A5E961B3261}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Beefy_Bois" ID="{7C4EAD68-43B9-4405-81B6-12BCF39C5DE9}"/>
+								<ItemList>
+									<ItemRef Name="SFX_Beefy_Growl" ID="{249AC030-2441-4A0E-BD78-5A5E961B3261}"/>
+									<ItemRef Name="SFX_Beefy_Roar" ID="{A3CECD1A-1BE2-4C80-A699-134696613CB9}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

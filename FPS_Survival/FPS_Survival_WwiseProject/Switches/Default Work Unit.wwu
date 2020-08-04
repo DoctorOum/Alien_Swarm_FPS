@@ -44,6 +44,15 @@
 						<Switch Name="Powerful" ID="{2F7F80C5-0F3A-49D9-8DE0-C9AD6AD00277}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Aliens" ID="{57DD21A8-4200-4D1E-B8DB-AE44E284A3B8}">
+					<ChildrenList>
+						<Switch Name="Beefy_Bois" ID="{7C4EAD68-43B9-4405-81B6-12BCF39C5DE9}"/>
+						<Switch Name="Spider" ID="{84FD5524-2468-4ED5-997F-4D60F5DBD91E}"/>
+						<Switch Name="Normies" ID="{6B739D1E-0F1A-449F-B02A-41157F325CDE}"/>
+						<Switch Name="Fast_Bois" ID="{75283FA5-CAC4-4605-A5F3-392D7F50E599}"/>
+						<Switch Name="Ranged" ID="{18CFA8D8-74BA-43B0-977B-53F2A450885B}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
