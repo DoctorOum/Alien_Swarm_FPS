@@ -2,7 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1593570691" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1596567384" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\States\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
@@ -12,9 +12,9 @@
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1593564959" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1596567384" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\FPS_Survival_WwiseProject.wproj" DateLow="1592317311" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\FPS_Survival_WwiseProject.owner.wsettings" DateLow="1593570693" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\FPS_Survival_WwiseProject.owner.wsettings" DateLow="1600021552" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Events\Default Work Unit.wwu" DateLow="1593564959" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
@@ -22,5 +22,5 @@
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1592317311" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1593570691" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\owner\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1598417288" DateHigh="0"/>
 </ValidationCache>

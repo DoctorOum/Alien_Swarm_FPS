@@ -4,6 +4,28 @@
 		<WorkUnit Name="Default Work Unit" ID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" PersistMode="Standalone">
 			<ChildrenList>
 				<RandomSequenceContainer Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" ShortID="272530987">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{EB112FDD-3C38-499A-A3AD-87CE25E9F65F}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{57AD32FA-7202-4962-B03D-473A791A1974}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-4"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
@@ -12,6 +34,122 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footsteps_Boots_Metal_Norm_2" ID="{CE4D3495-1E98-45E3-9A8C-5BCBF3B44D29}" ShortID="301472173">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{002E2A1C-8A46-4729-8B97-D8F7CB9F841F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="FS_Boots_Metal_01" ID="{C60FD6D0-2D99-433B-A0FB-486547C29253}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.328858131487889"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.562712802768166"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="500921606"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_02" ID="{EFE36128-DEB8-4DE4-8C7B-4A5455F7C750}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.608996539792388"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.803875432525951"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="219701730"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_03" ID="{9FBFE04C-9FC0-4806-914A-DB576AF2449B}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.05234602076125"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.26671280276817"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="906899414"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_04" ID="{B03A6D77-1BBF-4E45-A04B-AE66E48F7F35}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.51518339100346"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.68570242214533"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="275284786"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_05" ID="{DF406A21-3E65-4749-8CDC-A46A41E6F650}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.95366089965398"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.22950578057346"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513847967"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_06" ID="{F65FA4E9-1FFB-471F-9CDA-56CBDE3D90C3}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.40675432525952"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.59919723183391"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="848701233"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="FS_Boots_Metal_07" ID="{CC472031-1B6F-4D0E-AAF5-F4DBBC6E18D1}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.79052487855721"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.20555231901015"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Footsteps_Boots_Metal_Norm_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="926134516"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="FS_Boots_Metal_01" ID="{C60FD6D0-2D99-433B-A0FB-486547C29253}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 				<SwitchContainer Name="Guns" ID="{2E63BFDF-64BD-4CB5-B024-B9909E64D204}" ShortID="537033748">
 					<ReferenceList>
@@ -492,6 +630,15 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<SwitchContainer Name="Aliens" ID="{9BC2AFD8-F24B-4D36-B3ED-69250EA18B2B}" ShortID="7897922">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{06CAE165-C500-4EED-A892-7EFE0B34A8CD}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>

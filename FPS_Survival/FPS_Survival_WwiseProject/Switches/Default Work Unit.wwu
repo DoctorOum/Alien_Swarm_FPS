@@ -16,6 +16,7 @@
 					<ChildrenList>
 						<Switch Name="Menu_Music" ID="{BE1B14EA-780D-407E-9A3A-EF9463BFB96B}"/>
 						<Switch Name="Level_Music" ID="{B669005B-AC1C-44B5-9F2E-79B5A1D578BD}"/>
+						<Switch Name="Round_Change_Music" ID="{79EA825C-5391-44D0-8928-8CE55B839F05}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Snipers" ID="{83283E8F-9576-4230-ADB4-5E673A78BD97}">
