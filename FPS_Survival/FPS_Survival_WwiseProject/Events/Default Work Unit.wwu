@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Round_Change" ID="{470477AF-9D23-4CAA-A967-2A451B1FE923}">
+					<ChildrenList>
+						<Action Name="" ID="{87ED822D-8E74-44A6-AC56-D4B67A90F603}" ShortID="568313421">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Round Change Music" ID="{9FB9C2E5-B05D-4E46-9736-65944CD99904}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

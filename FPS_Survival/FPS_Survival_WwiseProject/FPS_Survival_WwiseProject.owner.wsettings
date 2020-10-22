@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\owner\Documents\FPS Menu Music\Bounced Files\"/>
 				<Property Name="Event Action List\{23C3C622-C55B-4CC2-B6CC-CD4CDBA99C54}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{470477AF-9D23-4CAA-A967-2A451B1FE923}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DC1891FC-6F74-46C7-BB05-959C40605273}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -28,6 +29,8 @@
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="VGvD2vphmk6dU+uRpAotTQGAaUf/////OY/QQ+odz0q6kPRlFZrNygGAaUf/////"/>
 				<Property Name="Interactive Music\x64_{3F50635A-C108-4E04-9B08-1F5726C3A28C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAEG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{855ACC2C-0400-446B-BED9-1BA94AA6DD3A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP18pnnPMFklAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{9FB9C2E5-B05D-4E46-9736-65944CD99904} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1SZsA2Cw1RAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{A35AD141-8488-4218-B2B0-FE8B83B26ACE} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAEG9AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{D9BEB430-DF76-486A-AAB5-AA06794743B5} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP18pnnPMFklAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -101,6 +104,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value="{85DDEC8E-15FF-4F50-AE19-379C5794AA8A}2621871984"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

@@ -38,40 +38,6 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
 										</Reference>
 									</ReferenceList>
-									<ChildrenList>
-										<MusicTrack Name="FPS_Menu Music" ID="{ECAD2213-E908-4CF4-A19E-11D78F2EDCF6}" ShortID="879817740">
-											<PropertyList>
-												<Property Name="MusicTrackType" Type="int16" Value="3"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="DefaultSwitchOrState">
-													<ObjectRef Name="Menu_Music" ID="{BE1B14EA-780D-407E-9A3A-EF9463BFB96B}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-												</Reference>
-												<Reference Name="SwitchGroupOrStateGroup">
-													<ObjectRef Name="Music_Groups" ID="{6A3E41FD-7581-49BF-B9F1-8E7096A128E1}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
-												</Reference>
-											</ReferenceList>
-											<TransitionList>
-												<MusicTransition Name="Root" ID="{F9AA03AD-1F76-402A-B768-739E1A30D0BE}">
-													<PropertyList>
-														<Property Name="IsFolder" Type="bool" Value="True"/>
-													</PropertyList>
-													<ChildrenList>
-														<MusicTransition Name="Transition" ID="{79EBAF01-3650-4ABB-8C75-B804BE5D68F6}">
-															<TransitionInfo/>
-														</MusicTransition>
-													</ChildrenList>
-													<TransitionInfo/>
-												</MusicTransition>
-											</TransitionList>
-											<SequenceList>
-												<MusicTrackSequence Name="" ID="{BF4E14B5-EBC1-4F1B-AB89-2F50F58DBE75}"/>
-											</SequenceList>
-										</MusicTrack>
-									</ChildrenList>
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{B6BBD323-DD7A-4309-8B47-4CE45E026E4A}"/>
 										<MusicCue Name="Exit Cue" ID="{6A5EDE5E-BB59-488C-9BD3-6B8AEAE937E6}">
