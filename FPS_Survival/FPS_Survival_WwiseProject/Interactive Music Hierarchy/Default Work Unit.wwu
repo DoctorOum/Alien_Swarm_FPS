@@ -28,7 +28,7 @@
 							<ChildrenList>
 								<MusicSegment Name="FPS_Menu Music" ID="{855ACC2C-0400-446B-BED9-1BA94AA6DD3A}" ShortID="375520901">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="19809.433106576"/>
+										<Property Name="EndPosition" Type="Real64" Value="33621.3333333333"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -38,6 +38,53 @@
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
 										</Reference>
 									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Music_Menu_Norm" ID="{97F64103-3DB8-435F-B32B-0A6C41FDF65D}" ShortID="810019504">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Music_Menu_Norm" ID="{8577527E-C6D6-4397-B8EE-0016D5D491BE}">
+													<Language>SFX</Language>
+													<AudioFile>Music_Menu_Norm.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="729890930"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BFE0FAF9-EA77-4A16-8FFE-1492F93D5C7E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{97FD745B-3C14-4667-8BF9-9D4193877ACA}">
+													<ClipList>
+														<MusicClip Name="Music_Menu_Norm" ID="{CD2E0ECE-2F19-427F-9C81-3CE1562E7F7B}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="33621.3333333333"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Music_Menu_Norm" ID="{8577527E-C6D6-4397-B8EE-0016D5D491BE}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
 									<CueList>
 										<MusicCue Name="Entry Cue" ID="{B6BBD323-DD7A-4309-8B47-4CE45E026E4A}"/>
 										<MusicCue Name="Exit Cue" ID="{6A5EDE5E-BB59-488C-9BD3-6B8AEAE937E6}">

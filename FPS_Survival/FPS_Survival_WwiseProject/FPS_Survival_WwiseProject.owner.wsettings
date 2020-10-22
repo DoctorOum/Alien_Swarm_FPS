@@ -41,6 +41,7 @@
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{97F64103-3DB8-435F-B32B-0A6C41FDF65D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{B17D934F-82B9-4664-9D57-69941C325DB6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{DF16B968-3AD3-4872-AC6A-98E86CA33C7E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{E141F745-7A20-423E-9EB2-5C8D8B290C5F}\x64_Expand States" Type="string" Value=""/>
