@@ -74,3 +74,8 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 *.log
 *.log
+FPS_Survival/Saved/Logs/FPS_Survival.log
+FPS_Survival/Saved/Config/Windows/Engine.ini
+FPS_Survival/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+FPS_Survival/Saved/Config/Windows/Editor.ini
+FPS_Survival/Intermediate/CachedAssetRegistry.bin
