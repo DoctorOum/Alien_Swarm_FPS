@@ -57,6 +57,9 @@
 				<SwitchGroup Name="Interactable_Objects" ID="{7B19AFC3-3798-4138-81E1-4984048B0B07}">
 					<ChildrenList>
 						<Switch Name="Printer" ID="{B0578260-B7DF-4A9D-862B-A52D8AE15764}"/>
+						<Switch Name="Teleporters" ID="{15A3F04B-EB85-4179-BBE9-3B7FDD90486A}"/>
+						<Switch Name="Doors" ID="{C084F20E-C3D5-4C33-93DE-3D1A71449534}"/>
+						<Switch Name="Display_Case_Purchase" ID="{55ABF7A9-2EF8-46D8-A84F-33FA961EAFDB}"/>
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="Ambiances" ID="{DFCC3AEA-6E2A-4BEB-8FA4-58A945A89CFD}">
@@ -66,6 +69,7 @@
 						<Switch Name="Shrieks" ID="{569F0004-4D5B-4399-A170-937E1AADF000}"/>
 						<Switch Name="Bumbs" ID="{FB7E9052-C96A-4E30-BC67-50B4E879972E}"/>
 						<Switch Name="Air" ID="{924A2BBA-C349-4677-821F-B6D846BF9E70}"/>
+						<Switch Name="Computers" ID="{2ED6F1EC-EF38-4057-A3EF-AF1F6E430E36}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
