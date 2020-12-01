@@ -18,7 +18,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
-						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 						<Property Name="Volume" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -822,406 +822,75 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
-				<Sound Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}" ShortID="491568242">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<RTPCList>
-								<RTPC Name="" ID="{7F778734-CA8A-4101-A00F-F8030A66563B}" ShortID="652973585">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{6D60EC47-1A7A-4D6E-B445-3B98594BBCBD}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
+				<SwitchContainer Name="Ambiances" ID="{1580A4C3-0B40-49A5-8C3C-B073C05C13A8}" ShortID="922605222">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
 						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="3D Printer_Norm" ID="{1CFF3E03-5A76-4DFA-A49E-A4BB4C557012}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="3.78886481726112"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>3D Printer_Norm.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="621598985"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="3D Printer_Norm" ID="{1CFF3E03-5A76-4DFA-A49E-A4BB4C557012}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Airy_Long_01" ID="{6A16449D-B53C-41A6-AF51-78CF2D897C82}" ShortID="983058444">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="TV" ID="{50D666AB-5317-4DAC-B97F-F08E4EA9D815}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
 						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Airy_Long_01" ID="{D28F946C-241A-4BC6-B595-029DC9954CBF}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="4.53620783795686"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Airy_Long_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="660692181"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Airy_Long_01" ID="{D28F946C-241A-4BC6-B595-029DC9954CBF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Airy_Short_01" ID="{15BF1458-50C6-4D93-AC9D-03AF0AACC3A5}" ShortID="900366087">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Ambiances" ID="{DFCC3AEA-6E2A-4BEB-8FA4-58A945A89CFD}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="AMB_Airy_Short_01" ID="{A9B6AC4B-F526-43B6-8E25-E7EAEC087A23}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.39576926464113"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Airy_Short_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="261641781"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Airy_Short_01" ID="{A9B6AC4B-F526-43B6-8E25-E7EAEC087A23}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Airy_Short_02" ID="{624C53EA-EE87-41C2-8A38-E2D4B133F603}" ShortID="277899484">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Airy_Short_02" ID="{358ED5C9-9158-495D-AE54-383B11CD26AC}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="2.27390224570674"/>
-								<Property Name="LoopBegin" Type="Real64" Value="0"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Airy_Short_02.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="214332762"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Airy_Short_02" ID="{358ED5C9-9158-495D-AE54-383B11CD26AC}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Boomy_hits_01" ID="{CA680BA4-F97E-4265-9C83-48D94FD31EAA}" ShortID="937176174">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Boomy_hits_01" ID="{1A27B59A-6DB6-470A-9271-601D5E7D11F2}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.57866666666667"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Boomy_hits_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="477566490"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Boomy_hits_01" ID="{1A27B59A-6DB6-470A-9271-601D5E7D11F2}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Boomy_hits_2" ID="{1A257507-0315-43A3-B285-5AC9F4A68C7E}" ShortID="1061706248">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Boomy_hits_2" ID="{0CE2394F-0969-4041-8B60-B07E92A9778B}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.142034346103038"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.850177014531044"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Boomy_hits_2.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="606168273"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Boomy_hits_2" ID="{0CE2394F-0969-4041-8B60-B07E92A9778B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Bumps_Reverb_01" ID="{25088806-4B16-49AA-B410-3C5875A80A1E}" ShortID="870746982">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Bumps_Reverb_01" ID="{CC4BA82E-B9E7-4937-824C-34DEB445CD61}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.73104359313078"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Bumps_Reverb_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="132534030"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Bumps_Reverb_01" ID="{CC4BA82E-B9E7-4937-824C-34DEB445CD61}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="AMB_Shriek_Reverb_01" ID="{8C2A991A-2DEF-40CA-8D31-D58454B62EA4}" ShortID="715508536">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="AMB_Shriek_Reverb_01" ID="{A7744F61-F810-4583-8A72-779EB9B3047E}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="1.39417701453104"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>AMB_Shriek_Reverb_01.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="188258786"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AMB_Shriek_Reverb_01" ID="{A7744F61-F810-4583-8A72-779EB9B3047E}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}" ShortID="65432058">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Hiss_Norm_NO BOOP" ID="{E9D468AF-CD54-4468-8B11-8D4882580F50}">
-							<Language>SFX</Language>
-							<AudioFile>Hiss_Norm_NO BOOP.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="602601147"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Hiss_Norm_NO BOOP" ID="{E9D468AF-CD54-4468-8B11-8D4882580F50}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="SFX_Tv Static_Norm" ID="{08470C47-93C5-4EBA-A41F-AD91B03B91DF}" ShortID="687225632">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<RTPCList>
-								<RTPC Name="" ID="{B5819F8E-74D6-4873-A9E7-1AC0E495B2A6}" ShortID="629096773">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{8AD1FC34-797D-4256-A5DB-628067FD7652}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="SFX_Tv Static_Norm" ID="{D8EA909C-1153-4D8B-89AA-75DFA1059316}">
-							<Language>SFX</Language>
-							<AudioFile>SFX_Tv Static_Norm.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="695653374"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="SFX_Tv Static_Norm" ID="{D8EA909C-1153-4D8B-89AA-75DFA1059316}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<RandomSequenceContainer Name="Computer Boops Container" ID="{14482E4A-D2CC-43AC-B329-F5D29C870988}" ShortID="624344294">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{47AEBED5-6CB0-489C-89EB-179890D794E4}">
-										<PropertyList>
-											<Property Name="Max" Type="Real64" Value="3"/>
-											<Property Name="Min" Type="Real64" Value="-3"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-							<RTPCList>
-								<RTPC Name="" ID="{465DA3A5-E8F1-4F9D-B5E7-D5C6C0A9A361}" ShortID="1050497974">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{578A27FC-7C3A-4545-B68E-FF0A474F422F}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>100</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="Pitch" Type="int32">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{A9CBFB9E-7041-46B3-9467-D13AA2455229}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="51"/>
-											<Property Name="Min" Type="Real64" Value="-51"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
-						<Property Name="Volume" Type="Real64">
-							<ModifierList>
-								<ModifierInfo>
-									<Modifier Name="" ID="{80132B44-5ED4-4C12-8B16-9BDAC2CB81AD}">
-										<PropertyList>
-											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="1"/>
-											<Property Name="Min" Type="Real64" Value="-2"/>
-										</PropertyList>
-									</Modifier>
-								</ModifierInfo>
-							</ModifierList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Computer Boops_01" ID="{9A2F294A-913F-4321-AD9D-D9D3BC4985F3}" ShortID="716711030">
+						<RandomSequenceContainer Name="Shireks" ID="{E0F2E2C3-3CC7-42ED-9253-744141829005}" ShortID="240299629">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{3DEE07A5-CB40-4CDD-9B10-7204633A411A}" ShortID="468256442">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8049A499-13F4-47E0-B043-A38584FEF9A2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{9EE28030-47B3-4D48-82FF-FB374A53E27E}"/>
+											<Modifier Name="" ID="{1EE19D8F-585E-4BCE-9DE6-A3A43D745209}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-76"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8CD6F940-DC49-4E31-A183-B9CE8BEC81CA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-8"/>
+												</PropertyList>
+											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
@@ -1235,24 +904,35 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{E0183E82-C66D-48CD-A724-4376F0DC1CB0}">
-									<PropertyList>
-										<Property Name="LoopEnd" Type="Real64" Value="0.218795847750865"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.218795847750867"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="509796589"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="AMB_Shriek_Reverb_01" ID="{8C2A991A-2DEF-40CA-8D31-D58454B62EA4}" ShortID="715508536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Shriek_Reverb_01" ID="{A7744F61-F810-4583-8A72-779EB9B3047E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.39417701453104"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Shriek_Reverb_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="188258786"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Shriek_Reverb_01" ID="{A7744F61-F810-4583-8A72-779EB9B3047E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{E0183E82-C66D-48CD-A724-4376F0DC1CB0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_02" ID="{D121D3D7-0814-47D6-AC57-E9A856D2481E}" ShortID="128307153">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bumps" ID="{6E920D80-EB15-4214-B667-2D81873B1094}" ShortID="107927235">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
@@ -1262,27 +942,88 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{9645F07B-BD39-4858-9DEF-D99706C17A85}">
-									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.0313236459709379"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0.229706737120211"/>
-										<Property Name="LoopEnd" Type="Real64" Value="0.474605623180191"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.208824306472919"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.474605623180192"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="216084266"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="AMB_Bumps_Reverb_01" ID="{25088806-4B16-49AA-B410-3C5875A80A1E}" ShortID="870746982">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Bumps_Reverb_01" ID="{CC4BA82E-B9E7-4937-824C-34DEB445CD61}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.73104359313078"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Bumps_Reverb_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="132534030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Bumps_Reverb_01" ID="{CC4BA82E-B9E7-4937-824C-34DEB445CD61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Boomy_hits_2" ID="{1A257507-0315-43A3-B285-5AC9F4A68C7E}" ShortID="1061706248">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Boomy_hits_2" ID="{0CE2394F-0969-4041-8B60-B07E92A9778B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.142034346103038"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.850177014531044"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Boomy_hits_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="606168273"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Boomy_hits_2" ID="{0CE2394F-0969-4041-8B60-B07E92A9778B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Boomy_hits_01" ID="{CA680BA4-F97E-4265-9C83-48D94FD31EAA}" ShortID="937176174">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Boomy_hits_01" ID="{1A27B59A-6DB6-470A-9271-601D5E7D11F2}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.57866666666667"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Boomy_hits_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="477566490"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Boomy_hits_01" ID="{1A27B59A-6DB6-470A-9271-601D5E7D11F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{9645F07B-BD39-4858-9DEF-D99706C17A85}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_03" ID="{77135FBF-E15A-41CE-9875-7D5402488697}" ShortID="454238369">
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Air" ID="{68D3DEFA-BAA7-4AE2-9975-C969D551BFF6}" ShortID="964446600">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
@@ -1292,26 +1033,93 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{F5B6CAA0-DCEA-49B2-A9E1-54FF40C1BD0D}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.490737120211361"/>
-										<Property Name="LoopEnd" Type="Real64" Value="0.730415398609518"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.480295904887714"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.730885072655218"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="643859659"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="AMB_Airy_Short_02" ID="{624C53EA-EE87-41C2-8A38-E2D4B133F603}" ShortID="277899484">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Airy_Short_02" ID="{358ED5C9-9158-495D-AE54-383B11CD26AC}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.27390224570674"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Airy_Short_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="214332762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Airy_Short_02" ID="{358ED5C9-9158-495D-AE54-383B11CD26AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Airy_Short_01" ID="{15BF1458-50C6-4D93-AC9D-03AF0AACC3A5}" ShortID="900366087">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Airy_Short_01" ID="{A9B6AC4B-F526-43B6-8E25-E7EAEC087A23}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.39576926464113"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Airy_Short_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="261641781"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Airy_Short_01" ID="{A9B6AC4B-F526-43B6-8E25-E7EAEC087A23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Airy_Long_01" ID="{6A16449D-B53C-41A6-AF51-78CF2D897C82}" ShortID="983058444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Airy_Long_01" ID="{D28F946C-241A-4BC6-B595-029DC9954CBF}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="4.53620783795686"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMB_Airy_Long_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="660692181"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Airy_Long_01" ID="{D28F946C-241A-4BC6-B595-029DC9954CBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{F5B6CAA0-DCEA-49B2-A9E1-54FF40C1BD0D}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_04" ID="{2E0CFF3E-0C0D-4881-8908-953DC10E5CE5}" ShortID="1033653794">
+						</RandomSequenceContainer>
+						<BlendContainer Name="TV" ID="{BF45C2F1-C65C-4CC0-9CC6-0FC79E966B1F}" ShortID="888174379">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
@@ -1321,26 +1129,387 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{DB21563A-C0A6-479D-9727-D8E9D37AFE54}">
+								<Sound Name="SFX_Tv Static_Norm" ID="{08470C47-93C5-4EBA-A41F-AD91B03B91DF}" ShortID="687225632">
 									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.746546895640686"/>
-										<Property Name="LoopEnd" Type="Real64" Value="0.965812417437252"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.73610568031704"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.970563351053376"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{B5819F8E-74D6-4873-A9E7-1AC0E495B2A6}" ShortID="629096773">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8AD1FC34-797D-4256-A5DB-628067FD7652}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="632134693"/>
-									</MediaIDList>
-								</AudioFileSource>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Tv Static_Norm" ID="{D8EA909C-1153-4D8B-89AA-75DFA1059316}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Tv Static_Norm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695653374"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Tv Static_Norm" ID="{D8EA909C-1153-4D8B-89AA-75DFA1059316}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Computer Boops Container" ID="{14482E4A-D2CC-43AC-B329-F5D29C870988}" ShortID="624344294">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{47AEBED5-6CB0-489C-89EB-179890D794E4}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+											<RTPCList>
+												<RTPC Name="" ID="{465DA3A5-E8F1-4F9D-B5E7-D5C6C0A9A361}" ShortID="1050497974">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{578A27FC-7C3A-4545-B68E-FF0A474F422F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>100</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9CBFB9E-7041-46B3-9467-D13AA2455229}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="51"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{80132B44-5ED4-4C12-8B16-9BDAC2CB81AD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Computer Boops_01" ID="{9A2F294A-913F-4321-AD9D-D9D3BC4985F3}" ShortID="716711030">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9EE28030-47B3-4D48-82FF-FB374A53E27E}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{E0183E82-C66D-48CD-A724-4376F0DC1CB0}">
+													<PropertyList>
+														<Property Name="LoopEnd" Type="Real64" Value="0.218795847750865"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.218795847750867"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509796589"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{E0183E82-C66D-48CD-A724-4376F0DC1CB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_02" ID="{D121D3D7-0814-47D6-AC57-E9A856D2481E}" ShortID="128307153">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{9645F07B-BD39-4858-9DEF-D99706C17A85}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0313236459709379"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.229706737120211"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.474605623180191"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.208824306472919"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.474605623180192"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="216084266"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{9645F07B-BD39-4858-9DEF-D99706C17A85}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_03" ID="{77135FBF-E15A-41CE-9875-7D5402488697}" ShortID="454238369">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{F5B6CAA0-DCEA-49B2-A9E1-54FF40C1BD0D}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.490737120211361"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.730415398609518"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.480295904887714"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.730885072655218"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="643859659"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{F5B6CAA0-DCEA-49B2-A9E1-54FF40C1BD0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_04" ID="{2E0CFF3E-0C0D-4881-8908-953DC10E5CE5}" ShortID="1033653794">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{DB21563A-C0A6-479D-9727-D8E9D37AFE54}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.746546895640686"/>
+														<Property Name="LoopEnd" Type="Real64" Value="0.965812417437252"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.73610568031704"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.970563351053376"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="632134693"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{DB21563A-C0A6-479D-9727-D8E9D37AFE54}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_05" ID="{90907DDC-449D-4E18-A5D8-57D3703E18E5}" ShortID="55907890">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{A2D93199-F6CE-4194-9BF6-39F65D1FE1F7}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0.986694848084544"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.23159373414452"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.976253632760898"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.23159373414453"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057742431"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{A2D93199-F6CE-4194-9BF6-39F65D1FE1F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_06" ID="{86A4B75C-504E-4671-B0BD-376DB3B9101B}" ShortID="853991976">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{20F3CD4E-05CA-4B36-A954-4822C9508858}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="1.2477252311757"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.47743196829591"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.23206340819023"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.48218290191203"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1030106851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{20F3CD4E-05CA-4B36-A954-4822C9508858}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_07" ID="{5AA5E2B6-4D74-409B-A68F-303E161A94EC}" ShortID="70931791">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{FDC4F1D3-8E1D-469A-A1EC-18EA183CE12C}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="1.49309379128137"/>
+														<Property Name="LoopEnd" Type="Real64" Value="1.72755146201771"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.48265257595773"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.72755146201772"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="785308206"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{FDC4F1D3-8E1D-469A-A1EC-18EA183CE12C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Computer Boops_08" ID="{30F68D19-9585-4D44-A041-62D158475AA2}" ShortID="1019242584">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Computer Boops" ID="{B24BB5EB-0F97-41EE-8F7E-FF001A5160E1}">
+													<PropertyList>
+														<Property Name="LoopEnd" Type="Real64" Value="1.96294848084544"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.73846235138705"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.96769941446156"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Computer Boops.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1014212508"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Computer Boops" ID="{B24BB5EB-0F97-41EE-8F7E-FF001A5160E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{DB21563A-C0A6-479D-9727-D8E9D37AFE54}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_05" ID="{90907DDC-449D-4E18-A5D8-57D3703E18E5}" ShortID="55907890">
+						</BlendContainer>
+						<Sound Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}" ShortID="65432058">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
@@ -1350,113 +1519,155 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{A2D93199-F6CE-4194-9BF6-39F65D1FE1F7}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0.986694848084544"/>
-										<Property Name="LoopEnd" Type="Real64" Value="1.23159373414452"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.976253632760898"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.23159373414453"/>
-									</PropertyList>
+								<AudioFileSource Name="Hiss_Norm_NO BOOP" ID="{E9D468AF-CD54-4468-8B11-8D4882580F50}">
 									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
+									<AudioFile>Hiss_Norm_NO BOOP.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1057742431"/>
+										<MediaID ID="602601147"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{A2D93199-F6CE-4194-9BF6-39F65D1FE1F7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_06" ID="{86A4B75C-504E-4671-B0BD-376DB3B9101B}" ShortID="853991976">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{20F3CD4E-05CA-4B36-A954-4822C9508858}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="1.2477252311757"/>
-										<Property Name="LoopEnd" Type="Real64" Value="1.47743196829591"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.23206340819023"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.48218290191203"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1030106851"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{20F3CD4E-05CA-4B36-A954-4822C9508858}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_07" ID="{5AA5E2B6-4D74-409B-A68F-303E161A94EC}" ShortID="70931791">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{FDC4F1D3-8E1D-469A-A1EC-18EA183CE12C}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="1.49309379128137"/>
-										<Property Name="LoopEnd" Type="Real64" Value="1.72755146201771"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.48265257595773"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.72755146201772"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="785308206"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{FDC4F1D3-8E1D-469A-A1EC-18EA183CE12C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Computer Boops_08" ID="{30F68D19-9585-4D44-A041-62D158475AA2}" ShortID="1019242584">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Computer Boops" ID="{B24BB5EB-0F97-41EE-8F7E-FF001A5160E1}">
-									<PropertyList>
-										<Property Name="LoopEnd" Type="Real64" Value="1.96294848084544"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="1.73846235138705"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.96769941446156"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Computer Boops.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="1014212508"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Computer Boops" ID="{B24BB5EB-0F97-41EE-8F7E-FF001A5160E1}" Platform="Linked"/>
+								<ActiveSource Name="Hiss_Norm_NO BOOP" ID="{E9D468AF-CD54-4468-8B11-8D4882580F50}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-				</RandomSequenceContainer>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Bumps" ID="{6E920D80-EB15-4214-B667-2D81873B1094}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Shireks" ID="{E0F2E2C3-3CC7-42ED-9253-744141829005}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="TV" ID="{BF45C2F1-C65C-4CC0-9CC6-0FC79E966B1F}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Air" ID="{68D3DEFA-BAA7-4AE2-9975-C969D551BFF6}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Shrieks" ID="{569F0004-4D5B-4399-A170-937E1AADF000}"/>
+								<ItemList>
+									<ItemRef Name="Shireks" ID="{E0F2E2C3-3CC7-42ED-9253-744141829005}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Bumbs" ID="{FB7E9052-C96A-4E30-BC67-50B4E879972E}"/>
+								<ItemList>
+									<ItemRef Name="Bumps" ID="{6E920D80-EB15-4214-B667-2D81873B1094}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Air" ID="{924A2BBA-C349-4677-821F-B6D846BF9E70}"/>
+								<ItemList>
+									<ItemRef Name="Air" ID="{68D3DEFA-BAA7-4AE2-9975-C969D551BFF6}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Cryo_Chamber" ID="{47D1EEE9-A382-4173-B734-3B885C96F5D5}"/>
+								<ItemList>
+									<ItemRef Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Interactable Objects" ID="{A62DAF9B-4A78-49C9-A69A-2E4A626F8CEA}" ShortID="476635461">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Printer" ID="{B0578260-B7DF-4A9D-862B-A52D8AE15764}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Interactable_Objects" ID="{7B19AFC3-3798-4138-81E1-4984048B0B07}" WorkUnitID="{5F4644E0-8418-4E18-B628-26AC5056830D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}" ShortID="491568242">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{7F778734-CA8A-4101-A00F-F8030A66563B}" ShortID="652973585">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6D60EC47-1A7A-4D6E-B445-3B98594BBCBD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="3D Printer_Norm" ID="{1CFF3E03-5A76-4DFA-A49E-A4BB4C557012}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="3.78886481726112"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>3D Printer_Norm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="621598985"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="3D Printer_Norm" ID="{1CFF3E03-5A76-4DFA-A49E-A4BB4C557012}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Printer" ID="{B0578260-B7DF-4A9D-862B-A52D8AE15764}"/>
+								<ItemList>
+									<ItemRef Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

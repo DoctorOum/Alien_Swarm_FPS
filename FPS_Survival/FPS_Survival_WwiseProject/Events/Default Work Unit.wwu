@@ -47,17 +47,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Computer_Boops" ID="{A5AE8088-DA2E-4140-9EBD-9FA8E292167D}">
-					<ChildrenList>
-						<Action Name="" ID="{65178726-5276-449B-A274-1FB060DBBDC3}" ShortID="646394407">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Computer Boops Container" ID="{14482E4A-D2CC-43AC-B329-F5D29C870988}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

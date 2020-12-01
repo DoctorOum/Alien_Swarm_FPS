@@ -54,6 +54,20 @@
 						<Switch Name="Ranged" ID="{18CFA8D8-74BA-43B0-977B-53F2A450885B}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Interactable_Objects" ID="{7B19AFC3-3798-4138-81E1-4984048B0B07}">
+					<ChildrenList>
+						<Switch Name="Printer" ID="{B0578260-B7DF-4A9D-862B-A52D8AE15764}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Ambiances" ID="{DFCC3AEA-6E2A-4BEB-8FA4-58A945A89CFD}">
+					<ChildrenList>
+						<Switch Name="TV" ID="{50D666AB-5317-4DAC-B97F-F08E4EA9D815}"/>
+						<Switch Name="Cryo_Chamber" ID="{47D1EEE9-A382-4173-B734-3B885C96F5D5}"/>
+						<Switch Name="Shrieks" ID="{569F0004-4D5B-4399-A170-937E1AADF000}"/>
+						<Switch Name="Bumbs" ID="{FB7E9052-C96A-4E30-BC67-50B4E879972E}"/>
+						<Switch Name="Air" ID="{924A2BBA-C349-4677-821F-B6D846BF9E70}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>
