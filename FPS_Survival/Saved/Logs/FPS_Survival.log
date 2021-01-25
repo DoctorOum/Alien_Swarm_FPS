@@ -776,3 +776,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.25-21.33.19:627][319]LogSlate: Window 'Master' being destroyed
 [2021.01.25-21.33.27:686][189]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={EBC636AA-45BC-30F3-6F27-9D97F53BF9BA}
 [2021.01.25-21.33.32:164][718]LogAssetEditorManager: Opening Asset editor for AkAudioEvent /Game/WwiseAudio/Events/Default_Work_Unit/Music.Music
+[2021.01.25-21.42.29:816][902]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={BB818364-44FF-314A-3F99-F899D3CFE00E}
