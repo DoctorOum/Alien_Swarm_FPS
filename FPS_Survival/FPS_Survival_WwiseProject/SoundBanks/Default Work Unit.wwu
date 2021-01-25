@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{86B0E9F5-0B47-45CA-B533-B8395165FA00}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{86B0E9F5-0B47-45CA-B533-B8395165FA00}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{86B0E9F5-0B47-45CA-B533-B8395165FA00}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master_Soundbank" ID="{E37FF963-218D-4C7C-AC5C-35F7DEE20735}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Songs" ID="{7F46731A-6CD4-4B75-B550-964194505A89}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Round Change Music" ID="{9FB9C2E5-B05D-4E46-9736-65944CD99904}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
