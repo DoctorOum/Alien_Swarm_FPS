@@ -1746,3 +1746,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.25-19.56.32:956][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/AlienSwarmMap_BuiltData" FILE="../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/AlienSwarmMap_BuiltData.uasset" SILENT=true
 [2021.01.25-19.56.34:763][973]LogSavePackage: Moving '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/AlienSwarmMap_BuiltDataD930CC3347A819DD9F6C45A143A534E9.tmp' to '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/AlienSwarmMap_BuiltData.uasset'
 [2021.01.25-19.56.37:291][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.25-19.58.00:921][528]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E9684D2F-4AE3-5A61-FEB5-EEAEB9E9A942}
