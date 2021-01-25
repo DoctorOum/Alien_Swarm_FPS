@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2469504869" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Master_Soundbank</ObjectPath>
+			<ShortName>Master_Soundbank</ShortName>
+			<Path>Master_Soundbank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps">
+					<IncludedMemoryFiles>
+						<File Id="500921606" Language="SFX">
+							<ShortName>Footsteps_Boots_Metal_Norm_2.wav</ShortName>
+							<Path>SFX\Footsteps_Boots_Metal_Norm_2_476BB58D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music"/>
+				<Event Id="1930935334" Name="Round_Change" ObjectPath="\Events\Default Work Unit\Round_Change">
+					<IncludedMemoryFiles>
+						<File Id="97184276" Language="SFX">
+							<ShortName>Round Change Music.wav</ShortName>
+							<Path>SFX\Round Change Music_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3038207054" Name="Shoot" ObjectPath="\Events\Default Work Unit\Shoot">
+					<IncludedMemoryFiles>
+						<File Id="130671791" Language="SFX">
+							<ShortName>Bounced Files\Pistol_Strong Handgun.wav</ShortName>
+							<Path>SFX\Bounced Files\Pistol_Strong Handgun_10C4C929.wem</Path>
+						</File>
+						<File Id="179710833" Language="SFX">
+							<ShortName>Bounced Files\Shotgun_PumpAction.wav</ShortName>
+							<Path>SFX\Bounced Files\Shotgun_PumpAction_10C4C929.wem</Path>
+						</File>
+						<File Id="283357946" Language="SFX">
+							<ShortName>Bounced Files\Shotgun_FullAuto.wav</ShortName>
+							<Path>SFX\Bounced Files\Shotgun_FullAuto_10C4C929.wem</Path>
+						</File>
+						<File Id="406987515" Language="SFX">
+							<ShortName>Bounced Files\AssaultRifle_M4.wav</ShortName>
+							<Path>SFX\Bounced Files\AssaultRifle_M4_10C4C929.wem</Path>
+						</File>
+						<File Id="467814447" Language="SFX">
+							<ShortName>Bounced Files\SMG.wav</ShortName>
+							<Path>SFX\Bounced Files\SMG_10C4C929.wem</Path>
+						</File>
+						<File Id="535800071" Language="SFX">
+							<ShortName>Bounced Files\Sniper_BoltAction.wav</ShortName>
+							<Path>SFX\Bounced Files\Sniper_BoltAction_10C4C929.wem</Path>
+						</File>
+						<File Id="539792658" Language="SFX">
+							<ShortName>Bounced Files\Sniper_SemiAuto.wav</ShortName>
+							<Path>SFX\Bounced Files\Sniper_SemiAuto_10C4C929.wem</Path>
+						</File>
+						<File Id="823973090" Language="SFX">
+							<ShortName>Bounced Files\Assault Rifle_AK47.wav</ShortName>
+							<Path>SFX\Bounced Files\Assault Rifle_AK47_10C4C929.wem</Path>
+						</File>
+						<File Id="865708701" Language="SFX">
+							<ShortName>Bounced Files\Pistol.wav</ShortName>
+							<Path>SFX\Bounced Files\Pistol_10C4C929.wem</Path>
+						</File>
+						<File Id="874728382" Language="SFX">
+							<ShortName>Bounced Files\AssaultRifle_M16.wav</ShortName>
+							<Path>SFX\Bounced Files\AssaultRifle_M16_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{32CCFC7E-8429-4A75-8ECB-3B9B5EFF4855}">
+							<Media>
+								<File Id="467814447"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7731A2EF-3B0D-44AE-910B-655F1C661F69}">
+							<Children>
+								<SwitchContainer SwitchValue="{EA8C94B4-D6A6-4FDE-B7FE-28849C39A036}">
+									<Media>
+										<File Id="283357946"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B80FEF62-B025-4921-BAE3-2402F754B492}">
+									<Media>
+										<File Id="179710833"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3DEEEE1E-C32D-401E-8E0C-DC1F4FF067FC}">
+							<Children>
+								<SwitchContainer SwitchValue="{81C0C826-D414-4CE8-A038-0A9FCAE19DBB}">
+									<Media>
+										<File Id="823973090"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{91799BD1-FE60-4A75-8748-BD47C79D310C}">
+									<Media>
+										<File Id="874728382"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{38FC5E21-58EC-47DC-A3DE-DB87102AE006}">
+									<Media>
+										<File Id="406987515"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{107AA4B5-B86C-426C-89D0-3B70B8AFFDDD}">
+							<Children>
+								<SwitchContainer SwitchValue="{1B6ACECE-C3C5-4A9D-9CEF-E0836A38510D}">
+									<Media>
+										<File Id="535800071"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{01FC9B8F-B0E5-459F-B476-172D1612115E}">
+									<Media>
+										<File Id="539792658"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9E9BB8CE-1F25-4545-B3F2-B276580C9863}">
+							<Children>
+								<SwitchContainer SwitchValue="{58AEEDC6-CE2D-430B-A564-B4A4841320B5}">
+									<Media>
+										<File Id="865708701"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{2F7F80C5-0F3A-49D9-8DE0-C9AD6AD00277}">
+									<Media>
+										<File Id="130671791"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="87529136" Language="SFX">
+					<ShortName>SFX_Beefy_Growl.wav</ShortName>
+					<Path>SFX\SFX_Beefy_Growl_10C4C929.wem</Path>
+				</File>
+				<File Id="97184276" Language="SFX">
+					<ShortName>Round Change Music.wav</ShortName>
+					<Path>SFX\Round Change Music_D79FB2B7.wem</Path>
+				</File>
+				<File Id="130671791" Language="SFX">
+					<ShortName>Bounced Files\Pistol_Strong Handgun.wav</ShortName>
+					<Path>SFX\Bounced Files\Pistol_Strong Handgun_10C4C929.wem</Path>
+				</File>
+				<File Id="132534030" Language="SFX">
+					<ShortName>AMB_Bumps_Reverb_01.wav</ShortName>
+					<Path>SFX\AMB_Bumps_Reverb_01_BAD339A6.wem</Path>
+				</File>
+				<File Id="179710833" Language="SFX">
+					<ShortName>Bounced Files\Shotgun_PumpAction.wav</ShortName>
+					<Path>SFX\Bounced Files\Shotgun_PumpAction_10C4C929.wem</Path>
+				</File>
+				<File Id="188258786" Language="SFX">
+					<ShortName>AMB_Shriek_Reverb_01.wav</ShortName>
+					<Path>SFX\AMB_Shriek_Reverb_01_5E726F95.wem</Path>
+				</File>
+				<File Id="214332762" Language="SFX">
+					<ShortName>AMB_Airy_Short_02.wav</ShortName>
+					<Path>SFX\AMB_Airy_Short_02_37945FA7.wem</Path>
+				</File>
+				<File Id="216084266" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_C28FC7FD.wem</Path>
+				</File>
+				<File Id="261641781" Language="SFX">
+					<ShortName>AMB_Airy_Short_01.wav</ShortName>
+					<Path>SFX\AMB_Airy_Short_01_DA586FD2.wem</Path>
+				</File>
+				<File Id="283357946" Language="SFX">
+					<ShortName>Bounced Files\Shotgun_FullAuto.wav</ShortName>
+					<Path>SFX\Bounced Files\Shotgun_FullAuto_10C4C929.wem</Path>
+				</File>
+				<File Id="406987515" Language="SFX">
+					<ShortName>Bounced Files\AssaultRifle_M4.wav</ShortName>
+					<Path>SFX\Bounced Files\AssaultRifle_M4_10C4C929.wem</Path>
+				</File>
+				<File Id="467814447" Language="SFX">
+					<ShortName>Bounced Files\SMG.wav</ShortName>
+					<Path>SFX\Bounced Files\SMG_10C4C929.wem</Path>
+				</File>
+				<File Id="477566490" Language="SFX">
+					<ShortName>AMB_Boomy_hits_01.wav</ShortName>
+					<Path>SFX\AMB_Boomy_hits_01_68768583.wem</Path>
+				</File>
+				<File Id="500921606" Language="SFX">
+					<ShortName>Footsteps_Boots_Metal_Norm_2.wav</ShortName>
+					<Path>SFX\Footsteps_Boots_Metal_Norm_2_476BB58D.wem</Path>
+				</File>
+				<File Id="509796589" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_251A7BFB.wem</Path>
+				</File>
+				<File Id="535800071" Language="SFX">
+					<ShortName>Bounced Files\Sniper_BoltAction.wav</ShortName>
+					<Path>SFX\Bounced Files\Sniper_BoltAction_10C4C929.wem</Path>
+				</File>
+				<File Id="539792658" Language="SFX">
+					<ShortName>Bounced Files\Sniper_SemiAuto.wav</ShortName>
+					<Path>SFX\Bounced Files\Sniper_SemiAuto_10C4C929.wem</Path>
+				</File>
+				<File Id="602601147" Language="SFX">
+					<ShortName>Hiss_Norm_NO BOOP.wav</ShortName>
+					<Path>SFX\Hiss_Norm_NO BOOP_10C4C929.wem</Path>
+				</File>
+				<File Id="606168273" Language="SFX">
+					<ShortName>AMB_Boomy_hits_2.wav</ShortName>
+					<Path>SFX\AMB_Boomy_hits_2_0EC0488F.wem</Path>
+				</File>
+				<File Id="621598985" Language="SFX">
+					<ShortName>3D Printer_Norm.wav</ShortName>
+					<Path>SFX\3D Printer_Norm_DD4CA2CF.wem</Path>
+				</File>
+				<File Id="632134693" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_7EB76EB6.wem</Path>
+				</File>
+				<File Id="643859659" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_24E2B0AC.wem</Path>
+				</File>
+				<File Id="660692181" Language="SFX">
+					<ShortName>AMB_Airy_Long_01.wav</ShortName>
+					<Path>SFX\AMB_Airy_Long_01_7940FF43.wem</Path>
+				</File>
+				<File Id="695653374" Language="SFX">
+					<ShortName>SFX_Tv Static_Norm.wav</ShortName>
+					<Path>SFX\SFX_Tv Static_Norm_D79FB2B7.wem</Path>
+				</File>
+				<File Id="716406860" Language="SFX">
+					<ShortName>SFX_Beefy_Roar.wav</ShortName>
+					<Path>SFX\SFX_Beefy_Roar_10C4C929.wem</Path>
+				</File>
+				<File Id="785308206" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_632348E5.wem</Path>
+				</File>
+				<File Id="823973090" Language="SFX">
+					<ShortName>Bounced Files\Assault Rifle_AK47.wav</ShortName>
+					<Path>SFX\Bounced Files\Assault Rifle_AK47_10C4C929.wem</Path>
+				</File>
+				<File Id="865708701" Language="SFX">
+					<ShortName>Bounced Files\Pistol.wav</ShortName>
+					<Path>SFX\Bounced Files\Pistol_10C4C929.wem</Path>
+				</File>
+				<File Id="874728382" Language="SFX">
+					<ShortName>Bounced Files\AssaultRifle_M16.wav</ShortName>
+					<Path>SFX\Bounced Files\AssaultRifle_M16_10C4C929.wem</Path>
+				</File>
+				<File Id="1014212508" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_DDE109FA.wem</Path>
+				</File>
+				<File Id="1030106851" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_B5B119E3.wem</Path>
+				</File>
+				<File Id="1057742431" Language="SFX">
+					<ShortName>Computer Boops.wav</ShortName>
+					<Path>SFX\Computer Boops_D0114EAC.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1240670792" Name="Distance" ObjectPath="\Game Parameters\Default Work Unit\Distance"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="84587813" Name="Aliens" ObjectPath="\Switches\Default Work Unit\Aliens">
+					<Switches>
+						<Switch Id="4254775594" Name="Beefy_Bois" ObjectPath="\Switches\Default Work Unit\Aliens\Beefy_Bois"/>
+						<Switch Id="1016990062" Name="Spider" ObjectPath="\Switches\Default Work Unit\Aliens\Spider"/>
+						<Switch Id="2122777032" Name="Normies" ObjectPath="\Switches\Default Work Unit\Aliens\Normies"/>
+						<Switch Id="691572335" Name="Fast_Bois" ObjectPath="\Switches\Default Work Unit\Aliens\Fast_Bois"/>
+						<Switch Id="3686152272" Name="Ranged" ObjectPath="\Switches\Default Work Unit\Aliens\Ranged"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="324443136" Name="Pistol" ObjectPath="\Switches\Default Work Unit\Pistol">
+					<Switches>
+						<Switch Id="306802792" Name="Weaker" ObjectPath="\Switches\Default Work Unit\Pistol\Weaker"/>
+						<Switch Id="2250425433" Name="Powerful" ObjectPath="\Switches\Default Work Unit\Pistol\Powerful"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="625973668" Name="Rifles" ObjectPath="\Switches\Default Work Unit\Rifles">
+					<Switches>
+						<Switch Id="3061733686" Name="SemiAuto" ObjectPath="\Switches\Default Work Unit\Rifles\SemiAuto"/>
+						<Switch Id="1197650935" Name="FullAuto" ObjectPath="\Switches\Default Work Unit\Rifles\FullAuto"/>
+						<Switch Id="3766921625" Name="Burst" ObjectPath="\Switches\Default Work Unit\Rifles\Burst"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="688956056" Name="Guns" ObjectPath="\Switches\Default Work Unit\Guns">
+					<Switches>
+						<Switch Id="625973668" Name="Rifles" ObjectPath="\Switches\Default Work Unit\Guns\Rifles"/>
+						<Switch Id="1901565043" Name="Pistols" ObjectPath="\Switches\Default Work Unit\Guns\Pistols"/>
+						<Switch Id="1652284888" Name="Shotguns" ObjectPath="\Switches\Default Work Unit\Guns\Shotguns"/>
+						<Switch Id="1930185063" Name="Snipers" ObjectPath="\Switches\Default Work Unit\Guns\Snipers"/>
+						<Switch Id="4266843886" Name="Submachine_Guns" ObjectPath="\Switches\Default Work Unit\Guns\Submachine_Guns"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1404066300" Name="Ambiances" ObjectPath="\Switches\Default Work Unit\Ambiances">
+					<Switches>
+						<Switch Id="1568083719" Name="TV" ObjectPath="\Switches\Default Work Unit\Ambiances\TV"/>
+						<Switch Id="519478265" Name="Cryo_Chamber" ObjectPath="\Switches\Default Work Unit\Ambiances\Cryo_Chamber"/>
+						<Switch Id="978065798" Name="Shrieks" ObjectPath="\Switches\Default Work Unit\Ambiances\Shrieks"/>
+						<Switch Id="3116287338" Name="Bumbs" ObjectPath="\Switches\Default Work Unit\Ambiances\Bumbs"/>
+						<Switch Id="1050421051" Name="Air" ObjectPath="\Switches\Default Work Unit\Ambiances\Air"/>
+						<Switch Id="1803766445" Name="Computers" ObjectPath="\Switches\Default Work Unit\Ambiances\Computers"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1652284888" Name="Shotguns" ObjectPath="\Switches\Default Work Unit\Shotguns">
+					<Switches>
+						<Switch Id="1881810701" Name="PumpAction" ObjectPath="\Switches\Default Work Unit\Shotguns\PumpAction"/>
+						<Switch Id="1197650935" Name="FullAuto" ObjectPath="\Switches\Default Work Unit\Shotguns\FullAuto"/>
+						<Switch Id="3061733686" Name="SemiAuto" ObjectPath="\Switches\Default Work Unit\Shotguns\SemiAuto"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1930185063" Name="Snipers" ObjectPath="\Switches\Default Work Unit\Snipers">
+					<Switches>
+						<Switch Id="3061733686" Name="SemiAuto" ObjectPath="\Switches\Default Work Unit\Snipers\SemiAuto"/>
+						<Switch Id="581242085" Name="Bolt_Action" ObjectPath="\Switches\Default Work Unit\Snipers\Bolt_Action"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2681340157" Name="Music_Groups" ObjectPath="\Switches\Default Work Unit\Music_Groups">
+					<Switches>
+						<Switch Id="4055567060" Name="Menu_Music" ObjectPath="\Switches\Default Work Unit\Music_Groups\Menu_Music"/>
+						<Switch Id="1244594577" Name="Level_Music" ObjectPath="\Switches\Default Work Unit\Music_Groups\Level_Music"/>
+						<Switch Id="2573125678" Name="Round_Change_Music" ObjectPath="\Switches\Default Work Unit\Music_Groups\Round_Change_Music"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3329721726" Name="Interactable_Objects" ObjectPath="\Switches\Default Work Unit\Interactable_Objects">
+					<Switches>
+						<Switch Id="1425580747" Name="Printer" ObjectPath="\Switches\Default Work Unit\Interactable_Objects\Printer"/>
+						<Switch Id="3302145820" Name="Teleporters" ObjectPath="\Switches\Default Work Unit\Interactable_Objects\Teleporters"/>
+						<Switch Id="2150196036" Name="Doors" ObjectPath="\Switches\Default Work Unit\Interactable_Objects\Doors"/>
+						<Switch Id="289811402" Name="Display_Case_Purchase" ObjectPath="\Switches\Default Work Unit\Interactable_Objects\Display_Case_Purchase"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

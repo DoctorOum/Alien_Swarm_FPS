@@ -1,0 +1,89 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1930935334	Round_Change			\Default Work Unit\Round_Change	
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	3038207054	Shoot			\Default Work Unit\Shoot	
+	3991942870	Music			\Default Work Unit\Music	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	84587813	Aliens			\Default Work Unit\Aliens	
+	324443136	Pistol			\Default Work Unit\Pistol	
+	625973668	Rifles			\Default Work Unit\Rifles	
+	688956056	Guns			\Default Work Unit\Guns	
+	1404066300	Ambiances			\Default Work Unit\Ambiances	
+	1652284888	Shotguns			\Default Work Unit\Shotguns	
+	1930185063	Snipers			\Default Work Unit\Snipers	
+	2681340157	Music_Groups			\Default Work Unit\Music_Groups	
+	3329721726	Interactable_Objects			\Default Work Unit\Interactable_Objects	
+
+Switch	ID	Name	Switch Group			Notes
+	691572335	Fast_Bois	Aliens			
+	1016990062	Spider	Aliens			
+	2122777032	Normies	Aliens			
+	3686152272	Ranged	Aliens			
+	4254775594	Beefy_Bois	Aliens			
+	306802792	Weaker	Pistol			
+	2250425433	Powerful	Pistol			
+	1197650935	FullAuto	Rifles			
+	3061733686	SemiAuto	Rifles			
+	3766921625	Burst	Rifles			
+	625973668	Rifles	Guns			
+	1652284888	Shotguns	Guns			
+	1901565043	Pistols	Guns			
+	1930185063	Snipers	Guns			
+	4266843886	Submachine_Guns	Guns			
+	519478265	Cryo_Chamber	Ambiances			
+	978065798	Shrieks	Ambiances			
+	1050421051	Air	Ambiances			
+	1568083719	TV	Ambiances			
+	1803766445	Computers	Ambiances			
+	3116287338	Bumbs	Ambiances			
+	1197650935	FullAuto	Shotguns			
+	1881810701	PumpAction	Shotguns			
+	3061733686	SemiAuto	Shotguns			
+	581242085	Bolt_Action	Snipers			
+	3061733686	SemiAuto	Snipers			
+	1244594577	Level_Music	Music_Groups			
+	2573125678	Round_Change_Music	Music_Groups			
+	4055567060	Menu_Music	Music_Groups			
+	289811402	Display_Case_Purchase	Interactable_Objects			
+	1425580747	Printer	Interactable_Objects			
+	2150196036	Doors	Interactable_Objects			
+	3302145820	Teleporters	Interactable_Objects			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	Distance			\Default Work Unit\Distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	87529136	SFX_Beefy_Growl	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Beefy_Growl_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aliens\SFX_Beefy_Growl		123968
+	97184276	Round Change Music	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Round Change Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Round Change Music\Round Change Music		2297920
+	130671791	Pistol_Strong Handgun	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Pistol_Strong Handgun_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Pistols\Pistol_Strong Handgun		1305608
+	132534030	AMB_Bumps_Reverb_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Bumps_Reverb_01_BAD339A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Bumps\AMB_Bumps_Reverb_01		215104
+	179710833	Shotgun_PumpAction	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Shotgun_PumpAction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Shotguns\Shotgun_PumpAction		1352710
+	188258786	AMB_Shriek_Reverb_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Shriek_Reverb_01_5E726F95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Shireks\AMB_Shriek_Reverb_01		181312
+	214332762	AMB_Airy_Short_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Airy_Short_02_37945FA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Short_02		335936
+	216084266	Computer Boops_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_C28FC7FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_02		25578
+	261641781	AMB_Airy_Short_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Airy_Short_01_DA586FD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Short_01		335936
+	283357946	Shotgun_FullAuto	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Shotgun_FullAuto_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Shotguns\Shotgun_FullAuto		1796000
+	406987515	AssaultRifle_M4	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\AssaultRifle_M4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\AssaultRifle_M4		1701526
+	467814447	SMG	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\SMG_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\SMGs\SMG		1876044
+	477566490	AMB_Boomy_hits_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Boomy_hits_01_68768583.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Bumps\AMB_Boomy_hits_01		151616
+	500921606	Footsteps_Boots_Metal_Norm_2	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Footsteps_Boots_Metal_Norm_2_476BB58D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps_Boots_Metal_Norm_2		22514
+	509796589	Computer Boops_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_251A7BFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_01		21068
+	535800071	Sniper_BoltAction	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Sniper_BoltAction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Snipers\Sniper_BoltAction		1672486
+	539792658	Sniper_SemiAuto	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Sniper_SemiAuto_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Snipers\Sniper_SemiAuto		1562580
+	602601147	Hiss_Norm_NO BOOP	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Hiss_Norm_NO BOOP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Hiss_Norm_NO BOOP		121408
+	606168273	AMB_Boomy_hits_2	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Boomy_hits_2_0EC0488F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Bumps\AMB_Boomy_hits_2		147520
+	621598985	3D Printer_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\3D Printer_Norm_DD4CA2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\3D Printer_Norm		767040
+	632134693	Computer Boops_04	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_7EB76EB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_04		22572
+	643859659	Computer Boops_03	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_24E2B0AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_03		24120
+	660692181	AMB_Airy_Long_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Airy_Long_01_7940FF43.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Long_01		668736
+	695653374	SFX_Tv Static_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Tv Static_Norm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\SFX_Tv Static_Norm		288320
+	716406860	SFX_Beefy_Roar	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Beefy_Roar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aliens\SFX_Beefy_Roar		123968
+	785308206	Computer Boops_07	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_632348E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_07		23574
+	823973090	Assault Rifle_AK47	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Assault Rifle_AK47_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\Assault Rifle_AK47		1166844
+	865708701	Pistol	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Pistol_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Pistols\Pistol		1486594
+	874728382	AssaultRifle_M16	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\AssaultRifle_M16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\AssaultRifle_M16		945768
+	1014212508	Computer Boops_08	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_DDE109FA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_08		22072
+	1030106851	Computer Boops_06	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_B5B119E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_06		24076
+	1057742431	Computer Boops_05	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_D0114EAC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_05		24576
+

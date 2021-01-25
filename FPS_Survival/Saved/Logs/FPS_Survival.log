@@ -1747,3 +1747,65 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.25-19.56.34:763][973]LogSavePackage: Moving '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/AlienSwarmMap_BuiltDataD930CC3347A819DD9F6C45A143A534E9.tmp' to '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/AlienSwarmMap_BuiltData.uasset'
 [2021.01.25-19.56.37:291][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2021.01.25-19.58.00:921][528]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={E9684D2F-4AE3-5A61-FEB5-EEAEB9E9A942}
+[2021.01.25-20.01.51:653][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.25-20.01.51:762][843]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.25-20.01.51:777][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap' with GeneratedClass '/Game/Maps/AlienSwarmMap.AlienSwarmMap_C' with ClassGeneratedBy '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap'
+[2021.01.25-20.01.51:777][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.25-20.01.51:778][843]PIE: New page: PIE session: AlienSwarmMap (Jan 25, 2021, 10:01:51 AM)
+[2021.01.25-20.01.51:778][843]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_AlienSwarmMap
+[2021.01.25-20.01.51:813][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034472s)
+[2021.01.25-20.01.51:814][843]LogAIModule: Creating AISystem for world AlienSwarmMap
+[2021.01.25-20.01.51:814][843]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2021.01.25-20.01.51:814][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/AlienSwarmMap.AlienSwarmMap to /Game/Maps/UEDPIE_0_AlienSwarmMap.AlienSwarmMap (0.035687s)
+[2021.01.25-20.01.51:838][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.01.25-20.01.51:861][843]LogInit: XAudio2 using 'ProFX 3-4 (2- ProFX)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.25-20.01.51:869][843]LogInit: FAudioDevice initialized.
+[2021.01.25-20.01.51:878][843]LogLoad: Game class is 'FPS_GameMode_C'
+[2021.01.25-20.01.51:887][843]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AlienSwarmMap.AlienSwarmMap up for play (max tick rate 0) at 2021.01.25-15.01.51
+[2021.01.25-20.01.51:888][843]LogWorld: Bringing up level for play took: 0.008573
+[2021.01.25-20.01.51:888][843]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2021.01.25-20.01.51:892][843]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_AlienSwarmMap -0.288
+[2021.01.25-20.01.51:892][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap' with GeneratedClass '/Game/Maps/AlienSwarmMap.AlienSwarmMap_C' with ClassGeneratedBy '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap'
+[2021.01.25-20.01.53:914][ 79]LogBlueprintUserMessages: [FPS_Character_C_0] No weapon
+[2021.01.25-20.02.05:329][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap' with GeneratedClass '/Game/Maps/AlienSwarmMap.AlienSwarmMap_C' with ClassGeneratedBy '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap'
+[2021.01.25-20.02.05:330][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.02.05:330][428]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AlienSwarmMap
+[2021.01.25-20.02.05:330][428]LogWorld: UWorld::CleanupWorld for AlienSwarmMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-20.02.05:343][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.25-20.02.05:343][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap' with GeneratedClass '/Game/Maps/AlienSwarmMap.AlienSwarmMap_C' with ClassGeneratedBy '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap'
+[2021.01.25-20.02.05:371][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.02.05:375][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.01.25-20.02.05:449][430]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2021.01.25-20.02.06:868][598]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2021.01.25-20.02.17:440][801]PIE: Warning: AttachTo: '/Engine/Transient.World_12:PersistentLevel.FbxScene_CryoChamber_Anim_open_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_CryoChamber_Anim_open"), cannot attach '/Engine/Transient.World_12:PersistentLevel.FbxScene_CryoChamber_Anim_open_C_0.DefaultSceneRoot1' which is static to it. Aborting.
+[2021.01.25-20.02.17:585][809]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.AlienSwarmMap
+[2021.01.25-20.02.17:813][809]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2021.01.25-20.02.18:463][809]LogSlate: Took 0.000769 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.25-20.02.31:226][325]LogSlate: Window 'AlienSwarmMap' being destroyed
+[2021.01.25-20.02.31:229][325]LogSlate: Window 'AlienSwarmMap' being destroyed
+[2021.01.25-20.02.31:243][325]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.01.25-20.03.13:145][805]LogLinker: Warning: While loading '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop_Cue.uasset' failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: While loading '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop_Cue.uasset' failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: While loading '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop_Cue.uasset' failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: While loading '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop_Cue.uasset' failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: Failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: Failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: Failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:146][805]LogLinker: Warning: Failed to load '/Script/ShooterGame': Can't find file.
+[2021.01.25-20.03.13:148][805]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Stinger_PlayerDeath01...
+[2021.01.25-20.03.13:164][805]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 187974 while cooking SoundWave /Game/Sounds/Stingers/Mono/Stinger_PlayerDeath01.Stinger_PlayerDeath01.
+[2021.01.25-20.03.13:164][805]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave UI_LowHealth_Loop...
+[2021.01.25-20.03.13:213][805]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 653460 while cooking SoundWave /Game/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop.UI_LowHealth_Loop.
+[2021.01.25-20.03.15:793][101]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/Sounds/InterfaceAudio/Mono/UI_LowHealth_Loop.UI_LowHealth_Loop
+[2021.01.25-20.03.25:937][310]LogSlate: Window 'UI_LowHealth_Loop' being destroyed
+[2021.01.25-20.03.25:940][310]LogSlate: Window 'UI_LowHealth_Loop' being destroyed
+[2021.01.25-20.05.34:925][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.05.34:930][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.05.34:936][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.05.34:942][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.25-20.05.34:958][548]LogRenderer: Reallocating scene render targets to support 996x564 Format 10 NumSamples 1 (Frame:41590).
+[2021.01.25-20.06.08:460][816]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.01.25-20.06.08:497][816]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.01.25-20.06.34:228][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.01.25-20.06.34:423][364]LogSlate: Window 'Viewport 2' being destroyed
+[2021.01.25-20.06.34:425][364]LogSlate: Window 'Viewport 2' being destroyed
