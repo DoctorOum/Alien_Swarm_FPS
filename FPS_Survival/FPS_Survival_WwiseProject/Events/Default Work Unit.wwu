@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Door_Opening" ID="{F2126B82-D0E1-4E2E-94F4-33043466F098}">
+					<ChildrenList>
+						<Action Name="" ID="{41665F07-92B0-429D-B670-FBAED411DF3B}" ShortID="1055823252">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Opening_02" ID="{B9D309E6-A717-4845-A883-2E3C9B66659F}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
