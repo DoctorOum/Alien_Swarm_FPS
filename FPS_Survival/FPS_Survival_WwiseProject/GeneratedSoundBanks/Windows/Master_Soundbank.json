@@ -1,0 +1,794 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2469504869",
+    "GUID": "{E37FF963-218D-4C7C-AC5C-35F7DEE20735}",
+    "Language": "SFX",
+    "Hash": "2339737357",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master_Soundbank",
+    "ShortName": "Master_Soundbank",
+    "Path": "Master_Soundbank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2589897592",
+      "Name": "Door_Opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Door_Opening",
+      "GUID": "{F2126B82-D0E1-4E2E-94F4-33043466F098}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.961169",
+      "DurationMax": "1.018323",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "795436178",
+        "Language": "SFX",
+        "ShortName": "SFX_Door_Opening_02.wav",
+        "Path": "SFX\\SFX_Door_Opening_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.227197",
+      "DurationMax": "0.244349",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "500921606",
+        "Language": "SFX",
+        "ShortName": "Footsteps_Boots_Metal_Norm_2.wav",
+        "Path": "SFX\\Footsteps_Boots_Metal_Norm_2_476BB58D.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music",
+      "GUID": "{23C3C622-C55B-4CC2-B6CC-CD4CDBA99C54}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "97184276",
+        "Language": "SFX",
+        "ShortName": "Round Change Music.wav",
+        "Path": "SFX\\Round Change Music_D79FB2B7.wem"
+       },
+       {
+        "Id": "729890930",
+        "Language": "SFX",
+        "ShortName": "Music_Menu_Norm.wav",
+        "Path": "SFX\\Music_Menu_Norm_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{BE1B14EA-780D-407E-9A3A-EF9463BFB96B}",
+        "Media": [
+         {
+          "Id": "729890930"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{79EA825C-5391-44D0-8928-8CE55B839F05}",
+        "Media": [
+         {
+          "Id": "97184276"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1930935334",
+      "Name": "Round_Change",
+      "ObjectPath": "\\Events\\Default Work Unit\\Round_Change",
+      "GUID": "{470477AF-9D23-4CAA-A967-2A451B1FE923}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.968000",
+      "DurationMax": "11.968000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "97184276",
+        "Language": "SFX",
+        "ShortName": "Round Change Music.wav",
+        "Path": "SFX\\Round Change Music_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3038207054",
+      "Name": "Shoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\Shoot",
+      "GUID": "{DC1891FC-6F74-46C7-BB05-959C40605273}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.851084",
+      "DurationMax": "19.541458",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "130671791",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Pistol_Strong Handgun.wav",
+        "Path": "SFX\\Bounced Files\\Pistol_Strong Handgun_10C4C929.wem"
+       },
+       {
+        "Id": "179710833",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Shotgun_PumpAction.wav",
+        "Path": "SFX\\Bounced Files\\Shotgun_PumpAction_10C4C929.wem"
+       },
+       {
+        "Id": "283357946",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Shotgun_FullAuto.wav",
+        "Path": "SFX\\Bounced Files\\Shotgun_FullAuto_10C4C929.wem"
+       },
+       {
+        "Id": "406987515",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\AssaultRifle_M4.wav",
+        "Path": "SFX\\Bounced Files\\AssaultRifle_M4_10C4C929.wem"
+       },
+       {
+        "Id": "467814447",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\SMG.wav",
+        "Path": "SFX\\Bounced Files\\SMG_10C4C929.wem"
+       },
+       {
+        "Id": "535800071",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Sniper_BoltAction.wav",
+        "Path": "SFX\\Bounced Files\\Sniper_BoltAction_10C4C929.wem"
+       },
+       {
+        "Id": "539792658",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Sniper_SemiAuto.wav",
+        "Path": "SFX\\Bounced Files\\Sniper_SemiAuto_10C4C929.wem"
+       },
+       {
+        "Id": "823973090",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Assault Rifle_AK47.wav",
+        "Path": "SFX\\Bounced Files\\Assault Rifle_AK47_10C4C929.wem"
+       },
+       {
+        "Id": "865708701",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\Pistol.wav",
+        "Path": "SFX\\Bounced Files\\Pistol_10C4C929.wem"
+       },
+       {
+        "Id": "874728382",
+        "Language": "SFX",
+        "ShortName": "Bounced Files\\AssaultRifle_M16.wav",
+        "Path": "SFX\\Bounced Files\\AssaultRifle_M16_10C4C929.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{9E9BB8CE-1F25-4545-B3F2-B276580C9863}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{32CCFC7E-8429-4A75-8ECB-3B9B5EFF4855}",
+        "Media": [
+         {
+          "Id": "467814447"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7731A2EF-3B0D-44AE-910B-655F1C661F69}",
+        "DefaultSwitchValue": "{C57E8348-103B-4291-9F8A-3FE9DCD862DB}",
+        "Children": [
+         {
+          "SwitchValue": "{EA8C94B4-D6A6-4FDE-B7FE-28849C39A036}",
+          "Media": [
+           {
+            "Id": "283357946"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{B80FEF62-B025-4921-BAE3-2402F754B492}",
+          "Media": [
+           {
+            "Id": "179710833"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{3DEEEE1E-C32D-401E-8E0C-DC1F4FF067FC}",
+        "DefaultSwitchValue": "{91799BD1-FE60-4A75-8748-BD47C79D310C}",
+        "Children": [
+         {
+          "SwitchValue": "{81C0C826-D414-4CE8-A038-0A9FCAE19DBB}",
+          "Media": [
+           {
+            "Id": "823973090"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{91799BD1-FE60-4A75-8748-BD47C79D310C}",
+          "Media": [
+           {
+            "Id": "874728382"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{38FC5E21-58EC-47DC-A3DE-DB87102AE006}",
+          "Media": [
+           {
+            "Id": "406987515"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{107AA4B5-B86C-426C-89D0-3B70B8AFFDDD}",
+        "DefaultSwitchValue": "{01FC9B8F-B0E5-459F-B476-172D1612115E}",
+        "Children": [
+         {
+          "SwitchValue": "{1B6ACECE-C3C5-4A9D-9CEF-E0836A38510D}",
+          "Media": [
+           {
+            "Id": "535800071"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{01FC9B8F-B0E5-459F-B476-172D1612115E}",
+          "Media": [
+           {
+            "Id": "539792658"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{9E9BB8CE-1F25-4545-B3F2-B276580C9863}",
+        "DefaultSwitchValue": "{58AEEDC6-CE2D-430B-A564-B4A4841320B5}",
+        "Children": [
+         {
+          "SwitchValue": "{58AEEDC6-CE2D-430B-A564-B4A4841320B5}",
+          "Media": [
+           {
+            "Id": "865708701"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{2F7F80C5-0F3A-49D9-8DE0-C9AD6AD00277}",
+          "Media": [
+           {
+            "Id": "130671791"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "16639588",
+      "Language": "SFX",
+      "ShortName": "SFX_Purchase_01.wav",
+      "Path": "SFX\\SFX_Purchase_01_10C4C929.wem"
+     },
+     {
+      "Id": "35465399",
+      "Language": "SFX",
+      "ShortName": "SFX_Teleporter_01_Norm_Fade.wav",
+      "Path": "SFX\\SFX_Teleporter_01_Norm_Fade_10C4C929.wem"
+     },
+     {
+      "Id": "87529136",
+      "Language": "SFX",
+      "ShortName": "SFX_Beefy_Growl.wav",
+      "Path": "SFX\\SFX_Beefy_Growl_10C4C929.wem"
+     },
+     {
+      "Id": "97184276",
+      "Language": "SFX",
+      "ShortName": "Round Change Music.wav",
+      "Path": "SFX\\Round Change Music_D79FB2B7.wem"
+     },
+     {
+      "Id": "130671791",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Pistol_Strong Handgun.wav",
+      "Path": "SFX\\Bounced Files\\Pistol_Strong Handgun_10C4C929.wem"
+     },
+     {
+      "Id": "132534030",
+      "Language": "SFX",
+      "ShortName": "AMB_Bumps_Reverb_01.wav",
+      "Path": "SFX\\AMB_Bumps_Reverb_01_BAD339A6.wem"
+     },
+     {
+      "Id": "179710833",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Shotgun_PumpAction.wav",
+      "Path": "SFX\\Bounced Files\\Shotgun_PumpAction_10C4C929.wem"
+     },
+     {
+      "Id": "188258786",
+      "Language": "SFX",
+      "ShortName": "AMB_Shriek_Reverb_01.wav",
+      "Path": "SFX\\AMB_Shriek_Reverb_01_5E726F95.wem"
+     },
+     {
+      "Id": "214332762",
+      "Language": "SFX",
+      "ShortName": "AMB_Airy_Short_02.wav",
+      "Path": "SFX\\AMB_Airy_Short_02_37945FA7.wem"
+     },
+     {
+      "Id": "216084266",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_C28FC7FD.wem"
+     },
+     {
+      "Id": "261641781",
+      "Language": "SFX",
+      "ShortName": "AMB_Airy_Short_01.wav",
+      "Path": "SFX\\AMB_Airy_Short_01_DA586FD2.wem"
+     },
+     {
+      "Id": "283357946",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Shotgun_FullAuto.wav",
+      "Path": "SFX\\Bounced Files\\Shotgun_FullAuto_10C4C929.wem"
+     },
+     {
+      "Id": "406987515",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\AssaultRifle_M4.wav",
+      "Path": "SFX\\Bounced Files\\AssaultRifle_M4_10C4C929.wem"
+     },
+     {
+      "Id": "467814447",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\SMG.wav",
+      "Path": "SFX\\Bounced Files\\SMG_10C4C929.wem"
+     },
+     {
+      "Id": "477566490",
+      "Language": "SFX",
+      "ShortName": "AMB_Boomy_hits_01.wav",
+      "Path": "SFX\\AMB_Boomy_hits_01_68768583.wem"
+     },
+     {
+      "Id": "500921606",
+      "Language": "SFX",
+      "ShortName": "Footsteps_Boots_Metal_Norm_2.wav",
+      "Path": "SFX\\Footsteps_Boots_Metal_Norm_2_476BB58D.wem"
+     },
+     {
+      "Id": "509796589",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_251A7BFB.wem"
+     },
+     {
+      "Id": "535800071",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Sniper_BoltAction.wav",
+      "Path": "SFX\\Bounced Files\\Sniper_BoltAction_10C4C929.wem"
+     },
+     {
+      "Id": "539792658",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Sniper_SemiAuto.wav",
+      "Path": "SFX\\Bounced Files\\Sniper_SemiAuto_10C4C929.wem"
+     },
+     {
+      "Id": "602601147",
+      "Language": "SFX",
+      "ShortName": "Hiss_Norm_NO BOOP.wav",
+      "Path": "SFX\\Hiss_Norm_NO BOOP_10C4C929.wem"
+     },
+     {
+      "Id": "606168273",
+      "Language": "SFX",
+      "ShortName": "AMB_Boomy_hits_2.wav",
+      "Path": "SFX\\AMB_Boomy_hits_2_0EC0488F.wem"
+     },
+     {
+      "Id": "621598985",
+      "Language": "SFX",
+      "ShortName": "3D Printer_Norm.wav",
+      "Path": "SFX\\3D Printer_Norm_DD4CA2CF.wem"
+     },
+     {
+      "Id": "632134693",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_7EB76EB6.wem"
+     },
+     {
+      "Id": "643859659",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_24E2B0AC.wem"
+     },
+     {
+      "Id": "660692181",
+      "Language": "SFX",
+      "ShortName": "AMB_Airy_Long_01.wav",
+      "Path": "SFX\\AMB_Airy_Long_01_7940FF43.wem"
+     },
+     {
+      "Id": "695653374",
+      "Language": "SFX",
+      "ShortName": "SFX_Tv Static_Norm.wav",
+      "Path": "SFX\\SFX_Tv Static_Norm_D79FB2B7.wem"
+     },
+     {
+      "Id": "716406860",
+      "Language": "SFX",
+      "ShortName": "SFX_Beefy_Roar.wav",
+      "Path": "SFX\\SFX_Beefy_Roar_10C4C929.wem"
+     },
+     {
+      "Id": "729890930",
+      "Language": "SFX",
+      "ShortName": "Music_Menu_Norm.wav",
+      "Path": "SFX\\Music_Menu_Norm_D79FB2B7.wem"
+     },
+     {
+      "Id": "785308206",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_632348E5.wem"
+     },
+     {
+      "Id": "795436178",
+      "Language": "SFX",
+      "ShortName": "SFX_Door_Opening_02.wav",
+      "Path": "SFX\\SFX_Door_Opening_02_10C4C929.wem"
+     },
+     {
+      "Id": "823973090",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Assault Rifle_AK47.wav",
+      "Path": "SFX\\Bounced Files\\Assault Rifle_AK47_10C4C929.wem"
+     },
+     {
+      "Id": "865708701",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\Pistol.wav",
+      "Path": "SFX\\Bounced Files\\Pistol_10C4C929.wem"
+     },
+     {
+      "Id": "874728382",
+      "Language": "SFX",
+      "ShortName": "Bounced Files\\AssaultRifle_M16.wav",
+      "Path": "SFX\\Bounced Files\\AssaultRifle_M16_10C4C929.wem"
+     },
+     {
+      "Id": "1014212508",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_DDE109FA.wem"
+     },
+     {
+      "Id": "1030106851",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_B5B119E3.wem"
+     },
+     {
+      "Id": "1057742431",
+      "Language": "SFX",
+      "ShortName": "Computer Boops.wav",
+      "Path": "SFX\\Computer Boops_D0114EAC.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1240670792",
+      "Name": "Distance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distance",
+      "GUID": "{DE4B9270-A5CE-4497-8476-8C1A2D09917F}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "84587813",
+      "Name": "Aliens",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Aliens",
+      "GUID": "{57DD21A8-4200-4D1E-B8DB-AE44E284A3B8}",
+      "Switches": [
+       {
+        "Id": "4254775594",
+        "Name": "Beefy_Bois",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Aliens\\Beefy_Bois",
+        "GUID": "{7C4EAD68-43B9-4405-81B6-12BCF39C5DE9}"
+       },
+       {
+        "Id": "1016990062",
+        "Name": "Spider",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Aliens\\Spider",
+        "GUID": "{84FD5524-2468-4ED5-997F-4D60F5DBD91E}"
+       },
+       {
+        "Id": "2122777032",
+        "Name": "Normies",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Aliens\\Normies",
+        "GUID": "{6B739D1E-0F1A-449F-B02A-41157F325CDE}"
+       },
+       {
+        "Id": "691572335",
+        "Name": "Fast_Bois",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Aliens\\Fast_Bois",
+        "GUID": "{75283FA5-CAC4-4605-A5F3-392D7F50E599}"
+       },
+       {
+        "Id": "3686152272",
+        "Name": "Ranged",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Aliens\\Ranged",
+        "GUID": "{18CFA8D8-74BA-43B0-977B-53F2A450885B}"
+       }
+      ]
+     },
+     {
+      "Id": "324443136",
+      "Name": "Pistol",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Pistol",
+      "GUID": "{5E0D4EC9-6146-4296-BE73-F07EF54CD469}",
+      "Switches": [
+       {
+        "Id": "306802792",
+        "Name": "Weaker",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pistol\\Weaker",
+        "GUID": "{58AEEDC6-CE2D-430B-A564-B4A4841320B5}"
+       },
+       {
+        "Id": "2250425433",
+        "Name": "Powerful",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pistol\\Powerful",
+        "GUID": "{2F7F80C5-0F3A-49D9-8DE0-C9AD6AD00277}"
+       }
+      ]
+     },
+     {
+      "Id": "625973668",
+      "Name": "Rifles",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Rifles",
+      "GUID": "{B856E25A-8D61-4DFD-83E2-59EEC225FFD4}",
+      "Switches": [
+       {
+        "Id": "3061733686",
+        "Name": "SemiAuto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rifles\\SemiAuto",
+        "GUID": "{81C0C826-D414-4CE8-A038-0A9FCAE19DBB}"
+       },
+       {
+        "Id": "1197650935",
+        "Name": "FullAuto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rifles\\FullAuto",
+        "GUID": "{38FC5E21-58EC-47DC-A3DE-DB87102AE006}"
+       },
+       {
+        "Id": "3766921625",
+        "Name": "Burst",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Rifles\\Burst",
+        "GUID": "{91799BD1-FE60-4A75-8748-BD47C79D310C}"
+       }
+      ]
+     },
+     {
+      "Id": "688956056",
+      "Name": "Guns",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Guns",
+      "GUID": "{DB510D33-AD37-41CC-8BFE-C0B6B64001D1}",
+      "Switches": [
+       {
+        "Id": "625973668",
+        "Name": "Rifles",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Guns\\Rifles",
+        "GUID": "{3DEEEE1E-C32D-401E-8E0C-DC1F4FF067FC}"
+       },
+       {
+        "Id": "1901565043",
+        "Name": "Pistols",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Guns\\Pistols",
+        "GUID": "{9E9BB8CE-1F25-4545-B3F2-B276580C9863}"
+       },
+       {
+        "Id": "1652284888",
+        "Name": "Shotguns",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Guns\\Shotguns",
+        "GUID": "{7731A2EF-3B0D-44AE-910B-655F1C661F69}"
+       },
+       {
+        "Id": "1930185063",
+        "Name": "Snipers",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Guns\\Snipers",
+        "GUID": "{107AA4B5-B86C-426C-89D0-3B70B8AFFDDD}"
+       },
+       {
+        "Id": "4266843886",
+        "Name": "Submachine_Guns",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Guns\\Submachine_Guns",
+        "GUID": "{32CCFC7E-8429-4A75-8ECB-3B9B5EFF4855}"
+       }
+      ]
+     },
+     {
+      "Id": "1404066300",
+      "Name": "Ambiances",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances",
+      "GUID": "{DFCC3AEA-6E2A-4BEB-8FA4-58A945A89CFD}",
+      "Switches": [
+       {
+        "Id": "1568083719",
+        "Name": "TV",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\TV",
+        "GUID": "{50D666AB-5317-4DAC-B97F-F08E4EA9D815}"
+       },
+       {
+        "Id": "519478265",
+        "Name": "Cryo_Chamber",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\Cryo_Chamber",
+        "GUID": "{47D1EEE9-A382-4173-B734-3B885C96F5D5}"
+       },
+       {
+        "Id": "978065798",
+        "Name": "Shrieks",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\Shrieks",
+        "GUID": "{569F0004-4D5B-4399-A170-937E1AADF000}"
+       },
+       {
+        "Id": "3116287338",
+        "Name": "Bumbs",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\Bumbs",
+        "GUID": "{FB7E9052-C96A-4E30-BC67-50B4E879972E}"
+       },
+       {
+        "Id": "1050421051",
+        "Name": "Air",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\Air",
+        "GUID": "{924A2BBA-C349-4677-821F-B6D846BF9E70}"
+       },
+       {
+        "Id": "1803766445",
+        "Name": "Computers",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Ambiances\\Computers",
+        "GUID": "{2ED6F1EC-EF38-4057-A3EF-AF1F6E430E36}"
+       }
+      ]
+     },
+     {
+      "Id": "1652284888",
+      "Name": "Shotguns",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Shotguns",
+      "GUID": "{0D6F0CF3-2C34-4655-B62E-CD556AC7416F}",
+      "Switches": [
+       {
+        "Id": "1881810701",
+        "Name": "PumpAction",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Shotguns\\PumpAction",
+        "GUID": "{B80FEF62-B025-4921-BAE3-2402F754B492}"
+       },
+       {
+        "Id": "1197650935",
+        "Name": "FullAuto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Shotguns\\FullAuto",
+        "GUID": "{EA8C94B4-D6A6-4FDE-B7FE-28849C39A036}"
+       },
+       {
+        "Id": "3061733686",
+        "Name": "SemiAuto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Shotguns\\SemiAuto",
+        "GUID": "{C57E8348-103B-4291-9F8A-3FE9DCD862DB}"
+       }
+      ]
+     },
+     {
+      "Id": "1930185063",
+      "Name": "Snipers",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Snipers",
+      "GUID": "{83283E8F-9576-4230-ADB4-5E673A78BD97}",
+      "Switches": [
+       {
+        "Id": "3061733686",
+        "Name": "SemiAuto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Snipers\\SemiAuto",
+        "GUID": "{01FC9B8F-B0E5-459F-B476-172D1612115E}"
+       },
+       {
+        "Id": "581242085",
+        "Name": "Bolt_Action",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Snipers\\Bolt_Action",
+        "GUID": "{1B6ACECE-C3C5-4A9D-9CEF-E0836A38510D}"
+       }
+      ]
+     },
+     {
+      "Id": "2681340157",
+      "Name": "Music_Groups",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Music_Groups",
+      "GUID": "{6A3E41FD-7581-49BF-B9F1-8E7096A128E1}",
+      "Switches": [
+       {
+        "Id": "4055567060",
+        "Name": "Menu_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Music_Groups\\Menu_Music",
+        "GUID": "{BE1B14EA-780D-407E-9A3A-EF9463BFB96B}"
+       },
+       {
+        "Id": "1244594577",
+        "Name": "Level_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Music_Groups\\Level_Music",
+        "GUID": "{B669005B-AC1C-44B5-9F2E-79B5A1D578BD}"
+       },
+       {
+        "Id": "2573125678",
+        "Name": "Round_Change_Music",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Music_Groups\\Round_Change_Music",
+        "GUID": "{79EA825C-5391-44D0-8928-8CE55B839F05}"
+       }
+      ]
+     },
+     {
+      "Id": "3329721726",
+      "Name": "Interactable_Objects",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Interactable_Objects",
+      "GUID": "{7B19AFC3-3798-4138-81E1-4984048B0B07}",
+      "Switches": [
+       {
+        "Id": "1425580747",
+        "Name": "Printer",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Interactable_Objects\\Printer",
+        "GUID": "{B0578260-B7DF-4A9D-862B-A52D8AE15764}"
+       },
+       {
+        "Id": "3302145820",
+        "Name": "Teleporters",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Interactable_Objects\\Teleporters",
+        "GUID": "{15A3F04B-EB85-4179-BBE9-3B7FDD90486A}"
+       },
+       {
+        "Id": "2150196036",
+        "Name": "Doors",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Interactable_Objects\\Doors",
+        "GUID": "{C084F20E-C3D5-4C33-93DE-3D1A71449534}"
+       },
+       {
+        "Id": "289811402",
+        "Name": "Display_Case_Purchase",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Interactable_Objects\\Display_Case_Purchase",
+        "GUID": "{55ABF7A9-2EF8-46D8-A84F-33FA961EAFDB}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

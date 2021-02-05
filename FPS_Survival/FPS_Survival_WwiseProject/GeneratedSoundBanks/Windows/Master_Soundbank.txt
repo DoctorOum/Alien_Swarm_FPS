@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1930935334	Round_Change			\Default Work Unit\Round_Change	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
+	2589897592	Door_Opening			\Default Work Unit\Door_Opening	
 	3038207054	Shoot			\Default Work Unit\Shoot	
 	3991942870	Music			\Default Work Unit\Music	
 
@@ -54,8 +55,10 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1240670792	Distance			\Default Work Unit\Distance	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16639588	SFX_Purchase_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Purchase_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Purchase_01		136768
+	35465399	SFX_Teleporter_01_Norm_Fade	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Teleporter_01_Norm_Fade_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Teleporter_01_Norm_Fade		108352
 	87529136	SFX_Beefy_Growl	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Beefy_Growl_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aliens\SFX_Beefy_Growl		123968
-	97184276	Round Change Music	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Round Change Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Round Change Music\Round Change Music		2297920
+	97184276	Round Change Music	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Round Change Music_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Songs\Round Change Music\Round Change Music		2297920
 	130671791	Pistol_Strong Handgun	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Pistol_Strong Handgun_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Pistols\Pistol_Strong Handgun		1305608
 	132534030	AMB_Bumps_Reverb_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Bumps_Reverb_01_BAD339A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Bumps\AMB_Bumps_Reverb_01		215104
 	179710833	Shotgun_PumpAction	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Shotgun_PumpAction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Shotguns\Shotgun_PumpAction		1352710
@@ -79,7 +82,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	660692181	AMB_Airy_Long_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Airy_Long_01_7940FF43.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Long_01		668736
 	695653374	SFX_Tv Static_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Tv Static_Norm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\SFX_Tv Static_Norm		288320
 	716406860	SFX_Beefy_Roar	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Beefy_Roar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aliens\SFX_Beefy_Roar		123968
+	729890930	Music_Menu_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Music_Menu_Norm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Songs\FPS_Menu Music\Music_Menu_Norm		6455360
 	785308206	Computer Boops_07	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_632348E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_07		23574
+	795436178	SFX_Door_Opening_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Door_Opening_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Door_Opening_02		95040
 	823973090	Assault Rifle_AK47	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Assault Rifle_AK47_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\Assault Rifle_AK47		1166844
 	865708701	Pistol	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Pistol_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Pistols\Pistol		1486594
 	874728382	AssaultRifle_M16	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\AssaultRifle_M16_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\AssaultRifle_M16		945768

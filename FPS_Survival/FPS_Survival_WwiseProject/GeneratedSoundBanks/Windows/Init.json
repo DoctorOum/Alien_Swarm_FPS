@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\brand\\Documents\\GitHub\\Alien_Swarm_FPS\\FPS_Survival\\FPS_Survival_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "3934452777",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}
