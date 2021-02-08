@@ -2194,3 +2194,92 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.08-21.07.08:588][ 29]LogAkAudio: Audio thread suspended.  Audio output will be silent.
 [2021.02.08-21.07.08:588][ 29]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
 [2021.02.08-21.07.09:601][ 32]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.11:625][ 38]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.11:625][ 38]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.12:636][ 41]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.14:653][ 47]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.14:653][ 47]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.15:664][ 50]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.17:685][ 56]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.17:685][ 56]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.18:696][ 59]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.20:720][ 65]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.20:720][ 65]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.21:732][ 68]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.23:755][ 74]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.23:755][ 74]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.24:766][ 77]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.26:777][ 83]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.26:777][ 83]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.27:781][ 86]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.29:780][ 92]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.29:780][ 92]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.30:781][ 95]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.32:782][101]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.32:782][101]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.33:782][104]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.35:791][110]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.35:791][110]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.36:791][113]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.38:795][119]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.38:796][119]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.39:796][122]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.41:799][128]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.41:799][128]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.42:811][131]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.44:836][137]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.44:836][137]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.45:846][140]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.47:871][146]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.47:872][146]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.48:882][149]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.50:905][155]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.50:905][155]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.51:917][158]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.53:941][164]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.53:941][164]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.54:953][167]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.56:958][173]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.56:958][173]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.07.57:957][176]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.07.59:957][182]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.07.59:957][182]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.00:963][185]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.02:963][191]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.02:963][191]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.03:963][194]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.05:968][200]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.05:968][200]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.06:973][203]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.08:983][209]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.08:983][209]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.09:988][212]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.11:997][218]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.11:997][218]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.13:165][219]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.13:165][219]LogAkWaapiClient: Unsubscription failed: {"message":"Failed to receive WAAPI message in time."}
+[2021.02.08-21.08.15:188][227]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.15:188][227]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.16:188][230]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.18:188][236]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.18:188][236]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.18:855][238]LogAkWaapiClient: Warning: Lost connection to WAAPI client. Attempting reconnection ...
+[2021.02.08-21.08.19:188][239]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.20:855][244]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
+[2021.02.08-21.08.21:189][245]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.21:189][245]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.22:188][248]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.24:198][254]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.24:198][254]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.24:533][255]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
+[2021.02.08-21.08.25:203][257]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.27:210][263]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.27:210][263]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.28:213][266]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.30:218][272]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.30:218][272]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.30:551][273]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 8 seconds.
+[2021.02.08-21.08.31:221][275]LogAkAudio: Audio thread resumed, audio restarts.
+[2021.02.08-21.08.33:242][281]LogAkAudio: Audio thread suspended.  Audio output will be silent.
+[2021.02.08-21.08.33:242][281]LogAkAudio: Error: Hardware audio subsystem stopped responding.  Silent mode is enabled.
+[2021.02.08-21.08.34:252][284]LogAkAudio: Audio thread resumed, audio restarts.
