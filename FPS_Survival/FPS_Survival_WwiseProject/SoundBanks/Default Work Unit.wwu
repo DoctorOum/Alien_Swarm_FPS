@@ -5,10 +5,38 @@
 			<ChildrenList>
 				<SoundBank Name="Master_Soundbank" ID="{E37FF963-218D-4C7C-AC5C-35F7DEE20735}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bumps" ID="{6E920D80-EB15-4214-B667-2D81873B1094}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Snipers" ID="{95F25196-C206-4219-8B1B-2BA178F456FB}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Teleporter_01_Norm_Fade" ID="{75F3AE11-A7A9-4249-9CCA-4D6352CE5475}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shireks" ID="{E0F2E2C3-3CC7-42ED-9253-744141829005}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Computer Boops Container" ID="{14482E4A-D2CC-43AC-B329-F5D29C870988}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="FPS_Menu Music" ID="{855ACC2C-0400-446B-BED9-1BA94AA6DD3A}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps_Boots_Metal_Norm_2" ID="{CE4D3495-1E98-45E3-9A8C-5BCBF3B44D29}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shoot" ID="{DC1891FC-6F74-46C7-BB05-959C40605273}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Door_Opening_02" ID="{B9D309E6-A717-4845-A883-2E3C9B66659F}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu Music" ID="{DF16B968-3AD3-4872-AC6A-98E86CA33C7E}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambiances" ID="{1580A4C3-0B40-49A5-8C3C-B073C05C13A8}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Purchase_01" ID="{BD7F0CE1-05E8-49B6-8F6D-557112743CA4}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interactable Objects" ID="{A62DAF9B-4A78-49C9-A69A-2E4A626F8CEA}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Beefy_Growl" ID="{249AC030-2441-4A0E-BD78-5A5E961B3261}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rifles" ID="{303737B0-8EA0-4ADC-9511-FCC17881FD25}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Air" ID="{68D3DEFA-BAA7-4AE2-9975-C969D551BFF6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Songs" ID="{7F46731A-6CD4-4B75-B550-964194505A89}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shotguns" ID="{75CF1A50-29D4-4BDA-85B8-60E18E851E33}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistols" ID="{B8B4884D-EFA4-4C12-814E-28B5C8FC0F3F}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Beefy_Roar" ID="{A3CECD1A-1BE2-4C80-A699-134696613CB9}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Round_Change" ID="{470477AF-9D23-4CAA-A967-2A451B1FE923}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Guns" ID="{2E63BFDF-64BD-4CB5-B024-B9909E64D204}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{23C3C622-C55B-4CC2-B6CC-CD4CDBA99C54}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Aliens" ID="{9BC2AFD8-F24B-4D36-B3ED-69250EA18B2B}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Door_Opening" ID="{F2126B82-D0E1-4E2E-94F4-33043466F098}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Round Change Music" ID="{9FB9C2E5-B05D-4E46-9736-65944CD99904}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SMGs" ID="{0B7B16F7-F3BA-4E57-80A0-E67B335F840C}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX_Tv Static_Norm" ID="{08470C47-93C5-4EBA-A41F-AD91B03B91DF}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
