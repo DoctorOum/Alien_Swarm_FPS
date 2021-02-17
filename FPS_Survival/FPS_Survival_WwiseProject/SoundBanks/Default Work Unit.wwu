@@ -13,7 +13,9 @@
 						<ObjectRef Name="Computer Boops Container" ID="{14482E4A-D2CC-43AC-B329-F5D29C870988}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="FPS_Menu Music" ID="{855ACC2C-0400-446B-BED9-1BA94AA6DD3A}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps_Boots_Metal_Norm_2" ID="{CE4D3495-1E98-45E3-9A8C-5BCBF3B44D29}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button Press" ID="{C736E7B6-0F41-464C-BF53-8676D9903BC9}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Shoot" ID="{DC1891FC-6F74-46C7-BB05-959C40605273}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Button_Press" ID="{7F0A9859-B899-46EC-ADCA-A9DDC45C882D}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Door_Opening_02" ID="{B9D309E6-A717-4845-A883-2E3C9B66659F}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu Music" ID="{DF16B968-3AD3-4872-AC6A-98E86CA33C7E}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>

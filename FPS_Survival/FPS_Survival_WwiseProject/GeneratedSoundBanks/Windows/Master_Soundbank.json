@@ -16,11 +16,34 @@
     "Id": "2469504869",
     "GUID": "{E37FF963-218D-4C7C-AC5C-35F7DEE20735}",
     "Language": "SFX",
-    "Hash": "867060602",
+    "Hash": "3500301355",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master_Soundbank",
     "ShortName": "Master_Soundbank",
     "Path": "Master_Soundbank.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2698747613",
+      "Name": "Button_Press",
+      "ObjectPath": "\\Events\\Default Work Unit\\Button_Press",
+      "GUID": "{7F0A9859-B899-46EC-ADCA-A9DDC45C882D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.314894",
+      "DurationMax": "0.639561",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "219301143",
+        "Language": "SFX",
+        "ShortName": "UI_Button_01_Norm.wav",
+        "Path": "SFX\\UI_Button_01_Norm_10C4C929.wem"
+       },
+       {
+        "Id": "765233786",
+        "Language": "SFX",
+        "ShortName": "UI_Button_02_Norm.wav",
+        "Path": "SFX\\UI_Button_02_Norm_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "2589897592",
       "Name": "Door_Opening",
@@ -352,6 +375,12 @@
       "Path": "SFX\\Computer Boops_C28FC7FD.wem"
      },
      {
+      "Id": "219301143",
+      "Language": "SFX",
+      "ShortName": "UI_Button_01_Norm.wav",
+      "Path": "SFX\\UI_Button_01_Norm_10C4C929.wem"
+     },
+     {
       "Id": "261641781",
       "Language": "SFX",
       "ShortName": "AMB_Airy_Short_01.wav",
@@ -458,6 +487,12 @@
       "Language": "SFX",
       "ShortName": "Music_Menu_Norm.wav",
       "Path": "SFX\\Music_Menu_Norm_D79FB2B7.wem"
+     },
+     {
+      "Id": "765233786",
+      "Language": "SFX",
+      "ShortName": "UI_Button_02_Norm.wav",
+      "Path": "SFX\\UI_Button_02_Norm_10C4C929.wem"
      },
      {
       "Id": "785308206",

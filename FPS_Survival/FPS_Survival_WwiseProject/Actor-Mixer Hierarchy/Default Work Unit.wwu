@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" ShortID="272530987">
 					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
 								<ModifierInfo>
@@ -1789,6 +1790,90 @@
 						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<RandomSequenceContainer Name="Button Press" ID="{C736E7B6-0F41-464C-BF53-8676D9903BC9}" ShortID="70997075">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7743975F-42F8-4EEC-94ED-73A38A003B03}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="126"/>
+											<Property Name="Min" Type="Real64" Value="-126"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{8EAEEB9D-4075-4094-B505-BA34B0CAFFE6}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="6"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_Button_01_Norm" ID="{5F6250C8-B196-4757-B3DB-70EB2C7D177B}" ShortID="485195443">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Button_01_Norm" ID="{158D6D63-5CE2-443C-BD3A-82D4B0D42EA2}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Button_01_Norm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="219301143"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Button_01_Norm" ID="{158D6D63-5CE2-443C-BD3A-82D4B0D42EA2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_Button_02_Norm" ID="{0D82A3D2-9D3F-4996-BD18-D6C7A6C2B695}" ShortID="1071923940">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_Button_02_Norm" ID="{2F15F6AE-EABE-41BB-A068-3F4CC140D582}">
+									<Language>SFX</Language>
+									<AudioFile>UI_Button_02_Norm.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="765233786"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_Button_02_Norm" ID="{2F15F6AE-EABE-41BB-A068-3F4CC140D582}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1930935334	Round_Change			\Default Work Unit\Round_Change	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2589897592	Door_Opening			\Default Work Unit\Door_Opening	
+	2698747613	Button_Press			\Default Work Unit\Button_Press	
 	3038207054	Shoot			\Default Work Unit\Shoot	
 	3991942870	Music			\Default Work Unit\Music	
 
@@ -65,6 +66,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	188258786	AMB_Shriek_Reverb_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\AMB_Shriek_Reverb_01_5E726F95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Shireks\AMB_Shriek_Reverb_01		181312
 	214332762	AMB_Airy_Short_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\AMB_Airy_Short_02_37945FA7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Short_02		335936
 	216084266	Computer Boops_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Computer Boops_C28FC7FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_02		25578
+	219301143	UI_Button_01_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\UI_Button_01_Norm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press\UI_Button_01_Norm		65088
 	261641781	AMB_Airy_Short_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\AMB_Airy_Short_01_DA586FD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Air\AMB_Airy_Short_01		335936
 	283357946	Shotgun_FullAuto	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Bounced Files\Shotgun_FullAuto_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Shotguns\Shotgun_FullAuto		1796000
 	406987515	AssaultRifle_M4	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Bounced Files\AssaultRifle_M4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\AssaultRifle_M4		1701526
@@ -83,6 +85,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	695653374	SFX_Tv Static_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Tv Static_Norm_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\SFX_Tv Static_Norm		288320
 	716406860	SFX_Beefy_Roar	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Beefy_Roar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Aliens\SFX_Beefy_Roar		123968
 	729890930	Music_Menu_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Music_Menu_Norm_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Songs\FPS_Menu Music\Music_Menu_Norm		6455360
+	765233786	UI_Button_02_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\UI_Button_02_Norm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Button Press\UI_Button_02_Norm		114240
 	785308206	Computer Boops_07	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Computer Boops_632348E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_07		23574
 	795436178	SFX_Door_Opening_02	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\SFX_Door_Opening_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Door_Opening_02		95040
 	823973090	Assault Rifle_AK47	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Mac\SFX\Bounced Files\Assault Rifle_AK47_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Rifles\Assault Rifle_AK47		1166844

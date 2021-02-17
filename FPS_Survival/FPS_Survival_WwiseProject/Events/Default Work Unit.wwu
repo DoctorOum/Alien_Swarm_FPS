@@ -58,6 +58,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Button_Press" ID="{7F0A9859-B899-46EC-ADCA-A9DDC45C882D}">
+					<ChildrenList>
+						<Action Name="" ID="{CAE69382-A024-4580-83C3-B2CA90D7FF07}" ShortID="854303490">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button Press" ID="{C736E7B6-0F41-464C-BF53-8676D9903BC9}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
