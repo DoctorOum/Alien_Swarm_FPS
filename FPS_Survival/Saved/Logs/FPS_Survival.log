@@ -818,3 +818,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.17-16.41.01:962][360]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
 [2021.02.17-16.41.39:900][473]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
 [2021.02.17-16.42.14:037][575]LogAkWaapiClient: Successfully connected to Wwise Authoring on localhost.
+[2021.02.17-16.43.41:423][835]LogAkWaapiClient: Unsubscription failed: {"message":"Could not send websocket message."}
+[2021.02.17-16.43.47:118][853]LogAkWaapiClient: Warning: Lost connection to WAAPI client. Attempting reconnection ...
+[2021.02.17-16.43.48:785][858]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
+[2021.02.17-16.43.52:790][870]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
