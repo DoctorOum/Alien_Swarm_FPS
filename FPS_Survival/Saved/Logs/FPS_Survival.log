@@ -1,4 +1,4 @@
-﻿Log file open, 02/17/21 11:18:33
+﻿Log file open, 02/17/21 12:10:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FPS_Survival
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.056145
+LogStats: Stats thread started at 0.056636
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -158,667 +158,849 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:045][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:047][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.02.17-16.18.34:047][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.02.17-16.18.34:048][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.02.17-16.18.34:048][  0]LogInit: Selected Device Profile: [Windows]
-[2021.02.17-16.18.34:048][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.02.17-16.18.34:050][  0]LogHAL: Display: Platform has ~ 16 GB [16997949440 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.02.17-16.18.34:050][  0]LogInit: Going up to parent DeviceProfile []
-[2021.02.17-16.18.34:050][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.02.17-16.18.34:050][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.02.17-16.18.34:051][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
-[2021.02.17-16.18.34:051][  0]LogInit: Computer: BRANDONPEREIRA-
-[2021.02.17-16.18.34:051][  0]LogInit: User: brand
-[2021.02.17-16.18.34:051][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.02.17-16.18.34:051][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.02.17-16.18.34:051][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2021.02.17-16.18.34:051][  0]LogMemory: Platform Memory Stats for Windows
-[2021.02.17-16.18.34:051][  0]LogMemory: Process Physical Memory: 101.79 MB used, 101.80 MB peak
-[2021.02.17-16.18.34:051][  0]LogMemory: Process Virtual Memory: 90.04 MB used, 90.04 MB peak
-[2021.02.17-16.18.34:051][  0]LogMemory: Physical Memory: 7209.21 MB used,  9001.30 MB free, 16210.51 MB total
-[2021.02.17-16.18.34:051][  0]LogMemory: Virtual Memory: 4675.00 MB used,  134213056.00 MB free, 134217728.00 MB total
-[2021.02.17-16.18.34:053][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.02.17-16.18.34:072][  0]LogInit: Using OS detected language (en-US).
-[2021.02.17-16.18.34:072][  0]LogInit: Using OS detected locale (en-US).
-[2021.02.17-16.18.34:072][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.02.17-16.18.34:235][  0]LogInit: Setting process to per monitor DPI aware
-[2021.02.17-16.18.34:274][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.02.17-16.18.34:274][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.02.17-16.18.34:399][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.02.17-16.18.34:399][  0]LogD3D11RHI: D3D11 adapters:
-[2021.02.17-16.18.34:432][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5600 XT' (Feature Level 11_0)
-[2021.02.17-16.18.34:432][  0]LogD3D11RHI:       6100/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2021.02.17-16.18.34:450][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.02.17-16.18.34:450][  0]LogD3D11RHI:       128/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.02.17-16.18.34:452][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.02.17-16.18.34:452][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.02.17-16.18.34:452][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.02.17-16.18.34:457][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.02.17-16.18.34:457][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
-[2021.02.17-16.18.34:457][  0]LogWindows: EnumDisplayDevices:
-[2021.02.17-16.18.34:457][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.02.17-16.18.34:457][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.02.17-16.18.34:458][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.02.17-16.18.34:458][  0]LogWindows:    3. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:458][  0]LogWindows:    4. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:458][  0]LogWindows:    5. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:458][  0]LogWindows:    6. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:459][  0]LogWindows:    7. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:459][  0]LogWindows:    8. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:459][  0]LogWindows:    9. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:459][  0]LogWindows:    10. 'AMD Radeon RX 5600 XT' (P:0 D:0)
-[2021.02.17-16.18.34:459][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:8 
-[2021.02.17-16.18.34:459][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5600 XT
-[2021.02.17-16.18.34:459][  0]LogD3D11RHI:   Driver Version: Adrenalin 20.10.35.02 (internal:27.20.1034.6, unified:27.20.1034.6)
-[2021.02.17-16.18.34:460][  0]LogD3D11RHI:      Driver Date: 8-21-2020
-[2021.02.17-16.18.34:460][  0]LogRHI: Texture pool is 4270 MB (70% of 6100 MB)
-[2021.02.17-16.18.34:501][  0]LogD3D11RHI: Async texture creation enabled
-[2021.02.17-16.18.34:520][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2021.02.17-16.18.34:755][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2021.02.17-16.18.34:762][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2021.02.17-16.18.34:769][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2021.02.17-16.18.34:777][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2021.02.17-16.18.34:788][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2021.02.17-16.18.34:796][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2021.02.17-16.18.34:803][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2021.02.17-16.18.34:811][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2021.02.17-16.18.34:814][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2021.02.17-16.18.34:842][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2021.02.17-16.18.34:844][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2021.02.17-16.18.34:859][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2021.02.17-16.18.34:859][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2021.02.17-16.18.34:871][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2021.02.17-16.18.34:871][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2021.02.17-16.18.34:877][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2021.02.17-16.18.34:884][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2021.02.17-16.18.34:889][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2021.02.17-16.18.34:896][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2021.02.17-16.18.34:921][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2021.02.17-16.18.34:921][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2021.02.17-16.18.34:921][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.02.17-16.18.34:929][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.02.17-16.18.34:972][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Intermediate/Shaders/WorkingDirectory/19440/).
-[2021.02.17-16.18.34:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brand/AppData/Local/Temp/UnrealShaderWorkingDir/8B1C9E3D481EF0D082BEF78F850CBA64/'.
-[2021.02.17-16.18.34:974][  0]LogXGEController: Cleaning working directory: C:/Users/brand/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.02.17-16.18.34:974][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.02.17-16.18.34:974][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.02.17-16.18.34:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.02.17-16.18.35:501][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.02.17-16.18.35:539][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.02.17-16.18.35:548][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.02.17-16.18.35:548][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.02.17-16.18.35:548][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.02.17-16.18.35:549][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.02.17-16.18.35:549][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.02.17-16.18.35:549][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.02.17-16.18.35:566][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.02.17-16.18.35:568][  0]LogSlate: Using FreeType 2.6.0
-[2021.02.17-16.18.35:569][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.02.17-16.18.35:621][  0]LogAssetRegistry: FAssetRegistry took 0.0019 seconds to start up
-[2021.02.17-16.18.35:826][  0]LogInit: Selected Device Profile: [Windows]
-[2021.02.17-16.18.35:945][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.02.17-16.18.35:945][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.02.17-16.18.35:945][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.02.17-16.18.35:945][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.02.17-16.18.35:945][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.02.17-16.18.35:951][  0]LogNetVersion: FPS_Survival 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3338225296)
-[2021.02.17-16.18.36:294][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.040831 seconds
-[2021.02.17-16.18.36:300][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2021.02.17-16.18.36:300][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2021.02.17-16.18.36:300][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.02.17-16.18.37:039][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.02.17-16.18.37:041][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.02.17-16.18.37:103][  0]LogAkAudio: Wwise(R) SDK Version 2019.2.7 Build 7402. Copyright (c) 2006-2019 Audiokinetic Inc.
-[2021.02.17-16.18.37:103][  0]LogAkAudio: Wwise plug-in DLL path: C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/
-[2021.02.17-16.18.37:104][  0]LogAkAudio: Wwise remote connection application name: FPS_Survival (Editor)
-[2021.02.17-16.18.37:104][  0]LogAkAudio: Wwise successfully initialized.
-[2021.02.17-16.18.37:104][  0]LogAkAudio: Initialization complete.
-[2021.02.17-16.18.37:104][  0]LogInit: Audiokinetic Audio Device initialized.
-[2021.02.17-16.18.37:145][  0]SourceControl: Source control is disabled
-[2021.02.17-16.18.37:145][  0]SourceControl: Source control is disabled
-[2021.02.17-16.18.37:147][  0]SourceControl: Source control is disabled
-[2021.02.17-16.18.37:148][  0]SourceControl: Source control is disabled
-[2021.02.17-16.18.37:223][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.02.17-16.18.37:331][  0]LogOcInput: OculusInput pre-init called
-[2021.02.17-16.18.37:337][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.02.17-16.18.37:337][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.02.17-16.18.37:400][  0]LogEngine: Initializing Engine...
-[2021.02.17-16.18.37:401][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.02.17-16.18.37:401][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.02.17-16.18.37:586][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.02.17-16.18.37:597][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.02.17-16.18.37:643][  0]LogInit: XAudio2 using 'ProFX 3-4 (2- ProFX)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2021.02.17-16.18.37:660][  0]LogInit: FAudioDevice initialized.
-[2021.02.17-16.18.37:660][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.02.17-16.18.37:697][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2021.02.17-16.18.37:705][  0]LogInit: Texture streaming: Enabled
-[2021.02.17-16.18.37:721][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.02.17-16.18.37:721][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.02.17-16.18.37:722][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.02.17-16.18.37:769][  0]LogInit: Transaction tracking system initialized
-[2021.02.17-16.18.37:793][  0]BlueprintLog: New page: Editor Load
-[2021.02.17-16.18.37:858][  0]LocalizationService: Localization service is disabled
-[2021.02.17-16.18.38:058][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.02.17-16.18.38:059][  0]LogCook: Display: Mobile HDR setting 1
-[2021.02.17-16.18.38:211][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/' took 0.02s
-[2021.02.17-16.18.38:211][  0]SourceControl: Source control is disabled
-[2021.02.17-16.18.38:212][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/AlienSwarmMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.02.17-16.18.38:212][  0]LightingResults: New page: Lighting Build
-[2021.02.17-16.18.38:214][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.02.17-16.18.38:214][  0]MapCheck: New page: Map Check
-[2021.02.17-16.18.38:214][  0]LightingResults: New page: Lighting Build
-[2021.02.17-16.18.38:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2021.02.17-16.18.39:160][  0]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
-[2021.02.17-16.18.39:160][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:160][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_206' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_207' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_209' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_210' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_212' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_229' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_230' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_231' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_232' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_234' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_235' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:161][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_Root_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.39:230][  0]LogMaterial: Display: Missing cached shader map for material ColorforMike, compiling. 
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 31
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 27
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 23
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 19
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 11
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 7
-[2021.02.17-16.18.39:334][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
-[2021.02.17-16.18.39:334][  0]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
-[2021.02.17-16.18.39:351][  0]LogStaticMesh: Building static mesh Spider_Alien_Alternate...
-[2021.02.17-16.18.39:550][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 22
-[2021.02.17-16.18.39:550][  0]LogStaticMesh: Built static mesh [0.20s] /Game/Materials/Spider_Alien_Alternate.Spider_Alien_Alternate
-[2021.02.17-16.18.39:570][  0]LogStaticMesh: Building static mesh Beefy_Alien_test...
-[2021.02.17-16.18.40:015][  0]LogStaticMesh: Built static mesh [0.45s] /Game/Materials/Beefy_Alien_test.Beefy_Alien_test
-[2021.02.17-16.18.40:042][  0]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
-[2021.02.17-16.18.40:212][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:212][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_278' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_279' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_280' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_281' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_282' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_283' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_284' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_285' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_286' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_287' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:213][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_Root_59' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:297][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_150' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:297][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_151' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:297][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_152' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:297][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:297][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_Root_58' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2021.02.17-16.18.40:310][  0]LogAIModule: Creating AISystem for world AlienSwarmMap
-[2021.02.17-16.18.40:312][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 41
-[2021.02.17-16.18.40:312][  0]LogUObjectGlobals: BeginLoad(/Engine/EditorResources/EmptyActor) is flushing async loading
-[2021.02.17-16.18.40:312][  0]LogStreaming: Display: Flushing async loaders.
-[2021.02.17-16.18.40:366][  0]PIE: Warning: AttachTo: '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot' is not static  (in blueprint "FbxScene_CryoChamber_Anim_open"), cannot attach '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot1' which is static to it. Aborting.
-[2021.02.17-16.18.40:427][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 36
-[2021.02.17-16.18.40:428][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.02.17-16.18.40:518][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 31
-[2021.02.17-16.18.40:518][  0]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
-[2021.02.17-16.18.40:518][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.02.17-16.18.40:519][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.311ms to complete.
-[2021.02.17-16.18.40:519][  0]LogFileHelpers: Loading map 'AlienSwarmMap' took 2.307
-[2021.02.17-16.18.40:572][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 27
-[2021.02.17-16.18.40:647][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.18.40:660][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.18.40:673][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.18.40:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.18.40:704][  0]LogCollectionManager: Loaded 0 collections in 0.003327 seconds
-[2021.02.17-16.18.40:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Collections/' took 0.00s
-[2021.02.17-16.18.40:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Developers/brand/Collections/' took 0.00s
-[2021.02.17-16.18.40:717][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Collections/' took 0.00s
-[2021.02.17-16.18.40:717][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2021.02.17-16.18.40:729][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 3009 classes and 713 folders.
-[2021.02.17-16.18.40:738][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.02.17-16.18.40:813][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.02.17-16.18.40:825][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2021.02.17-16.18.41:054][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.02.17-16.18.41:056][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.02.17-16.18.41:074][  0]LogSlate: Took 0.011891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.02.17-16.18.41:172][  0]LogRenderer: Reallocating scene render targets to support 796x272 Format 10 NumSamples 1 (Frame:1).
-[2021.02.17-16.18.41:544][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 23
-[2021.02.17-16.18.41:544][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
-[2021.02.17-16.18.41:544][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 17
-[2021.02.17-16.18.41:544][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 15
-[2021.02.17-16.18.41:544][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 13
-[2021.02.17-16.18.41:544][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.02.17-16.18.41:652][  0]LogShaderCompilers: Display: Worker (9/9): shaders left to compile 11
-[2021.02.17-16.18.41:662][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.02.17-16.18.41:663][  0]LogLoad: (Engine Initialization) Total time: 8.66 seconds
-[2021.02.17-16.18.41:663][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.02.17-16.18.41:742][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.02.17-16.18.41:805][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Events/Default_Work_Unit/Music) is flushing async loading
-[2021.02.17-16.18.41:805][  1]LogStreaming: Display: Flushing async loaders.
-[2021.02.17-16.18.41:809][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Events/Default_Work_Unit/Shoot) is flushing async loading
-[2021.02.17-16.18.41:844][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/Distance) is flushing async loading
-[2021.02.17-16.18.41:844][  2]LogStreaming: Display: Flushing async loaders.
-[2021.02.17-16.18.41:857][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Guns/Guns-Shotguns) is flushing async loading
-[2021.02.17-16.18.41:863][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Guns/Guns-Submachine_Guns) is flushing async loading
-[2021.02.17-16.18.41:869][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Interactable_Objects/Interactable_Objects-Display_Case_Purchase) is flushing async loading
-[2021.02.17-16.18.41:879][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Music_Groups/Music_Groups-Round_Change_Music) is flushing async loading
-[2021.02.17-16.18.41:905][  3]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
-[2021.02.17-16.18.41:910][  3]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Rifles/Rifles-FullAuto) is flushing async loading
-[2021.02.17-16.18.41:910][  3]LogStreaming: Display: Flushing async loaders.
-[2021.02.17-16.18.41:914][  3]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Rifles/Rifles-SemiAuto) is flushing async loading
-[2021.02.17-16.18.41:919][  3]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Shotguns/Shotguns-FullAuto) is flushing async loading
-[2021.02.17-16.18.41:923][  3]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Shotguns/Shotguns-PumpAction) is flushing async loading
-[2021.02.17-16.18.41:929][  3]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Snipers/Snipers-Bolt_Action) is flushing async loading
-[2021.02.17-16.18.41:979][  4]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 7
-[2021.02.17-16.18.41:979][  4]LogAssetRegistry: Asset discovery search completed in 6.3593 seconds
-[2021.02.17-16.18.41:995][  4]LogUObjectGlobals: BeginLoad(/Engine/EngineMaterials/PhysMat_Carboard) is flushing async loading
-[2021.02.17-16.18.41:995][  4]LogStreaming: Display: Flushing async loaders.
-[2021.02.17-16.18.42:016][  4]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.02.17-16.18.42:020][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:056][  4]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
-[2021.02.17-16.18.42:220][  4]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
-[2021.02.17-16.18.42:294][  4]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
-[2021.02.17-16.18.42:537][  4]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
-[2021.02.17-16.18.42:537][  4]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
-[2021.02.17-16.18.42:542][  4]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
-[2021.02.17-16.18.42:766][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:788][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:806][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:824][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:842][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:861][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:879][  4]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2021.02.17-16.18.42:885][  4]LogAkSoundData: Display: Wwise Asset Synchronization took 0.882761 seconds.
-[2021.02.17-16.18.42:885][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2021.02.17-16.18.42:885][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
-[2021.02.17-16.18.43:109][ 16]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
-[2021.02.17-16.18.44:759][146]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2021.02.17-16.18.47:114][414]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
-[2021.02.17-16.18.47:600][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2021.02.17-16.18.53:250][607]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 8 seconds.
-[2021.02.17-16.19.03:298][637]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 16 seconds.
-[2021.02.17-16.19.05:636][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.02.17-16.19.10:145][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2021.02.17-16.19.10:145][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
-[2021.02.17-16.19.10:145][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
-[2021.02.17-16.19.10:146][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
-[2021.02.17-16.19.10:146][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
-[2021.02.17-16.19.10:146][ 61]LogBlueprint: Warning: [Compiler FirstPersonCharacter] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
-[2021.02.17-16.19.10:245][ 61]LogAIModule: Creating AISystem for world Main_Menu
-[2021.02.17-16.19.10:247][ 61]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/UI_Menus/Main_Menu.Main_Menu
-[2021.02.17-16.19.10:274][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
-[2021.02.17-16.19.10:274][ 61]Cmd: MAP LOAD FILE="../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/UI_Menus/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.02.17-16.19.10:274][ 61]LightingResults: New page: Lighting Build
-[2021.02.17-16.19.10:275][ 61]LoadErrors: New page: Loading map: Main_Menu.umap
-[2021.02.17-16.19.10:276][ 61]LogWorld: UWorld::CleanupWorld for AlienSwarmMap, bSessionEnded=true, bCleanupResources=true
-[2021.02.17-16.19.10:277][ 61]MapCheck: New page: Map Check
-[2021.02.17-16.19.10:277][ 61]LightingResults: New page: Lighting Build
-[2021.02.17-16.19.10:308][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2021.02.17-16.19.10:372][ 61]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.02.17-16.19.10:396][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
-[2021.02.17-16.19.10:422][ 61]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.02.17-16.19.10:422][ 61]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.101ms to complete.
-[2021.02.17-16.19.10:422][ 61]LogFileHelpers: Loading map 'Main_Menu' took 0.148
-[2021.02.17-16.19.11:893][224]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.02.17-16.19.12:014][230]LogTemp: Repeating last play command: Standalone Game
-[2021.02.17-16.19.12:052][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2021.02.17-16.19.21:293][393]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.19.55:131][ 17]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.20.14:875][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.02.17-16.20.14:983][407]LogTemp: Repeating last play command: Standalone Game
-[2021.02.17-16.20.15:021][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
-[2021.02.17-16.20.29:360][599]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.20.42:074][636]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={74064BC9-415A-1611-FA25-B6B3A2393C9A}
-[2021.02.17-16.21.26:109][414]LogTemp: Repeating last play command: Standalone Game
-[2021.02.17-16.21.26:146][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2021.02.17-16.21.48:298][876]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.21.48:299][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.02.17-16.21.48:299][876]PIE: New page: PIE session: Main_Menu (Feb 17, 2021, 6:21:48 AM)
-[2021.02.17-16.21.48:300][876]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.02.17-16.21.48:301][876]LogPlayLevel: Creating play world package: /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu
-[2021.02.17-16.21.48:303][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001233s)
-[2021.02.17-16.21.48:303][876]LogAIModule: Creating AISystem for world Main_Menu
-[2021.02.17-16.21.48:303][876]LogPlayLevel: PIE: World Init took: (0.000727s)
-[2021.02.17-16.21.48:303][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UI_Menus/Main_Menu.Main_Menu to /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu.Main_Menu (0.002121s)
-[2021.02.17-16.21.48:328][876]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
-[2021.02.17-16.21.48:350][876]LogInit: XAudio2 using 'ProFX 3-4 (2- ProFX)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2021.02.17-16.21.48:359][876]LogInit: FAudioDevice initialized.
-[2021.02.17-16.21.48:366][876]LogLoad: Game class is 'MainMenuGameMode_C'
-[2021.02.17-16.21.48:367][876]LogWorld: Bringing World /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.02.17-11.21.48
-[2021.02.17-16.21.48:368][876]LogWorld: Bringing up level for play took: 0.000310
-[2021.02.17-16.21.48:368][876]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2021.02.17-16.21.48:373][876]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
-[2021.02.17-16.21.48:375][876]PIE: Play in editor start time for /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu -0.777
-[2021.02.17-16.21.48:376][876]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.21.53:593][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2021.02.17-16.21.53:727][513]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.21.53:727][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.21.53:727][513]LogWorld: BeginTearingDown for /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu
-[2021.02.17-16.21.53:728][513]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
-[2021.02.17-16.21.53:736][513]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.02.17-16.21.53:736][513]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.21.53:762][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.21.53:764][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2021.02.17-16.21.53:841][520]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2021.02.17-16.21.55:791][753]LogRenderer: Reallocating scene render targets to support 796x276 Format 10 NumSamples 1 (Frame:2386).
-[2021.02.17-16.21.55:881][755]LogRenderer: Reallocating scene render targets to support 796x288 Format 10 NumSamples 1 (Frame:2388).
-[2021.02.17-16.21.55:931][756]LogRenderer: Reallocating scene render targets to support 796x296 Format 10 NumSamples 1 (Frame:2390).
-[2021.02.17-16.21.55:963][757]LogRenderer: Reallocating scene render targets to support 796x312 Format 10 NumSamples 1 (Frame:2392).
-[2021.02.17-16.21.56:000][758]LogRenderer: Reallocating scene render targets to support 796x320 Format 10 NumSamples 1 (Frame:2394).
-[2021.02.17-16.21.56:030][759]LogRenderer: Reallocating scene render targets to support 796x324 Format 10 NumSamples 1 (Frame:2396).
-[2021.02.17-16.21.56:083][760]LogRenderer: Reallocating scene render targets to support 796x336 Format 10 NumSamples 1 (Frame:2398).
-[2021.02.17-16.21.56:134][761]LogRenderer: Reallocating scene render targets to support 796x344 Format 10 NumSamples 1 (Frame:2400).
-[2021.02.17-16.21.56:172][762]LogRenderer: Reallocating scene render targets to support 796x360 Format 10 NumSamples 1 (Frame:2402).
-[2021.02.17-16.21.56:204][763]LogRenderer: Reallocating scene render targets to support 796x384 Format 10 NumSamples 1 (Frame:2404).
-[2021.02.17-16.21.56:240][764]LogRenderer: Reallocating scene render targets to support 796x416 Format 10 NumSamples 1 (Frame:2406).
-[2021.02.17-16.21.56:308][765]LogRenderer: Reallocating scene render targets to support 796x440 Format 10 NumSamples 1 (Frame:2408).
-[2021.02.17-16.21.56:374][766]LogRenderer: Reallocating scene render targets to support 796x492 Format 10 NumSamples 1 (Frame:2410).
-[2021.02.17-16.21.56:427][767]LogRenderer: Reallocating scene render targets to support 796x512 Format 10 NumSamples 1 (Frame:2412).
-[2021.02.17-16.21.56:480][768]LogRenderer: Reallocating scene render targets to support 796x528 Format 10 NumSamples 1 (Frame:2414).
-[2021.02.17-16.21.56:565][769]LogRenderer: Reallocating scene render targets to support 796x540 Format 10 NumSamples 1 (Frame:2416).
-[2021.02.17-16.21.59:823][141]LogTemp: Repeating last play command: Selected Viewport
-[2021.02.17-16.21.59:837][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.21.59:837][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.02.17-16.21.59:837][141]PIE: New page: PIE session: Main_Menu (Feb 17, 2021, 6:21:59 AM)
-[2021.02.17-16.21.59:838][141]LogPlayLevel: Creating play world package: /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu
-[2021.02.17-16.21.59:839][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000929s)
-[2021.02.17-16.21.59:839][141]LogAIModule: Creating AISystem for world Main_Menu
-[2021.02.17-16.21.59:839][141]LogPlayLevel: PIE: World Init took: (0.000682s)
-[2021.02.17-16.21.59:839][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/UI_Menus/Main_Menu.Main_Menu to /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu.Main_Menu (0.001689s)
-[2021.02.17-16.21.59:864][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2021.02.17-16.21.59:886][141]LogInit: XAudio2 using 'ProFX 3-4 (2- ProFX)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
-[2021.02.17-16.21.59:894][141]LogInit: FAudioDevice initialized.
-[2021.02.17-16.21.59:898][141]LogLoad: Game class is 'MainMenuGameMode_C'
-[2021.02.17-16.21.59:899][141]LogWorld: Bringing World /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.02.17-11.21.59
-[2021.02.17-16.21.59:899][141]LogWorld: Bringing up level for play took: 0.000266
-[2021.02.17-16.21.59:899][141]LogOnline: OSS: Creating online subsystem instance for: :Context_3
-[2021.02.17-16.21.59:902][141]PIE: Play in editor start time for /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu 0.75
-[2021.02.17-16.21.59:902][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.22.28:347][542]LogScript: Warning: UAkGameplayStatics::PostEvent: NULL Actor specified!
-[2021.02.17-16.22.36:539][525]LogNet: Browse: /Game/Maps/AlienSwarmMap
-[2021.02.17-16.22.36:539][525]LogLoad: LoadMap: /Game/Maps/AlienSwarmMap
-[2021.02.17-16.22.36:539][525]LogWorld: BeginTearingDown for /Game/Maps/UI_Menus/UEDPIE_0_Main_Menu
-[2021.02.17-16.22.36:539][525]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
-[2021.02.17-16.22.36:563][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
-[2021.02.17-16.22.36:660][525]LogAIModule: Creating AISystem for world AlienSwarmMap
-[2021.02.17-16.22.36:661][525]LogLoad: Game class is 'FPS_GameMode_C'
-[2021.02.17-16.22.36:679][525]PIE: Warning: AttachTo: '/Game/Maps/UEDPIE_0_AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot' is not static  (in blueprint "FbxScene_CryoChamber_Anim_open"), cannot attach '/Game/Maps/UEDPIE_0_AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot1' which is static to it. Aborting.
-[2021.02.17-16.22.36:704][525]LogWorld: Bringing World /Game/Maps/UEDPIE_0_AlienSwarmMap.AlienSwarmMap up for play (max tick rate 0) at 2021.02.17-11.22.36
-[2021.02.17-16.22.36:705][525]LogWorld: Bringing up level for play took: 0.043790
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:706][525]LogScript: Warning: UAkGameplayStatics::SetSwitch: NULL Actor specified!
-[2021.02.17-16.22.36:708][525]LogLoad: Took 0.169734 seconds to LoadMap(/Game/Maps/AlienSwarmMap)
-[2021.02.17-16.22.39:463][771]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.22.39:463][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.22.39:463][771]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_AlienSwarmMap
-[2021.02.17-16.22.39:464][771]LogWorld: UWorld::CleanupWorld for AlienSwarmMap, bSessionEnded=true, bCleanupResources=true
-[2021.02.17-16.22.39:487][771]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.02.17-16.22.39:487][771]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu' with GeneratedClass '/Game/Maps/UI_Menus/Main_Menu.Main_Menu_C' with ClassGeneratedBy '/Game/Maps/UI_Menus/Main_Menu.Main_Menu:PersistentLevel.Main_Menu'
-[2021.02.17-16.22.39:518][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.02.17-16.22.39:522][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
-[2021.02.17-16.22.39:626][774]LogPlayLevel: Display: Destroying online subsystem :Context_3
-[2021.02.17-16.22.44:760][354]LogSlate: Window 'Message Log' being destroyed
-[2021.02.17-16.22.44:763][354]LogSlate: Window 'Message Log' being destroyed
-[2021.02.17-16.25.48:619][142]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Maps/UI_Menus/Credits_Menu.Credits_Menu
-[2021.02.17-16.25.48:857][142]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2021.02.17-16.25.49:824][142]LogSlate: Took 0.002227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.02.17-16.27.28:132][729]LogSlate: Took 0.006120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2021.02.17-16.38.23:313][ 37]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Maps/UI_Menus/OptionsMenu_Widget.OptionsMenu_Widget
-[2021.02.17-16.39.30:161][521]LogSlate: Window 'Choose A Property' being destroyed
-[2021.02.17-16.39.45:706][344]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
-[2021.02.17-16.39.49:600][781]LogSlate: Window 'Choose A Wwise Item' being destroyed
-[2021.02.17-16.39.49:705][793]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
-[2021.02.17-16.39.55:713][495]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 8 seconds.
-[2021.02.17-16.40.05:714][663]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 16 seconds.
-[2021.02.17-16.40.23:756][246]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.40.49:661][322]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
-[2021.02.17-16.40.49:661][322]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/UI_Menus/Main_Menu' took 0.064
-[2021.02.17-16.40.49:662][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/UI_Menus/Credits_Menu] ([1] browsable assets)...
-[2021.02.17-16.40.49:663][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/UI_Menus/Credits_Menu]
-[2021.02.17-16.40.49:687][322]LogSavePackage: Moving '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Credits_Menu_Auto1E66BFAFE4D5ACF28D836FEBDAE11A4B3.tmp' to '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Maps/UI_Menus/Credits_Menu_Auto1.uasset'
-[2021.02.17-16.40.49:689][322]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/UI_Menus/OptionsMenu_Widget] ([1] browsable assets)...
-[2021.02.17-16.40.49:689][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/UI_Menus/OptionsMenu_Widget]
-[2021.02.17-16.40.49:744][322]LogSavePackage: Moving '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/OptionsMenu_Widget_Auto1EBD3E9B8431539DBADA70AA3B989F324.tmp' to '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Autosaves/Game/Maps/UI_Menus/OptionsMenu_Widget_Auto1.uasset'
-[2021.02.17-16.40.49:745][322]LogFileHelpers: Auto-saving content packages took 0.083
-[2021.02.17-16.41.01:962][360]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.41.39:900][473]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
-[2021.02.17-16.42.14:037][575]LogAkWaapiClient: Successfully connected to Wwise Authoring on localhost.
-[2021.02.17-16.43.41:423][835]LogAkWaapiClient: Unsubscription failed: {"message":"Could not send websocket message."}
-[2021.02.17-16.43.47:118][853]LogAkWaapiClient: Warning: Lost connection to WAAPI client. Attempting reconnection ...
-[2021.02.17-16.43.48:785][858]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
-[2021.02.17-16.43.52:790][870]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
+[2021.02.17-17.10.15:189][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.17-17.10.15:189][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:190][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:192][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.17-17.10.15:192][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.17-17.10.15:193][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.17-17.10.15:193][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.17-17.10.15:193][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.17-17.10.15:195][  0]LogHAL: Display: Platform has ~ 16 GB [16997949440 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.17-17.10.15:195][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.17-17.10.15:195][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Scalability.ini]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.17-17.10.15:196][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Config/Windows/Engine.ini]
+[2021.02.17-17.10.15:196][  0]LogInit: Computer: BRANDONPEREIRA-
+[2021.02.17-17.10.15:196][  0]LogInit: User: brand
+[2021.02.17-17.10.15:196][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.02.17-17.10.15:196][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.17-17.10.15:196][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2021.02.17-17.10.15:196][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.17-17.10.15:196][  0]LogMemory: Process Physical Memory: 102.04 MB used, 102.04 MB peak
+[2021.02.17-17.10.15:196][  0]LogMemory: Process Virtual Memory: 91.15 MB used, 91.15 MB peak
+[2021.02.17-17.10.15:196][  0]LogMemory: Physical Memory: 8585.03 MB used,  7625.48 MB free, 16210.51 MB total
+[2021.02.17-17.10.15:196][  0]LogMemory: Virtual Memory: 4676.50 MB used,  134213048.00 MB free, 134217728.00 MB total
+[2021.02.17-17.10.15:198][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.17-17.10.15:216][  0]LogInit: Using OS detected language (en-US).
+[2021.02.17-17.10.15:216][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.17-17.10.15:216][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.17-17.10.15:353][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.17-17.10.15:381][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.17-17.10.15:381][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.17-17.10.15:505][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.17-17.10.15:505][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.17-17.10.15:536][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5600 XT' (Feature Level 11_0)
+[2021.02.17-17.10.15:536][  0]LogD3D11RHI:       6100/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2021.02.17-17.10.15:554][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.02.17-17.10.15:554][  0]LogD3D11RHI:       128/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.02.17-17.10.15:556][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.17-17.10.15:556][  0]LogD3D11RHI:       0/0/8105 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.17-17.10.15:556][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.17-17.10.15:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.17-17.10.15:561][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2021.02.17-17.10.15:561][  0]LogWindows: EnumDisplayDevices:
+[2021.02.17-17.10.15:561][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.02.17-17.10.15:562][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.02.17-17.10.15:562][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.02.17-17.10.15:562][  0]LogWindows:    3. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:562][  0]LogWindows:    4. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:562][  0]LogWindows:    5. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:563][  0]LogWindows:    6. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:563][  0]LogWindows:    7. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:563][  0]LogWindows:    8. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:563][  0]LogWindows:    9. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:563][  0]LogWindows:    10. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.02.17-17.10.15:564][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:8 
+[2021.02.17-17.10.15:564][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5600 XT
+[2021.02.17-17.10.15:564][  0]LogD3D11RHI:   Driver Version: Adrenalin 20.10.35.02 (internal:27.20.1034.6, unified:27.20.1034.6)
+[2021.02.17-17.10.15:564][  0]LogD3D11RHI:      Driver Date: 8-21-2020
+[2021.02.17-17.10.15:564][  0]LogRHI: Texture pool is 4270 MB (70% of 6100 MB)
+[2021.02.17-17.10.15:600][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.17-17.10.15:619][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2021.02.17-17.10.15:833][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2021.02.17-17.10.15:840][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2021.02.17-17.10.15:849][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2021.02.17-17.10.15:857][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2021.02.17-17.10.15:864][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2021.02.17-17.10.15:873][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2021.02.17-17.10.15:880][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.17-17.10.15:888][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2021.02.17-17.10.15:892][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2021.02.17-17.10.15:918][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2021.02.17-17.10.15:920][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2021.02.17-17.10.15:935][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2021.02.17-17.10.15:935][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2021.02.17-17.10.15:947][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2021.02.17-17.10.15:947][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2021.02.17-17.10.15:953][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2021.02.17-17.10.15:959][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.17-17.10.15:965][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2021.02.17-17.10.15:972][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2021.02.17-17.10.15:993][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2021.02.17-17.10.15:993][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2021.02.17-17.10.15:993][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.17-17.10.16:000][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.17-17.10.16:042][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Intermediate/Shaders/WorkingDirectory/13852/).
+[2021.02.17-17.10.16:042][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/brand/AppData/Local/Temp/UnrealShaderWorkingDir/ED61A6FA4320361353A6BE95E350CE89/'.
+[2021.02.17-17.10.16:044][  0]LogXGEController: Cleaning working directory: C:/Users/brand/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.17-17.10.16:044][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.17-17.10.16:044][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.17-17.10.16:044][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.17-17.10.16:559][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: Loaded boot cache 0.04s 74MB C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.17-17.10.16:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.17-17.10.16:607][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.17-17.10.16:607][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.17-17.10.16:607][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.17-17.10.16:608][  0]LogDerivedDataCache: Using Local data cache path C:/Users/brand/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.17-17.10.16:608][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.17-17.10.16:608][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.17-17.10.16:625][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.02.17-17.10.16:627][  0]LogSlate: Using FreeType 2.6.0
+[2021.02.17-17.10.16:628][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.17-17.10.16:679][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
+[2021.02.17-17.10.16:884][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.17-17.10.17:005][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.17-17.10.17:005][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.17-17.10.17:005][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.17-17.10.17:005][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.17-17.10.17:005][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.17-17.10.17:011][  0]LogNetVersion: FPS_Survival 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 3338225296)
+[2021.02.17-17.10.17:348][  0]LogPackageLocalizationCache: Processed 13 localized package path(s) for 1 prioritized culture(s) in 0.040322 seconds
+[2021.02.17-17.10.17:353][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2021.02.17-17.10.17:353][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2021.02.17-17.10.17:353][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.17-17.10.18:078][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.17-17.10.18:081][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.17-17.10.18:142][  0]LogAkAudio: Wwise(R) SDK Version 2019.2.7 Build 7402. Copyright (c) 2006-2019 Audiokinetic Inc.
+[2021.02.17-17.10.18:142][  0]LogAkAudio: Wwise plug-in DLL path: C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/
+[2021.02.17-17.10.18:142][  0]LogAkAudio: Wwise remote connection application name: FPS_Survival (Editor)
+[2021.02.17-17.10.18:142][  0]LogAkAudio: Wwise successfully initialized.
+[2021.02.17-17.10.18:143][  0]LogAkAudio: Initialization complete.
+[2021.02.17-17.10.18:143][  0]LogInit: Audiokinetic Audio Device initialized.
+[2021.02.17-17.10.18:182][  0]SourceControl: Source control is disabled
+[2021.02.17-17.10.18:182][  0]SourceControl: Source control is disabled
+[2021.02.17-17.10.18:183][  0]SourceControl: Source control is disabled
+[2021.02.17-17.10.18:184][  0]SourceControl: Source control is disabled
+[2021.02.17-17.10.18:256][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.17-17.10.18:355][  0]LogOcInput: OculusInput pre-init called
+[2021.02.17-17.10.18:362][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.17-17.10.18:362][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.17-17.10.18:422][  0]LogEngine: Initializing Engine...
+[2021.02.17-17.10.18:423][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.17-17.10.18:424][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.17-17.10.18:605][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.17-17.10.18:618][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.17-17.10.18:670][  0]LogInit: XAudio2 using 'ProFX 3-4 (2- ProFX)' : 2 channels at 44.1 kHz using 32 bits per sample (channel mask 0x3)
+[2021.02.17-17.10.18:782][  0]LogInit: FAudioDevice initialized.
+[2021.02.17-17.10.18:782][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.17-17.10.18:824][  0]LogDerivedDataCache: Saved boot cache 0.04s 74MB C:/Users/brand/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2021.02.17-17.10.18:828][  0]LogInit: Texture streaming: Enabled
+[2021.02.17-17.10.18:843][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.17-17.10.18:843][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.17-17.10.18:844][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.17-17.10.18:892][  0]LogInit: Transaction tracking system initialized
+[2021.02.17-17.10.18:917][  0]BlueprintLog: New page: Editor Load
+[2021.02.17-17.10.18:978][  0]LocalizationService: Localization service is disabled
+[2021.02.17-17.10.19:167][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.17-17.10.19:167][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.17-17.10.19:313][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/' took 0.02s
+[2021.02.17-17.10.19:313][  0]SourceControl: Source control is disabled
+[2021.02.17-17.10.19:313][  0]Cmd: MAP LOAD FILE="../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/AlienSwarmMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.17-17.10.19:314][  0]LightingResults: New page: Lighting Build
+[2021.02.17-17.10.19:316][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-17.10.19:316][  0]MapCheck: New page: Map Check
+[2021.02.17-17.10.19:316][  0]LightingResults: New page: Lighting Build
+[2021.02.17-17.10.19:339][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2021.02.17-17.10.20:264][  0]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
+[2021.02.17-17.10.20:264][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_150' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:264][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_151' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:264][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_152' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:264][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:264][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_Root_58' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_206' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_207' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_208' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_209' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_210' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_211' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_212' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_229' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_230' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_231' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_232' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_233' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_234' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_235' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:311][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Pistol/Cues/PistolA_Fire_Cue.PistolA_Fire_Cue:SoundCueGraph_43.SoundCueGraphNode_Root_43' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_278' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_279' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_280' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_281' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_282' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_283' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_284' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_285' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_286' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_287' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:313][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Shotgun/Cues/ShotgunA_Fire_Cue.ShotgunA_Fire_Cue:SoundCueGraph_59.SoundCueGraphNode_Root_59' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2021.02.17-17.10.20:515][  0]LogAIModule: Creating AISystem for world AlienSwarmMap
+[2021.02.17-17.10.20:516][  0]LogUObjectGlobals: BeginLoad(/Engine/EditorResources/EmptyActor) is flushing async loading
+[2021.02.17-17.10.20:516][  0]LogStreaming: Display: Flushing async loaders.
+[2021.02.17-17.10.20:546][  0]PIE: Warning: AttachTo: '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot' is not static  (in blueprint "FbxScene_CryoChamber_Anim_open"), cannot attach '/Game/Maps/AlienSwarmMap.AlienSwarmMap:PersistentLevel.FbxScene_CryoChamber_Anim_open.DefaultSceneRoot1' which is static to it. Aborting.
+[2021.02.17-17.10.20:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.17-17.10.20:634][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.02.17-17.10.20:634][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.17-17.10.20:635][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.194ms to complete.
+[2021.02.17-17.10.20:635][  0]LogFileHelpers: Loading map 'AlienSwarmMap' took 1.322
+[2021.02.17-17.10.20:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-17.10.20:730][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-17.10.20:735][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-17.10.20:740][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.17-17.10.20:745][  0]LogCollectionManager: Loaded 0 collections in 0.001363 seconds
+[2021.02.17-17.10.20:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Collections/' took 0.00s
+[2021.02.17-17.10.20:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Developers/brand/Collections/' took 0.00s
+[2021.02.17-17.10.20:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Collections/' took 0.00s
+[2021.02.17-17.10.20:750][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2021.02.17-17.10.20:757][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3009 classes and 713 folders.
+[2021.02.17-17.10.20:762][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.17-17.10.20:793][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.17-17.10.20:798][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2021.02.17-17.10.20:910][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.17-17.10.20:912][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.17-17.10.20:915][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.17-17.10.20:968][  0]LogRenderer: Reallocating scene render targets to support 796x244 Format 10 NumSamples 1 (Frame:1).
+[2021.02.17-17.10.21:240][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.17-17.10.21:310][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.17-17.10.21:310][  0]LogLoad: (Engine Initialization) Total time: 7.04 seconds
+[2021.02.17-17.10.21:310][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.17-17.10.21:384][  0]LogRenderer: Reallocating scene render targets to support 796x256 Format 10 NumSamples 1 (Frame:1).
+[2021.02.17-17.10.21:385][  0]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Events/Default_Work_Unit/Music) is flushing async loading
+[2021.02.17-17.10.21:388][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.17-17.10.21:392][  0]LogUObjectGlobals: BeginLoad(/Engine/Tutorial/Basics/LevelEditorOverview) is flushing async loading
+[2021.02.17-17.10.21:392][  0]LogStreaming: Display: Flushing async loaders.
+[2021.02.17-17.10.21:426][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Game_Parameters/Default_Work_Unit/Distance) is flushing async loading
+[2021.02.17-17.10.21:433][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Guns/Guns-Shotguns) is flushing async loading
+[2021.02.17-17.10.21:435][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Guns/Guns-Submachine_Guns) is flushing async loading
+[2021.02.17-17.10.21:437][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Interactable_Objects/Interactable_Objects-Display_Case_Purchase) is flushing async loading
+[2021.02.17-17.10.21:440][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Music_Groups/Music_Groups-Round_Change_Music) is flushing async loading
+[2021.02.17-17.10.21:446][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Rifles/Rifles-FullAuto) is flushing async loading
+[2021.02.17-17.10.21:449][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Rifles/Rifles-SemiAuto) is flushing async loading
+[2021.02.17-17.10.21:451][  1]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Shotguns/Shotguns-FullAuto) is flushing async loading
+[2021.02.17-17.10.21:463][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Shotguns/Shotguns-PumpAction) is flushing async loading
+[2021.02.17-17.10.21:463][  2]LogStreaming: Display: Flushing async loaders.
+[2021.02.17-17.10.21:464][  2]LogUObjectGlobals: BeginLoad(/Game/WwiseAudio/Switches/Default_Work_Unit/Snipers/Snipers-Bolt_Action) is flushing async loading
+[2021.02.17-17.10.21:480][  2]LogAssetRegistry: Asset discovery search completed in 4.8017 seconds
+[2021.02.17-17.10.21:495][  2]LogUObjectGlobals: BeginLoad(/Engine/EngineMaterials/PhysMat_Carboard) is flushing async loading
+[2021.02.17-17.10.21:573][  2]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.17-17.10.21:575][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:055][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:088][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:119][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:165][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:189][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:206][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:235][  2]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2021.02.17-17.10.22:241][  2]LogAkSoundData: Display: Wwise Asset Synchronization took 0.738870 seconds.
+[2021.02.17-17.10.22:241][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2021.02.17-17.10.22:241][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2021.02.17-17.10.24:145][182]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 2 seconds.
+[2021.02.17-17.10.24:196][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2021.02.17-17.10.24:405][207]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Maps/UI_Menus/Credits_Menu.Credits_Menu
+[2021.02.17-17.10.24:642][207]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2021.02.17-17.10.25:591][207]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.17-17.10.28:150][445]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 4 seconds.
+[2021.02.17-17.10.34:165][ 36]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 8 seconds.
+[2021.02.17-17.10.44:171][ 12]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 16 seconds.
+[2021.02.17-17.11.02:181][854]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
+[2021.02.17-17.11.36:381][859]LogAkWaapiClient: Warning: Failed to connect to WAAPI client on local host. Trying again in 32 seconds.
+[2021.02.17-17.11.55:533][ 24]BlueprintLog: New page: Compile Credits_Menu
+[2021.02.17-17.11.55:607][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.02.17-17.11.56:359][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/UI_Menus/Credits_Menu" FILE="../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/UI_Menus/Credits_Menu.uasset" SILENT=true
+[2021.02.17-17.11.56:388][ 94]LogSavePackage: Moving '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Saved/Credits_Menu4405B08644EAE2C13C2F9BB1D22AA52A.tmp' to '../../../../../../Users/brand/Documents/GitHub/Alien_Swarm_FPS/FPS_Survival/Content/Maps/UI_Menus/Credits_Menu.uasset'
+[2021.02.17-17.11.57:736][222]LogSlate: Window 'Credits_Menu' being destroyed
+[2021.02.17-17.11.57:740][222]LogSlate: Window 'Credits_Menu' being destroyed
+[2021.02.17-17.11.57:744][222]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-17.11.57:748][222]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-17.12.02:902][782]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.02.17-17.12.04:826][990]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.02.17-17.12.04:899][990]LogSlate: Window 'FPS_Survival - Unreal Editor' being destroyed
+[2021.02.17-17.12.04:899][990]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.17-17.12.04:991][991]Cmd: QUIT_EDITOR
+[2021.02.17-17.12.05:014][991]LogExit: Preparing to exit.
+[2021.02.17-17.12.05:140][991]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.02.17-17.12.05:173][991]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.02.17-17.12.05:183][991]LogExit: Editor shut down
+[2021.02.17-17.12.05:185][991]LogExit: Transaction tracking system shut down
+[2021.02.17-17.12.05:435][991]LogExit: Object subsystem successfully closed.
+[2021.02.17-17.12.05:450][991]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module SequencerWidgets (676)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module BlueprintGraph (674)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (672)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module SceneOutliner (670)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module AddContentDialog (668)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module WidgetCarousel (667)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module EditorWidgets (664)
+[2021.02.17-17.12.05:475][991]LogModuleManager: Shutting down and abandoning module CollectionManager (662)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module StatsViewer (660)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (658)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module FoliageEdit (656)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module LandscapeEditor (654)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MeshPaintMode (652)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (650)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ActorPickerMode (648)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module GeometryMode (646)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module TextureAlignMode (644)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module BspMode (642)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (640)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (638)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AutomationWorker (636)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module OculusMR (634)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (632)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (630)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (628)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module PlacementMode (627)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MaterialEditor (626)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (622)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (620)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (618)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (616)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (614)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module WebMMedia (612)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (610)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (608)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SequenceRecorder (607)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (604)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (602)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (600)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (598)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (596)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (594)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (592)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (590)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (588)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (586)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (584)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module CharacterAI (582)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SmartSnapping (580)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SessionServices (578)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module MeshPaint (576)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ViewportSnapping (574)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ViewportInteraction (572)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module ClothPainter (570)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (569)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module LogVisualizer (566)
+[2021.02.17-17.12.05:476][991]LogModuleManager: Shutting down and abandoning module IntroTutorials (564)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (563)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (560)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (558)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (556)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (554)
+[2021.02.17-17.12.05:477][991]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (553)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (550)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (548)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (546)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (544)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (542)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module InputBindingEditor (540)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module MergeActors (538)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (536)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module LocalizationService (535)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module HardwareTargeting (532)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (530)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module UndoHistory (528)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module XmlParser (526)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module Blutility (524)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (522)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (521)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (518)
+[2021.02.17-17.12.06:048][991]LogModuleManager: Shutting down and abandoning module SettingsEditor (516)
+[2021.02.17-17.12.06:049][991]LogModuleManager: Shutting down and abandoning module ProjectLauncher (514)
+[2021.02.17-17.12.06:049][991]LogModuleManager: Shutting down and abandoning module SessionFrontend (512)
+[2021.02.17-17.12.06:049][991]LogModuleManager: Shutting down and abandoning module ProfilerClient (510)
+[2021.02.17-17.12.06:049][991]LogModuleManager: Shutting down and abandoning module DeviceManager (508)
+[2021.02.17-17.12.06:049][991]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (507)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module AutomationController (504)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module AutomationWindow (502)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module Layers (500)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (498)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module DetailCustomizations (496)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module PackagesDialog (494)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (492)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module Persona (490)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (489)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module AnimGraph (487)
+[2021.02.17-17.12.06:090][991]LogModuleManager: Shutting down and abandoning module Kismet (484)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module KismetWidgets (483)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module GraphEditor (480)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module StructViewer (478)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module ClassViewer (476)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module Toolbox (474)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module ModuleUI (472)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module MovieSceneTools (470)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module OutputLog (468)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module GammaUI (466)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module Documentation (464)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module LiveCoding (462)
+[2021.02.17-17.12.06:094][991]LogModuleManager: Shutting down and abandoning module LevelSequence (460)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (458)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module MovieScene (456)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (454)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module LauncherPlatform (452)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module AnalyticsET (450)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module PortalServices (448)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module PortalRpc (446)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module MessagingRpc (444)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module AIModule (442)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module GameplayDebugger (441)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module AITestSuite (439)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module NavigationSystem (437)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module DesktopPlatform (434)
+[2021.02.17-17.12.06:095][991]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (432)
+[2021.02.17-17.12.06:097][991]LogModuleManager: Shutting down and abandoning module ProfilerService (430)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module TaskGraph (428)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module AudiokineticTools (426)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module ScreenshotTools (424)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module SteamVRController (422)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (420)
+[2021.02.17-17.12.06:293][991]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (418)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module OculusEditor (416)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module OculusInput (414)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (412)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module EditableMesh (410)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (408)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CableComponent (406)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AudioCapture (404)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (402)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (400)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AppleImageUtils (398)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AndroidPermission (396)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (394)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (392)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MediaCompositing (390)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (378)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (376)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module BackChannel (374)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (372)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AutomationUtils (370)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AlembicImporter (368)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AlembicLibrary (367)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module GeometryCache (366)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (365)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module VariantManagerContent (360)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (358)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (356)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module PluginBrowser (354)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (352)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (350)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CurveEditorTools (348)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CurveEditor (347)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (344)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CryptoKeys (342)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (340)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (338)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module UObjectPlugin (336)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (334)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (332)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module GitSourceControl (330)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module SourceControl (329)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (326)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (324)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (322)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (320)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (318)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (316)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (314)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module Paper2DEditor (312)
+[2021.02.17-17.12.06:294][991]LogModuleManager: Shutting down and abandoning module AkAudio (310)
+[2021.02.17-17.12.06:304][991]LogInit: Audiokinetic Audio Device terminated.
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module SignificanceManager (308)
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (306)
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (304)
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (300)
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module ActorSequence (298)
+[2021.02.17-17.12.06:304][991]LogModuleManager: Shutting down and abandoning module UdpMessaging (296)
+[2021.02.17-17.12.06:404][991]LogModuleManager: Shutting down and abandoning module TcpMessaging (294)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (292)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (290)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (288)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (286)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapController (284)
+[2021.02.17-17.12.06:504][991]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module MagicLeapAR (282)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module AugmentedReality (281)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (278)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (276)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module FacialAnimation (274)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module DataValidation (272)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (270)
+[2021.02.17-17.12.06:504][991]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2021.02.17-17.12.06:505][991]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2021.02.17-17.12.06:505][991]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (266)
+[2021.02.17-17.12.06:505][991]LogModuleManager: Shutting down and abandoning module MainFrame (264)
+[2021.02.17-17.12.06:505][991]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2021.02.17-17.12.06:505][991]LogModuleManager: Shutting down and abandoning module ContentBrowser (259)
+[2021.02.17-17.12.06:506][991]LogModuleManager: Shutting down and abandoning module TreeMap (257)
+[2021.02.17-17.12.06:506][991]LogModuleManager: Shutting down and abandoning module AnimationSharing (254)
+[2021.02.17-17.12.06:506][991]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2021.02.17-17.12.06:506][991]LogModuleManager: Shutting down and abandoning module Paper2D (250)
+[2021.02.17-17.12.06:506][991]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (248)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (246)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (244)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module PacketHandler (242)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (240)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (238)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module MediaAssets (236)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module Overlay (234)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module OverlayEditor (233)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module VREditor (230)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module StringTableEditor (228)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (226)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (224)
+[2021.02.17-17.12.06:508][991]LogModuleManager: Shutting down and abandoning module FunctionalTesting (222)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (220)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module UMG (216)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module UMGEditor (215)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module Sequencer (214)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module MessageLog (211)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module SlateReflector (206)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module Slate (204)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2021.02.17-17.12.06:509][991]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module Core (186)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (179)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (175)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module MaterialBaking (171)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (166)
+[2021.02.17-17.12.06:510][991]LogModuleManager: Shutting down and abandoning module DerivedDataCache (164)
+[2021.02.17-17.12.06:690][991]LogDerivedDataCache: Shutdown
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module XGEController (162)
+[2021.02.17-17.12.06:690][991]LogXGEController: Cleaning working directory: C:/Users/brand/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TargetPlatform (160)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (159)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (157)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (155)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (153)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (151)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (149)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (147)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (145)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (143)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (141)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module ImageWrapper (140)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (137)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (135)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (133)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (131)
+[2021.02.17-17.12.06:690][991]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (127)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (125)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (123)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (121)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (119)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module Messaging (117)
+[2021.02.17-17.12.06:691][991]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (115)
+[2021.02.17-17.12.06:692][991]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (113)
+[2021.02.17-17.12.06:692][991]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (107)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (105)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (103)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (101)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (99)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (97)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (95)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (93)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module InputCore (90)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module Settings (88)
+[2021.02.17-17.12.06:696][991]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module SteamVR (78)
+[2021.02.17-17.12.06:697][991]LogHMD: Freeing OpenVRDLLHandle.
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module OculusHMD (76)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (74)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (72)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (66)
+[2021.02.17-17.12.06:697][991]LogModuleManager: Shutting down and abandoning module XMPP (61)
+[2021.02.17-17.12.06:698][991]LogModuleManager: Shutting down and abandoning module WebSockets (60)
+[2021.02.17-17.12.06:730][991]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2021.02.17-17.12.06:730][991]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.02.17-17.12.06:730][991]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7215AFF-4F1A-19EE-326C-00BA50C23D9C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=8cb9e7c7481e7ca014b5d78f7b6961e5%7C0c8e5fc2d90f47579740636645b91d79%7C2c7dd5a4-8ab0-47e0-82bc-f823dea48442&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2021.02.17-17.12.06:738][991]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2021.02.17-17.12.06:739][991]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2021.02.17-17.12.06:740][991]LogModuleManager: Shutting down and abandoning module Media (51)
+[2021.02.17-17.12.06:740][991]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2021.02.17-17.12.06:740][991]LogModuleManager: Shutting down and abandoning module DatasmithContent (46)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module AISupportModule (44)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.02.17-17.12.06:741][991]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.02.17-17.12.06:742][991]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.02.17-17.12.06:742][991]LogD3D11RHI: Shutdown
+[2021.02.17-17.12.06:742][991]LogD3D11RHI: CleanupD3DDevice
+[2021.02.17-17.12.06:743][991]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.02.17-17.12.06:743][991]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.02.17-17.12.06:743][991]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.02.17-17.12.07:026][991]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.02.17-17.12.07:039][991]LogExit: Exiting.
+[2021.02.17-17.12.07:043][991]Log file closed, 02/17/21 12:12:07
