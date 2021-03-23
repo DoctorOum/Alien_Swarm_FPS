@@ -79,3 +79,9 @@ FPS_Survival/Saved/Config/Windows/Engine.ini
 FPS_Survival/Saved/Config/Windows/EditorPerProjectUserSettings.ini
 FPS_Survival/Saved/Config/Windows/Editor.ini
 FPS_Survival/Intermediate/CachedAssetRegistry.bin
+FPS_Survival/Saved/Autosaves/PackageRestoreData.json
+*.json
+*.bin
+*.png
+*.ini
+*.log
