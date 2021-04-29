@@ -5,6 +5,34 @@
 			<ChildrenList>
 				<RandomSequenceContainer Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" ShortID="272530987">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<RTPCList>
+								<RTPC Name="" ID="{4F8D6C6E-1E39-4B6D-9796-59DC73D061A8}" ShortID="654072402">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Distance" ID="{DE4B9270-A5CE-4497-8476-8C1A2D09917F}" WorkUnitID="{06B6032F-6BE1-4504-90E8-EA314A8C4BC9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{5D7DD9CF-DDD2-40A4-9BFC-1CC864E720BD}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
@@ -36,6 +64,17 @@
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0B8ECB7D-DA6E-4BB9-852C-BE38E3CBB944}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_RoomVerb_(Custom)" ID="{29D99D52-559B-4CFE-9011-9B2EA6AECC52}" ShortID="65071439" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<PropertyList>
+										<Property Name="DecayTime" Type="Real32" Value="0.7"/>
+										<Property Name="Diffusion" Type="Real32" Value="88"/>
+										<Property Name="ERPattern" Type="int32" Value="24"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{15929FF4-4E22-408C-86EE-225C80B00888}"/>
