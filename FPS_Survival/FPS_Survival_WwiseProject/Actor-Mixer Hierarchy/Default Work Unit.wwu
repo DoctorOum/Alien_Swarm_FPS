@@ -1790,6 +1790,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="SFX_Teleporter_01_Norm_Fade" ID="{F31AEDA1-443E-472F-B8B0-F7158245ECF4}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>SFX_Teleporter_01_Norm_Fade.wav</AudioFile>
 									<MediaIDList>

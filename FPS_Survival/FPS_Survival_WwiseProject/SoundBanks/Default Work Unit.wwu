@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Master_Soundbank" ID="{E37FF963-218D-4C7C-AC5C-35F7DEE20735}">
 					<ObjectInclusionList>
+						<ObjectRef Name="TV_Static" ID="{794CF1A9-099F-4142-AA9A-EBA7668F63D4}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bumps" ID="{6E920D80-EB15-4214-B667-2D81873B1094}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Snipers" ID="{95F25196-C206-4219-8B1B-2BA178F456FB}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
@@ -19,11 +20,13 @@
 						<ObjectRef Name="SFX_Door_Opening_02" ID="{B9D309E6-A717-4845-A883-2E3C9B66659F}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Footsteps" ID="{24337D55-AC44-484A-B0EA-42DC218120E6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Menu Music" ID="{DF16B968-3AD3-4872-AC6A-98E86CA33C7E}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Computer_Tower_Idle" ID="{7D9E473D-4344-498E-9420-A37519B5A8BB}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambiances" ID="{1580A4C3-0B40-49A5-8C3C-B073C05C13A8}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Purchase_01" ID="{BD7F0CE1-05E8-49B6-8F6D-557112743CA4}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Interactable Objects" ID="{A62DAF9B-4A78-49C9-A69A-2E4A626F8CEA}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Beefy_Growl" ID="{249AC030-2441-4A0E-BD78-5A5E961B3261}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="3D Printer_Norm" ID="{B58076EA-CBB3-4A71-9D0A-6B9BF96BCFFF}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Computer Tower Idle" ID="{1B1A1173-9168-4A85-9E06-BE974A900428}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rifles" ID="{303737B0-8EA0-4ADC-9511-FCC17881FD25}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Air" ID="{68D3DEFA-BAA7-4AE2-9975-C969D551BFF6}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Hiss_Norm_NO BOOP" ID="{6E0A847B-7AB1-4B4E-8A2F-6E503296B75D}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
@@ -38,6 +41,7 @@
 						<ObjectRef Name="Door_Opening" ID="{F2126B82-D0E1-4E2E-94F4-33043466F098}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Round Change Music" ID="{9FB9C2E5-B05D-4E46-9736-65944CD99904}" WorkUnitID="{91757EFF-32E0-491A-9E0F-36991FE6A594}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SMGs" ID="{0B7B16F7-F3BA-4E57-80A0-E67B335F840C}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Teleport" ID="{161A234C-E7F2-4E80-B5B9-303219D07E85}" WorkUnitID="{C867432C-D242-44F9-B6ED-256E4AEA1615}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_Tv Static_Norm" ID="{08470C47-93C5-4EBA-A41F-AD91B03B91DF}" WorkUnitID="{4E4E80D0-18D7-4F5C-A971-30AD8B51703E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

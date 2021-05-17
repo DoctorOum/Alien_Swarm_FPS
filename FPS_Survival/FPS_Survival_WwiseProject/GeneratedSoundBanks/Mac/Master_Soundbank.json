@@ -16,7 +16,7 @@
     "Id": "2469504869",
     "GUID": "{E37FF963-218D-4C7C-AC5C-35F7DEE20735}",
     "Language": "SFX",
-    "Hash": "3500301355",
+    "Hash": "1553176609",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Master_Soundbank",
     "ShortName": "Master_Soundbank",
     "Path": "Master_Soundbank.bnk",
@@ -311,6 +311,38 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "530129416",
+      "Name": "Teleport",
+      "ObjectPath": "\\Events\\Default Work Unit\\Teleport",
+      "GUID": "{161A234C-E7F2-4E80-B5B9-303219D07E85}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.128000",
+      "DurationMax": "1.128000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "35465399",
+        "Language": "SFX",
+        "ShortName": "SFX_Teleporter_01_Norm_Fade.wav",
+        "Path": "SFX\\SFX_Teleporter_01_Norm_Fade_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1436086644",
+      "Name": "TV_Static",
+      "ObjectPath": "\\Events\\Default Work Unit\\TV_Static",
+      "GUID": "{794CF1A9-099F-4142-AA9A-EBA7668F63D4}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "695653374",
+        "Language": "SFX",
+        "ShortName": "SFX_Tv Static_Norm.wav",
+        "Path": "SFX\\SFX_Tv Static_Norm_D79FB2B7.wem"
+       }
+      ]
      }
     ],
     "IncludedMemoryFiles": [
@@ -433,6 +465,12 @@
       "Language": "SFX",
       "ShortName": "Bounced Files\\Sniper_SemiAuto.wav",
       "Path": "SFX\\Bounced Files\\Sniper_SemiAuto_10C4C929.wem"
+     },
+     {
+      "Id": "585645817",
+      "Language": "SFX",
+      "ShortName": "Computer_Tower_Idle.wav",
+      "Path": "SFX\\Computer_Tower_Idle_10C4C929.wem"
      },
      {
       "Id": "602601147",

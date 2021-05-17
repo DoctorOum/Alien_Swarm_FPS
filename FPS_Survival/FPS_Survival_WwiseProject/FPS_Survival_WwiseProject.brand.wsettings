@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{6804729C-213C-47FB-8EB7-9D3E0805355C}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\brand\Documents\FPS_Pro Tools Projects\"/>
+				<Property Name="Event Action List\{161A234C-E7F2-4E80-B5B9-303219D07E85}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{23C3C622-C55B-4CC2-B6CC-CD4CDBA99C54}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3D7CAE64-6977-41A5-8A7C-BF1DDE27A860}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{470477AF-9D23-4CAA-A967-2A451B1FE923}\x64_Expand States" Type="string" Value=""/>
@@ -50,7 +51,7 @@
 				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{5EA7BBF8-64C0-4A50-8821-A07E8BE21D68}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{303737B0-8EA0-4ADC-9511-FCC17881FD25}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{57DD21A8-4200-4D1E-B8DB-AE44E284A3B8}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>

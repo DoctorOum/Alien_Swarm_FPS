@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	530129416	Teleport			\Default Work Unit\Teleport	
+	1436086644	TV_Static			\Default Work Unit\TV_Static	
 	1930935334	Round_Change			\Default Work Unit\Round_Change	
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
 	2589897592	Door_Opening			\Default Work Unit\Door_Opening	
@@ -55,6 +57,9 @@ Switch	ID	Name	Switch Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1240670792	Distance			\Default Work Unit\Distance	
 
+Effect plug-ins	ID	Name	Type				Notes
+	65071439	Wwise_RoomVerb_(Custom)	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	16639588	SFX_Purchase_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Purchase_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Purchase_01		136768
 	35465399	SFX_Teleporter_01_Norm_Fade	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\SFX_Teleporter_01_Norm_Fade_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\SFX_Teleporter_01_Norm_Fade		108352
@@ -76,6 +81,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	509796589	Computer Boops_01	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer Boops_251A7BFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Boops Container\Computer Boops_01		21068
 	535800071	Sniper_BoltAction	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Sniper_BoltAction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Snipers\Sniper_BoltAction		1672486
 	539792658	Sniper_SemiAuto	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Bounced Files\Sniper_SemiAuto_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Guns\Snipers\Sniper_SemiAuto		1562580
+	585645817	Computer_Tower_Idle	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Computer_Tower_Idle_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Computer Tower Idle\Computer_Tower_Idle		535652
 	602601147	Hiss_Norm_NO BOOP	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\Hiss_Norm_NO BOOP_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Hiss_Norm_NO BOOP		121408
 	606168273	AMB_Boomy_hits_2	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\AMB_Boomy_hits_2_0EC0488F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Bumps\AMB_Boomy_hits_2		147520
 	621598985	3D Printer_Norm	C:\Users\brand\Documents\GitHub\Alien_Swarm_FPS\FPS_Survival\FPS_Survival_WwiseProject\.cache\Windows\SFX\3D Printer_Norm_DD4CA2CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactable Objects\3D Printer_Norm		767040
